@@ -1,0 +1,3 @@
+[submodule "projects/Data_Analytics_for_Age_friendly_busan"]
+    path = projects/Data_Analytics_for_Age_friendly_busan
+    url = https://github.com/datascience-labs/Data_Analytics_for_Age_friendly_busan.git
