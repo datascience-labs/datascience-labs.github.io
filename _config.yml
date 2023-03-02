@@ -45,4 +45,6 @@ exclude:
 
 projects:
   - "developsu/debs2022gc"
-  - "datascience-labs/air-pollutant-monitor"
+  # - "datascience-labs/air-pollutant-monitor"
+  - "jhparkland/Green-Car-Charging-Station-Site-Selection"
+  - "jhparkland/Data_Analytics_for_Age_friendly_busan"
