@@ -1,0 +1,201 @@
+---
+layout: default
+title: Data science lab
+categories:
+ - home
+---
+
+<div class="row">
+	<div class="col-lg-12">
+		<object class="pull-left biglogo" data="/images/logo.svg" type="image/svg+xml"></object>
+		<div class="bigtitle logobox">
+			Data science lab research
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="smallhead">
+      <p>
+        The Data Science Lab at the <a class="off" href="http://www.donga.ac.kr/">Dong-A University</a> aims at incorporating a knowledge graph into recommender systems. We pursue discovering potential paths between users and items discovered by exploring potential, dynamic interlinks within an evolving knowledge graph. We have applied various kinds of recommendation, analytics and reasoning techniques to real-time processing of data streams and (quasi-)static datasets in air quality watch, in smart energy monitoring, in location intelligence applications, in retail tech applications, in digital twin, in massive online open courses, and so on.
+      </p>
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="head">
+			<a class="off" href="/blog/">Recent posts</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="card-deck">
+	{% for post in site.categories.blog limit:4 %}
+
+	{% for member in site.categories.team %}
+		{% if member.title == post.author %}
+			{% assign author = member %}
+		{% endif %}
+	{% endfor %}
+
+	<div class="card">
+		<div class="card-header text-white bg-primary">Award news</div>
+		<div class="card-img-top">
+			<img src="{{ post.thumb }}">
+		</div>
+		<div class="card-body">
+			<a class="card-title" href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+			<p class="card-text">{{ post.description }}</p>
+<!--				<div class="bigspacer"></div>-->
+		</div>
+		<div class="card-footer">
+			{{ post.date | date: "%-d %b %Y" }}
+			{% if post.author %}
+			by <a class="off" href="
+			  {% for member in site.categories.team %}
+				{% if member.title == post.author %}
+				  {{ member.url }}
+				{% endif %}
+			  {% endfor %}
+			">
+			{{ post.author }}
+		</a>
+			{% endif %}
+			{% if post.authors %}
+			by
+			<a class="off" href="
+			  {% for member in site.categories.team %}
+				{% if member.title == post.authors.first %}
+				  {{ member.url }}
+				{% endif %}
+			  {% endfor %}
+			">
+				{{ post.authors.first }}
+			</a>
+			and
+			<a class="off" href="
+			  {% for member in site.categories.team %}
+				{% if member.title == post.authors.last %}
+				  {{ member.url }}
+				{% endif %}
+			  {% endfor %}
+			">
+				{{ post.authors.last }}
+			</a>
+			{% endif %}
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="head">
+			<a class="off" href="/papers/">Recent papers</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="card-deck">
+	{% for paper in site.categories.papers limit:4 %}
+	<div class="card">
+		<div class="card-header text-white bg-primary">Newly published</div>
+		<div class="card-body">
+			<a class="card-title" href="{{ paper.url }}">{{ paper.title }}</a>
+			<p class="card-text">{{ paper.ref }}</p>
+		</div>
+		<div class="card-footer">
+			{{ paper.date | date: "%-d %b %Y" }}
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="head">
+			<a class="off" href="/projects/">Active projects</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="card-deck">
+	{% for project in site.data.projects limit:4 %}
+	<div class="card">
+		<div class="card-header text-white bg-secondary">Featured project</div>
+		<div class="card-body">
+			<a class="card-title" href="{{ project.url }}">{{ project.title  }}</a>
+			<p class="card-text">{{  project.description }}</p>
+		</div>
+		<div class="card-footer">
+			Updated
+			<a class="off" href="{{ project.commits.first.url }}">
+				{{ project.commits.first.date | date: "%-d %b %Y" }}
+			</a>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="head">
+			Misc
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-12 reduced-gutter">
+		<div class="pad-left">
+			<ul class="list-inline">
+				{% for page in site.categories.misc %}
+				<li class="footernav list-inline-item">
+					<i class="fa fa-angle-right"></i> <a class="off" href="{{ page.url }}">{{ page.title }}</a>
+				</li>
+				{% endfor %}
+<!--				<li class="footernav list-inline-item">-->
+<!--					<i class="fa fa-angle-right"></i> <a class="off" href="/talks/">Talks</a>-->
+<!--				</li>-->
+			</ul>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+    <div class="float-lg-right" style="vertical-align: bottom; display: table-cell;">
+		<a class="off" href="/calendar/">
+			<img width=120 src="/images/dsl-text-vertical-logo.png"/>
+		</a>
+      <a class="off" href="https://www.donga.ac.kr/">
+        <img width=120 src="/images/logos/logo_donga.jpg">
+      </a>
+<!--	  <a class="off" href="https://www.donga.ac.kr/gzSub_003022.aspx">-->
+<!--		컴퓨터AI공학부-->
+<!--	  </a>&nbsp; &nbsp; &nbsp; &nbsp;-->
+<!--      <a class="off" href="https://www.donga.ac.kr/">-->
+<!--        AIDTSW 실증센터-->
+<!--      </a>-->
+    </div>
+  </div>
+</div>

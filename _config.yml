@@ -1,0 +1,47 @@
+name: Data science lab
+description: Scientific updates on knowledge representation, reasoning and recommendation from the Data Science lab at the Dong-A University
+url: https://datascience-labs.github.io
+
+markdown: kramdown
+permalink: /:categories/:title/
+future: true
+sass:
+  sass_dir: css
+
+plugins: ['jekyll-twitter-plugin']
+
+exclude:
+  - "*.branches"
+  - "*.class"
+  - "*.cpp"
+  - "*.csv"
+  - "*.fasta"
+  - "*.gz"
+  - "*.h"
+  - "*.hh"
+  - "*.ipynb"
+  - "*.jar"
+  - "*.java"
+  - "*.kml"
+  - "*.log"
+  - "*.mcc"
+  - "*.nb"
+  - "*.newick"
+  - "*.nex"
+  - "*.py"
+  - "*.R"
+  - "*.rb"
+  - "*.Rmd"
+  - "*.tiff"
+  - "*.tips"
+  - "*.trees"
+  - "*.tsv"
+  - "*.txt"
+  - "*.xml"
+  - "*.zip"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+projects:
+  - "developsu/debs2022gc"
+  - "datascience-labs/air-pollutant-monitor"

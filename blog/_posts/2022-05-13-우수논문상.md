@@ -1,0 +1,18 @@
+---
+layout: post
+title: 우수논문상 수상
+description: 한국멀티미디어학회 2022 춘계학술대회 - 우수논문상
+thumb: /images/blog/award-2022-05.jpg
+author: DSL-Media
+---
+
+### 수상소식 알림
+
+본 연구실의 박정현 학생(3학년)과 김대로 학생(3학년) [2022 한국멀티미디어학회 춘계학술대회](http://kmms.or.kr/)에서 우수논문상 수상하였습니다.
+
+### 세부 내용
+
+- "GIS와 개방형 데이터를 활용한 부산시 노인복지시설의 적정입지 선정" 제목의 [논문](https://datasciencelabs.org/papers/gis-open-data-busan/)과 함께, 우수논문상을 수상하였습니다.
+- 연구실의 김대로 학생(3학년, 공저자)도 참여했습니다.
+
+ 

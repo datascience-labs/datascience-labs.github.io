@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<div class="blog-post">
+	<div class="row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-10">
+			<div class="media">
+				<div class="media-body">
+					<div class="title media-heading">
+						<a href="{{ page.url }}" class="off">{{ page.title }}</a>
+					</div>
+					<p>
+					<div class="smallhead">
+						{{ page.date | date: "%-d %b %Y" }}
+						{% if page.author %}
+						by <a class="off" href="
+							{% for member in site.categories.team %}
+								{% if member.title == page.author %}
+									{{ member.url }}
+								{% endif %}
+							{% endfor %}
+						">
+						{{ page.author }}
+						</a>
+						{% endif %}
+						{% if page.authors %}
+						by
+						<a class="off" href="
+							{% for member in site.categories.team %}
+								{% if member.title == page.authors.first %}
+									{{ member.url }}
+								{% endif %}
+							{% endfor %}
+						">
+						{{ page.authors.first }}
+						</a>
+						and
+						<a class="off" href="
+							{% for member in site.categories.team %}
+								{% if member.title == page.authors.last %}
+									{{ member.url }}
+								{% endif %}
+							{% endfor %}
+						">
+						{{ page.authors.last }}
+						</a>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-1"></div>
+	</div>
+
+	<div class="bigspacer"></div>
+
+	<div class="row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-10">
+			{% if page.image %}
+			{% if page.link %}
+			<a href="{{ page.link }}">
+				<img class="offset" src="{{ page.image }}">
+			</a>
+			{% else %}
+			<img class="offset" src="{{ page.image }}">
+			{% endif %}
+			{% endif %}
+			<div class="post">
+				{{ content }}
+			</div>
+		</div>
+		<div class="col-lg-1"></div>
+	</div>
+
+	<div class="bigspacer"></div>
+	<div class="spacer"></div>
+
+</div>
