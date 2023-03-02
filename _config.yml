@@ -1,6 +1,7 @@
 name: Data science lab
 description: Scientific updates on knowledge representation, reasoning and recommendation from the Data Science lab at the Dong-A University
-url: https://datascience-labs.github.io/
+#url: https://datascience-labs.github.io/
+url : http://datasciencelabs.org
 
 markdown: kramdown
 permalink: /:categories/:title/

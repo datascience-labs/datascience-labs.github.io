@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # jekyll
-gem "jekyll", "~> 4.0"
+gem "jekyll", "4.2.0"
 
 # katex
 gem "execjs"
@@ -12,7 +12,3 @@ gem 'netrc'
 
 # Twitter
 gem 'jekyll-twitter-plugin'
-
-group :jekyll_plugins do
-  gem 'jekyll-github-metadata'
-end
