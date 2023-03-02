@@ -4,7 +4,7 @@
 # Examples:
 #  {% tweet url description %}
 #  {% tweet {{page.url}} {{page.title}} %}
-
+require 'liquid'
 
 module Jekyll
 	class Tweet < Liquid::Tag

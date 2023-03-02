@@ -7,6 +7,7 @@
 
 require 'json'
 require 'open-uri'
+require 'liquid'
 
 module Jekyll
 	class Trackback < Liquid::Tag

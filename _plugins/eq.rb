@@ -1,5 +1,6 @@
 # Author: Trevor Bedford
 # License: MIT
+require 'liquid'
 
 module Jekyll
 	class Eq < Liquid::Tag

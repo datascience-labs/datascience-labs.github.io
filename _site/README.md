@@ -5,7 +5,7 @@
 To build the website locally, clone the repo with:
 
 ```
-git clone https://github.com/datascience-labs/website.git
+git clone https://github.com/datascience-labs/datascience-labs.github.io.git
 ```
 
 Then install necessary Ruby dependencies by running `bundle install` from within the `blotter` directory.  After this, the site can be be built with:

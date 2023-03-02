@@ -1,11 +1,14 @@
 # Author: Trevor Bedford
 # License: MIT
+require 'liquid'
 
 module Jekyll
 	class EqInline < Liquid::Tag
-		def initialize(tag_name, markup, tokens)
-			super
-			@markup = "#{markup}".strip
+		include ::Liquid::StandardFilters
+
+		def initialize(tag_name, text, tokens)
+		  super
+		  @text = text.strip
 		end
 
 		def render(context)
@@ -14,7 +17,7 @@ module Jekyll
 
 			parsed = Liquid::Template.parse(@markup).render context
 			
-			katexsrc = open("js\katex.min.js").read
+			katexsrc = open("./js/katex.min.js").read
 			@katex = ExecJS.compile(katexsrc)
 			return eqn_to_html(parsed)
 
