@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Data_Analytics_for_Age_friendly_busan/경로당문제점/경로당의 문제점 개선 방안</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- RSS feed -->
+	<link rel="alternate" type="application/rss+xml" title="Data science lab" href="https://www.datasciencelabs.org/feed.xml">
+
+  <!-- Customized Bootstrap + Font Awesome + Solarized -->
+  <link href="/css/style.css" rel="stylesheet" media="screen">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/images/favicon.png"/>
+
+	<!-- Typekit -->
+	<script>
+	  (function(d) {
+		var config = {
+		  kitId: 'xeu8jut',
+		  scriptTimeout: 3000
+		},
+		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	  })(document);
+	</script>
+
+	<!-- Google Analytics -->
+<!--	<script>-->
+<!--		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){-->
+<!--		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),-->
+<!--		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)-->
+<!--		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');-->
+
+<!--		ga('create', 'UA-26244371-2', 'bedford.io');-->
+<!--		ga('send', 'pageview');-->
+
+<!--	</script>-->
+
+	<!-- jQuery -->
+	<script src="/js/jquery.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+	<div id="header">
+		<nav class="navbar navbar-expand-md navbar-light bg-navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/logo.svg">
+					data science lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/blog/">blog</a>
+						</li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">papers</a>
+						</li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/projects/">projects</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/team/">team</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container mt-4">
+
+	
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="bigtitle titlebox">
+      <nav aria-label="breadcrumb">
+  			<ol class="breadcrumb">
+  			
+  			
+  				
+  				
+  				
+  				<li class="breadcrumb-item">
+            <a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/">Data_Analytics_for_Age_friendly_busan</a>
+          </li>
+  				
+  			
+  				
+  				
+  				
+  				<li class="breadcrumb-item">
+            <a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/">경로당문제점</a>
+          </li>
+  				
+  			
+  				
+  				
+  				
+  				<li class="breadcrumb-item active">
+            경로당의 문제점 개선 방안
+          </li>
+  				
+  			
+  			</ol>
+      </nav>
+    </div>
+		<p>
+		<div class="head">
+			Age Friendly World Project
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-lg-3">
+		<div class="bigspacer"></div>
+		<div class="smallhead">
+			Source code
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-cog fa-fw"></i>
+			<a class="off" href="https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan">github.com/jhparkland/<wbr>Data_<wbr>Analytics_<wbr>for_<wbr>Age_<wbr>friendly_<wbr>busan</a>
+		</div>
+		<div class="bigspacer"></div>
+		<div class="smallhead">
+			Contributors
+		</div>
+		<div class="pad-left note">
+			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/jhparkland">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/86312443?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				jhparkland
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/vvishhope">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/101156084?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				vvishhope
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/Kim-qjaJ">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/100742437?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				Kim-qjaJ
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/k69121">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/90255741?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				k69121
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/pear-c">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/100738513?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				pear-c
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/dainnnnn">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/67351617?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				dainnnnn
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/TayJeong">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/100740917?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				TayJeong
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/kjjyyy">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/97427304?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				kjjyyy
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/dongchan0330">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/96518505?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				dongchan0330
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/Sagongmin">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/87919031?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				Sagongmin
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+		</div>
+		<div class="bigspacer"></div>
+		<div class="smallhead">
+			Latest commits
+		</div>
+		<div class="pad-left smallnote">
+			<ul class="list-unstyled">
+			
+				<div class="smallspacer"></div>
+				<li>
+					<i class="fa fa-check-square-o fa-fw"></i>
+					<a class="off" href="https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/d0db72197cf50ad5dcefc2d56bd1b0975948e6bc">
+					09 Jun 2022 - <span class="text-gray">Add files via upload</span>
+					</a>
+				</li>
+			
+				<div class="smallspacer"></div>
+				<li>
+					<i class="fa fa-check-square-o fa-fw"></i>
+					<a class="off" href="https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/757f70eb40ac4d2222e7d5d15d68fb2a115bedbc">
+					02 Jun 2022 - <span class="text-gray">참고자료 추가 (#330)
+
+* Create 문제점 제시 및 개선의견.md
+
+* 참고자료 추가
+
+* 참고자료 추가
+
+* 참고자료 추가합니다.</span>
+					</a>
+				</li>
+			
+				<div class="smallspacer"></div>
+				<li>
+					<i class="fa fa-check-square-o fa-fw"></i>
+					<a class="off" href="https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/439571fb1d893f73660237b1bbe0511aacd66997">
+					02 Jun 2022 - <span class="text-gray">참고자료에 부산의 노인 교통 복지 추가와 data에 게이트볼 장소 추가 (#328)
+
+* Update 부산 게이트볼 장소.csv
+
+초연근린공원 게이트볼장 추가
+
+* Update 참고 자료.md
+
+노인교통 복지 교통카드 추가
+
+* Update 참고 자료.md
+
+부산 두리발 추가
+
+* Update 참고 자료.md
+
+부산진구 노인복지관 버스 추가</span>
+					</a>
+				</li>
+			
+				<div class="smallspacer"></div>
+				<li>
+					<i class="fa fa-check-square-o fa-fw"></i>
+					<a class="off" href="https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/f66db6bb3795780e5d5992b054b48010f081f660">
+					01 Jun 2022 - <span class="text-gray">경로당 이용률의 추가 의견 (#320)
+
+* Create 경로당이용률의 추가의견
+
+* create 경로당 이용률의 추가의견
+
+* Update 경로당이용률의 추가의견.md
+
+* Update 경로당이용률의 추가의견.md
+
+* Update 경로당이용률의 추가의견.md
+
+* Update 경로당이용률의 추가의견.md</span>
+					</a>
+				</li>
+			
+				<div class="smallspacer"></div>
+				<li>
+					<i class="fa fa-check-square-o fa-fw"></i>
+					<a class="off" href="https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/47b9f69a8f5a19d65a0456980a0ebcc1960efc83">
+					01 Jun 2022 - <span class="text-gray">경로당의 문제점 및 개선방안 추가 (#316)
+
+* create 경로당의 문제점
+
+* Update 경로당의 문제점
+
+* 최신 정보 가져오기
+
+* Update 경로당의 문제점
+
+* Create 경로당의 문제점 개선 방안
+
+* Update 경로당의 문제점 개선 방안
+
+* Update 경로당의 문제점 개선 방안
+
+* Update 경로당의 문제점 개선 방안
+
+* Update 경로당의 문제점 개선 방안
+
+* Update 경로당의 문제점 개선 방안
+
+* Update 경로당의 문제점 개선방안
+
+* Update 경로당의 문제점 개선방안</span>
+					</a>
+				</li>
+			
+			</ul>
+		</div>
+		<div class="spacer"></div>
+
+		
+			
+			<!-- 251 -->
+			
+		
+			
+			<!-- 252 -->
+			
+		
+			
+		
+			
+			<!-- 253 -->
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<!-- 254 -->
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<!-- 255 -->
+			
+		
+			
+			<!-- 256 -->
+			
+		
+			
+		
+			
+			<!-- 257 -->
+			
+		
+			
+			<!-- 258 -->
+			
+		
+			
+			<!-- 259 -->
+			
+		
+			
+			<!-- 260 -->
+			
+		
+			
+			<!-- 261 -->
+			
+		
+			
+			<!-- 262 -->
+			
+		
+			
+			<!-- 263 -->
+			
+		
+			
+			<!-- 264 -->
+			
+		
+			
+			<!-- 265 -->
+			
+		
+			
+			<!-- 266 -->
+			
+		
+			
+			<!-- 267 -->
+			
+		
+			
+			<!-- 268 -->
+			
+		
+			
+			<!-- 269 -->
+			
+		
+			
+			<!-- 270 -->
+			
+		
+			
+			<!-- 271 -->
+			
+		
+			
+			<!-- 272 -->
+			
+		
+			
+			<!-- 273 -->
+			
+		
+			
+			<!-- 274 -->
+			
+		
+			
+			<!-- 275 -->
+			
+		
+			
+		
+
+		
+		<div class="smallhead">
+			Pages
+		</div>
+		<div class="pad-left smallnote">
+			<ul class="list-unstyled">
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/CONTRIBUTING.html">
+					<i class="fa fa-folder-open-o"></i>  / CONTRIBUTING
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/Issue%20%EA%B5%AC%EB%B6%84/Issue%20Lables/Data%20%EA%B4%80%EB%A0%A8.html">
+					<i class="fa fa-folder-open-o"></i>  / Issue 구분 / Issue Lables / Data 관련
+					</a>
+				</li>
+				
+			
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/Issue%20%EA%B5%AC%EB%B6%84/Issue%20%ED%86%B5%ED%95%A9%EB%B3%B8.html">
+					<i class="fa fa-folder-open-o"></i>  / Issue 구분 / Issue 통합본
+					</a>
+				</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/">
+					<i class="fa fa-folder-open-o"></i>  / 
+					</a>
+				</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/Issue%20%EA%B5%AC%EB%B6%84/Issue%20Lables/osmnx%20%EA%B4%80%EB%A0%A8.html">
+					<i class="fa fa-folder-open-o"></i>  / Issue 구분 / Issue Lables / osmnx 관련
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/Issue%20%EA%B5%AC%EB%B6%84/Issue%20Lables/pandas%20%EA%B4%80%EB%A0%A8.html">
+					<i class="fa fa-folder-open-o"></i>  / Issue 구분 / Issue Lables / pandas 관련
+					</a>
+				</li>
+				
+			
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EB%AC%B8%EC%A0%9C%EC%A0%90/%EA%B2%BD%EB%A1%9C%EB%8B%B9%20%EB%AC%B8%EC%A0%9C%EC%A0%90%20%EA%B0%9C%EC%84%A0%20%EC%9D%98%EA%B2%AC.html">
+					<i class="fa fa-folder-open-o"></i>  / 경로당문제점 / 경로당 문제점 개선 의견
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EB%AC%B8%EC%A0%9C%EC%A0%90/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EB%AC%B8%EC%A0%9C%EC%A0%90.html">
+					<i class="fa fa-folder-open-o"></i>  / 경로당문제점 / 경로당문제점
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EB%AC%B8%EC%A0%9C%EC%A0%90/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80.html">
+					<i class="fa fa-folder-open-o"></i>  / 경로당문제점 / 경로당선정기준
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EB%AC%B8%EC%A0%9C%EC%A0%90/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EC%9D%98%20%EB%AC%B8%EC%A0%9C%EC%A0%90%20%EA%B0%9C%EC%84%A0%20%EB%B0%A9%EC%95%88.html">
+					<i class="fa fa-folder-open-o"></i>  / 경로당문제점 / 경로당의 문제점 개선 방안
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EB%AC%B8%EC%A0%9C%EC%A0%90/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EC%9D%98%20%EB%AC%B8%EC%A0%9C%EC%A0%90.html">
+					<i class="fa fa-folder-open-o"></i>  / 경로당문제점 / 경로당의 문제점
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EB%AC%B8%EC%A0%9C%EC%A0%90/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EC%9D%B4%EC%9A%A9%EB%A5%A0%EC%9D%98%20%EC%B6%94%EA%B0%80%EC%9D%98%EA%B2%AC.html">
+					<i class="fa fa-folder-open-o"></i>  / 경로당문제점 / 경로당이용률의 추가의견
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EB%AC%B8%EC%A0%9C%EC%A0%90/%EA%B3%A0%EB%8F%84%20%EB%AC%B8%EC%A0%9C.html">
+					<i class="fa fa-folder-open-o"></i>  / 경로당문제점 / 고도 문제
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C/%EA%B5%AC%EC%A1%B0%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EC%84%B1%EB%B3%84%EA%B0%84%20%EC%84%A0%ED%98%B8%EB%8F%84.html">
+					<i class="fa fa-folder-open-o"></i>  / 참고자료 / 구조에 따른 성별간 선호도
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/Issue%20%EA%B5%AC%EB%B6%84/Issue%20Lables/%EA%B8%B0%ED%83%80.html">
+					<i class="fa fa-folder-open-o"></i>  / Issue 구분 / Issue Lables / 기타
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/Issue%20%EA%B5%AC%EB%B6%84/Issue%20Lables/%EB%AC%B8%EC%84%9C%20%EA%B4%80%EB%A0%A8.html">
+					<i class="fa fa-folder-open-o"></i>  / Issue 구분 / Issue Lables / 문서 관련
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EB%AC%B8%EC%A0%9C%EC%A0%90/%EB%AC%B8%EC%A0%9C%EC%A0%90%20%EC%A0%9C%EC%8B%9C%20%EB%B0%8F%20%EA%B0%9C%EC%84%A0%EC%9D%98%EA%B2%AC.html">
+					<i class="fa fa-folder-open-o"></i>  / 경로당문제점 / 문제점 제시 및 개선의견
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/Issue%20%EA%B5%AC%EB%B6%84/Issue%20Lables/%EC%88%98%EC%8B%9D%20%EA%B4%80%EB%A0%A8.html">
+					<i class="fa fa-folder-open-o"></i>  / Issue 구분 / Issue Lables / 수식 관련
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/Issue%20%EA%B5%AC%EB%B6%84/Issue%20Lables/%EC%8B%9C%EA%B0%81%ED%99%94%20%EA%B4%80%EB%A0%A8.html">
+					<i class="fa fa-folder-open-o"></i>  / Issue 구분 / Issue Lables / 시각화 관련
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/Issue%20%EA%B5%AC%EB%B6%84/Issue%20Lables/%EC%9D%B4%EC%9A%A9%EB%A5%A0%20%EA%B4%80%EB%A0%A8.html">
+					<i class="fa fa-folder-open-o"></i>  / Issue 구분 / Issue Lables / 이용률 관련
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/%EA%B2%BD%EB%A1%9C%EB%8B%B9%EB%AC%B8%EC%A0%9C%EC%A0%90/%EC%9D%B4%EC%9A%A9%EB%A5%A0%EB%AC%B8%EC%A0%9C%EC%A0%90.html">
+					<i class="fa fa-folder-open-o"></i>  / 경로당문제점 / 이용률문제점
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/Issue%20%EA%B5%AC%EB%B6%84/Issue%20Lables/%EC%9E%85%EC%A7%80%20%EA%B4%80%EB%A0%A8.html">
+					<i class="fa fa-folder-open-o"></i>  / Issue 구분 / Issue Lables / 입지 관련
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/Issue%20%EA%B5%AC%EB%B6%84/Issue%20Lables/%EC%A0%91%EA%B7%BC%EC%84%B1%20%EA%B4%80%EB%A0%A8.html">
+					<i class="fa fa-folder-open-o"></i>  / Issue 구분 / Issue Lables / 접근성 관련
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C/%EC%B0%B8%EA%B3%A0%20%EC%9E%90%EB%A3%8C.html">
+					<i class="fa fa-folder-open-o"></i>  / 참고자료 / 참고 자료
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/Data_Analytics_for_Age_friendly_busan/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C/%ED%86%B5%EA%B3%84%EC%B2%AD%20%EC%9D%B8%EA%B5%AC%EB%B9%84%EC%9C%A8.html">
+					<i class="fa fa-folder-open-o"></i>  / 참고자료 / 통계청 인구비율
+					</a>
+				</li>
+				
+			
+				
+			
+			</ul>
+		</div>
+		<div class="spacer"></div>
+		
+
+	</div>
+	<div class="col-lg-8">
+		<div class="post">
+			<p>
+			<h1 id="경로당-문제점-개선-방안">경로당 문제점 개선 방안</h1>
+<ul>
+  <li>지원금의 지역별 격차해소와 차등화
+    <ul>
+      <li>경로당에 지급되는 운영비, 난방비, 사회봉사활동비에 대한 조사를 바탕으로 재정적 수준과 관계없이 큰 차이가 존재하지 않도록 지역별 격차를 해소할 필요가 있다.</li>
+      <li>경로당의 규모별 및 등록인원 수별로 차등 지원</li>
+      <li>회원의 회비, 지역 유지의 후원금 등을 활용해 운영을 활성화할 수 있도록 운영책임자에 대한 교육 필요.</li>
+    </ul>
+  </li>
+  <li>경로당 기능의 다양화
+    <ul>
+      <li>경로당을 친목도모와 단순 오락을 즐기는 사랑방으로 보는 사람이 대부분이다.</li>
+      <li>경로당의 기능은 사랑방의 이미지를 벗어나 다양화해야 하며, 여가활동, 건강검진, 봉사활동, 복지서비스 등의 장소가 되어야 한다.</li>
+    </ul>
+  </li>
+  <li>건강증진 프로그램 강화
+    <ul>
+      <li>경로당의 프로그램 중 가장 인기있는 프로그램이 건강증진과 관련된 프로그램이다.</li>
+      <li>건강한 노인을 대상으로는 예방적 측면의 프로그램을, 건강하지 않은 노인을 대상으로는 재활 및 치료적 측면의 프로그램을 정기적으로 진행하는 것이 바람직할 것이다.</li>
+      <li>건강증진 프로그램만 강조할 경우 다른 프로그램들이 위축될 수 있으므로, 여가와 건강증진의 조화를 이루면서 실시해야 한다.</li>
+      <li>전문적인 강사 초빙 및 보건소, 국민건강보험공단, 노인복지관등의 적극적인 협조를 통해 보다 좋은 프로그램을 실시해야 한다.</li>
+    </ul>
+  </li>
+  <li>운영책임자의 인식 전환
+    <ul>
+      <li>경로당의 운영을 전반적으로 책임지고 있는 운영책임자의 인식과 역할이 매우 중요하다.</li>
+      <li>현재 경로당 운영책임자에 대한 교육은 대개 보조금의 회계관리, 서류작성, 공지사항, 회원관리, 사기예방, 휴대전화 사용방법 등으로 한정되어 있으며 연 1~2회 정도 실시하고 있다.</li>
+      <li>인식전환을 위해 프로그램 기획, 자원봉사활동, 리더십과 인식개선, 지역사회 자원활용 등에 대한 교육이 필요하며 적어도 분기별 1회, 연 4회를 실시해야 한다.</li>
+    </ul>
+  </li>
+  <li>경로당지원센터 설립
+    <ul>
+      <li>경로당의 기능의 다양화를 이루기 위해서는 지역별 경로당을 하나의 단위로 지정하여 체계적이고 전문적이면서 정기적, 지속적으로 지원할 수 있는 기관을 설립되어야 한다.</li>
+      <li>경로당지원센터는 경로당 운영과 관련괸 기능과 역할을 하는 기관으로 프로그램의 연계와 수행, 경로당 운영의 지도와 점검, 지역사회 자원의 활용, 경로당 운영책임자의 교육, 경로당 행사 지원 등 경로당 운영 활성화와 관련된 다양한 분야를 지원하는 센터이다.</li>
+      <li>경로당 순회프로그램관리자, 사회복지사, 노인건강관리사 등의 전문가를 배치하고 적절한 업무분담을 통해 업무의 누락 또는 중복을 방지하고 그들의 기능과 역할을 극대화해야한다.</li>
+    </ul>
+  </li>
+</ul>
+
+		</div>
+	</div>
+	<div class="col-lg-1"></div>
+</div>
+
+
+	</div>
+
+	<div id="footer"><span style="display:none">foo</span></div>
+
+</body>
+</html>

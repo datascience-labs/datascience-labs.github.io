@@ -1,0 +1,20 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  influxdb:
+    url: http://localhost:8086
+    username: username
+    database: debs_db
+    retention-policy: autogen
+
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.format_sql: true
+    open-in-view: false
+    format_sql: true
+    use_sql_comments: true
