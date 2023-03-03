@@ -20,8 +20,9 @@ journal: "2022년 한국멀티미디어학회 추계학술발표대회"
 </figure>
 
 <div class="alert alert-primary" role="alert">
-    본 논문은 <strong>2022년 한국멀티미디어학회 추계학술발표대회 우수논문상<strong> 수상하였습니다
+    본 논문은 <strong>2022년 한국멀티미디어학회 추계학술발표대회 우수논문상</strong> 수상하였습니다
 </div>
+
 
 <div class="alert alert-warning" role="alert">
    Location Intelligence Application for Finding Optimal Sites of Green-Car Charging StationsUsing Bayesian Networks
