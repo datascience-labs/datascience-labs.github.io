@@ -1,0 +1,21 @@
+name: Example install of Ruby 2.7.6
+
+on: 
+  push:
+    paths:
+      - '_config.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: clupprich/ruby-build-action@master
+      id: ruby
+      with:
+        ruby-version: 2.7.6
+    - name: Print version
+      run: ${{ steps.ruby.outputs.ruby-path }} --version
+    - name: Update projects
+      run: ruby update-and-preprocess.rb
