@@ -1,0 +1,155 @@
+---
+- repo: jhparkland/Data_Analytics_for_Age_friendly_busan
+  title: Data_Analytics_for_Age_friendly_busan
+  owner: jhparkland
+  description: Age Friendly World Project
+  url: "/projects/Data_Analytics_for_Age_friendly_busan/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  - login: vvishhope
+    avatar: https://avatars.githubusercontent.com/u/101156084?v=4&s=50
+    url: https://github.com/vvishhope
+  - login: Kim-qjaJ
+    avatar: https://avatars.githubusercontent.com/u/100742437?v=4&s=50
+    url: https://github.com/Kim-qjaJ
+  - login: k69121
+    avatar: https://avatars.githubusercontent.com/u/90255741?v=4&s=50
+    url: https://github.com/k69121
+  - login: pear-c
+    avatar: https://avatars.githubusercontent.com/u/100738513?v=4&s=50
+    url: https://github.com/pear-c
+  - login: dainnnnn
+    avatar: https://avatars.githubusercontent.com/u/67351617?v=4&s=50
+    url: https://github.com/dainnnnn
+  - login: TayJeong
+    avatar: https://avatars.githubusercontent.com/u/100740917?v=4&s=50
+    url: https://github.com/TayJeong
+  - login: kjjyyy
+    avatar: https://avatars.githubusercontent.com/u/97427304?v=4&s=50
+    url: https://github.com/kjjyyy
+  - login: dongchan0330
+    avatar: https://avatars.githubusercontent.com/u/96518505?v=4&s=50
+    url: https://github.com/dongchan0330
+  - login: Sagongmin
+    avatar: https://avatars.githubusercontent.com/u/87919031?v=4&s=50
+    url: https://github.com/Sagongmin
+  commits:
+  - date: 2023-03-03 12:11:05.000000000 Z
+    message: Update index.md
+    url: https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/92a3bd4304a6198e78127bf28ae1fc3bcbab7718
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-03-03 10:50:52.000000000 Z
+    message: add
+    url: https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/8649909d545be38502e9df2ba30d5e444b2100b6
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-03-03 09:35:04.000000000 Z
+    message: Rename README,md to README.md
+    url: https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/ebcd2d944347f686d20128bad81be0b4895bf6c7
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-03-03 09:34:31.000000000 Z
+    message: Create README,md
+    url: https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/bc095f42a719d682102fd0c44f3b02d612726763
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-03-02 11:01:40.000000000 Z
+    message: test
+    url: https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/1d6ea086d531795dd821bde41962188a6696cb31
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+- repo: jhparkland/Green-Car-Charging-Station-Site-Selection
+  title: Green-Car-Charging-Station-Site-Selection
+  owner: jhparkland
+  description: A Study on the Location Analysis of Green Car Charging Station Using
+    Bayesian Network
+  url: "/projects/Green-Car-Charging-Station-Site-Selection/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  - login: jyc4324
+    avatar: https://avatars.githubusercontent.com/u/101799316?v=4&s=50
+    url: https://github.com/jyc4324
+  commits:
+  - date: 2023-03-03 10:50:59.000000000 Z
+    message: add
+    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/d98bbf72b236e6f74118df0ac900e3227f76a51b
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-03-03 09:36:21.000000000 Z
+    message: Create README.md
+    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/fcf86526e323e45ed90eca482fe3992ef83ee06d
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-03-02 11:03:39.000000000 Z
+    message: add
+    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/b0c0c6299e6dc64da98e589e9f23a2cdbca6728e
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-03-02 10:49:58.000000000 Z
+    message: |-
+      Merge pull request #17 from jhparkland/add-license-1
+
+      Create LICENSE
+    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/7157fb7e350c744a1f4b2602702f3d5788325348
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-03-02 10:49:47.000000000 Z
+    message: Create LICENSE
+    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/884e61382582e8bce3b5bab01ecaac294870ad55
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+- repo: developsu/debs2022gc
+  title: debs2022gc
+  owner: developsu
+  description:
+  url: "/projects/debs2022gc/"
+  contributors:
+  - login: chunsejin
+    avatar: https://avatars.githubusercontent.com/u/2449416?v=4&s=50
+    url: https://github.com/chunsejin
+  - login: developsu
+    avatar: https://avatars.githubusercontent.com/u/87559466?v=4&s=50
+    url: https://github.com/developsu
+  - login: JinseongHwang
+    avatar: https://avatars.githubusercontent.com/u/52629158?v=4&s=50
+    url: https://github.com/JinseongHwang
+  - login: yanggak12
+    avatar: https://avatars.githubusercontent.com/u/46489446?v=4&s=50
+    url: https://github.com/yanggak12
+  commits:
+  - date: 2023-02-12 11:54:24.000000000 Z
+    message: |-
+      Update README.md
+
+      update citing
+    url: https://github.com/developsu/debs2022gc/commit/a493b3f3bcd878526bf86fc54a5f6dedaa9c16a0
+    author_login: chunsejin
+    author_url: https://github.com/chunsejin
+  - date: 2023-02-12 11:53:16.000000000 Z
+    message: Update README.md
+    url: https://github.com/developsu/debs2022gc/commit/248dec43017a46d3b284427c5a381ab88412ee29
+    author_login: chunsejin
+    author_url: https://github.com/chunsejin
+  - date: 2022-05-29 17:29:16.000000000 Z
+    message: |-
+      Merge pull request #4 from developsu/feature/fe
+
+      feat : frontend update
+    url: https://github.com/developsu/debs2022gc/commit/e0d6993eb7b8fdd47201439d96419c1a90d3207b
+    author_login: yanggak12
+    author_url: https://github.com/yanggak12
+  - date: 2022-05-29 17:27:00.000000000 Z
+    message: 'docs : update readme'
+    url: https://github.com/developsu/debs2022gc/commit/717135bf9b89d608d5ad9929343e178fdca6393b
+    author_login: yanggak12
+    author_url: https://github.com/yanggak12
+  - date: 2022-05-29 17:26:43.000000000 Z
+    message: 'chore : request url'
+    url: https://github.com/developsu/debs2022gc/commit/f5af55a672dfc9550bdf614a63692369dcf83876
+    author_login: yanggak12
+    author_url: https://github.com/yanggak12
