@@ -4,6 +4,5 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/projects/Data_Analytics_for_Age_friendly_busan" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/projects/Green-Car-Charging-Station-Site-Selection" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/projects/debs2022gc" vcs="Git" />
   </component>
 </project>
