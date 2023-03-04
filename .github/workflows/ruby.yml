@@ -28,7 +28,7 @@ jobs:
     # uses: ruby/setup-ruby@v1
       uses: ruby/setup-ruby@ee2113536afb7f793eed4ce60e8d3b26db912da4 # v1.127.0
       with:
-        ruby-version: 2.7
+        ruby-version: 2.6
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Update projects
       run: ruby _script/update-and-preprocess.rb      
