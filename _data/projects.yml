@@ -103,9 +103,9 @@
     url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/884e61382582e8bce3b5bab01ecaac294870ad55
     author_login: jhparkland
     author_url: https://github.com/jhparkland
-- repo: developsu/debs2022gc
+- repo: datascience-labs/debs2022gc
   title: debs2022gc
-  owner: developsu
+  owner: datascience-labs
   description:
   url: "/projects/debs2022gc/"
   contributors:
@@ -127,12 +127,12 @@
       Update README.md
 
       update citing
-    url: https://github.com/developsu/debs2022gc/commit/a493b3f3bcd878526bf86fc54a5f6dedaa9c16a0
+    url: https://github.com/datascience-labs/debs2022gc/commit/a493b3f3bcd878526bf86fc54a5f6dedaa9c16a0
     author_login: chunsejin
     author_url: https://github.com/chunsejin
   - date: 2023-02-12 11:53:16.000000000 Z
     message: Update README.md
-    url: https://github.com/developsu/debs2022gc/commit/248dec43017a46d3b284427c5a381ab88412ee29
+    url: https://github.com/datascience-labs/debs2022gc/commit/248dec43017a46d3b284427c5a381ab88412ee29
     author_login: chunsejin
     author_url: https://github.com/chunsejin
   - date: 2022-05-29 17:29:16.000000000 Z
@@ -140,16 +140,16 @@
       Merge pull request #4 from developsu/feature/fe
 
       feat : frontend update
-    url: https://github.com/developsu/debs2022gc/commit/e0d6993eb7b8fdd47201439d96419c1a90d3207b
+    url: https://github.com/datascience-labs/debs2022gc/commit/e0d6993eb7b8fdd47201439d96419c1a90d3207b
     author_login: yanggak12
     author_url: https://github.com/yanggak12
   - date: 2022-05-29 17:27:00.000000000 Z
     message: 'docs : update readme'
-    url: https://github.com/developsu/debs2022gc/commit/717135bf9b89d608d5ad9929343e178fdca6393b
+    url: https://github.com/datascience-labs/debs2022gc/commit/717135bf9b89d608d5ad9929343e178fdca6393b
     author_login: yanggak12
     author_url: https://github.com/yanggak12
   - date: 2022-05-29 17:26:43.000000000 Z
     message: 'chore : request url'
-    url: https://github.com/developsu/debs2022gc/commit/f5af55a672dfc9550bdf614a63692369dcf83876
+    url: https://github.com/datascience-labs/debs2022gc/commit/f5af55a672dfc9550bdf614a63692369dcf83876
     author_login: yanggak12
     author_url: https://github.com/yanggak12
