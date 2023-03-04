@@ -1,30 +1,35 @@
 ---
 layout: default
-title: Data science lab
+title: bedford lab / projects
 categories:
- - project
+- projects
 ---
 
-<html><head>
-    <title>Index of /projects/</title>
-    <style type="text/css">
-    <!--
-    .name, .mtime { text-align: left; }
-    .size { text-align: right; }
-    td { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
-    table { border-collapse: collapse; }
-    tr th { border-bottom: 2px groove; }
-    // -->
-    </style>
-  </head>
-  <body>
-<table width="100%"><thead><tr>
-<th class="name"><a href="?N=D">Name</a></th><th class="mtime"><a href="?M=D">Last modified</a></th><th class="size"><a href="?S=D">Size</a></th>
-</tr></thead>
-<tbody>
-<tr><td class="name"><a href="..">Parent Directory</a></td><td class="mtime">2023/03/03 19:59</td><td class="size">-</td></tr>
-<tr><td class="name"><a href="Data_Analytics_for_Age_friendly_busan/">Data_Analytics_for_Age_..</a></td><td class="mtime">2023/03/03 19:59</td><td class="size">-</td></tr>
-<tr><td class="name"><a href="Green-Car-Charging-Station-Site-Selection/">Green-Car-Charging-Stat..</a></td><td class="mtime">2023/03/03 19:59</td><td class="size">-</td></tr>
-</tbody></table><hr>
+{% for project in site.data.projects %}
 
-</body></html>
+{% cycle 'add rows': '<div class="row">', '', '' %}
+    <div class="col-md-4 projectbox">
+        <div class="head">
+            <a href="{{ project.url }}" class="off">{{ project.title }}</a>
+        </div>
+        <div class="smallspacer"></div>
+        <div class="note">
+            <a href="{{ project.url }}" class="off">{{ project.description }}</a>
+        </div>
+        <div class="smallspacer"></div>
+        <div class="smallnote">
+            Updated
+            <a class="off" href="{{ project.commits.first.url }}">
+                {{ project.commits.first.date | date: "%-d %b %Y" }}
+            </a>
+            by
+            <a class="off" href="{{ project.commits.first.author_url }}">
+                {{ project.commits.first.author_login }}
+            </a>
+        </div>
+        <div class="bigspacer"></div>
+        <div class="spacer"></div>
+    </div>
+    {% cycle 'close rows': '', '', '</div>' %}
+{% endfor %}
+{% cycle 'close rows': '', '</div>', '</div>' %}
