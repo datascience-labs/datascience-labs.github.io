@@ -1,54 +1,4 @@
 ---
-- repo: datascience-labs/debs2022gc
-  title: debs2022gc
-  owner: datascience-labs
-  description:
-  url: "/projects/debs2022gc/"
-  contributors:
-  - login: chunsejin
-    avatar: https://avatars.githubusercontent.com/u/2449416?v=4&s=50
-    url: https://github.com/chunsejin
-  - login: developsu
-    avatar: https://avatars.githubusercontent.com/u/87559466?v=4&s=50
-    url: https://github.com/developsu
-  - login: JinseongHwang
-    avatar: https://avatars.githubusercontent.com/u/52629158?v=4&s=50
-    url: https://github.com/JinseongHwang
-  - login: yanggak12
-    avatar: https://avatars.githubusercontent.com/u/46489446?v=4&s=50
-    url: https://github.com/yanggak12
-  commits:
-  - date: 2023-03-04 04:12:36.000000000 Z
-    message: update projects
-    url: https://github.com/datascience-labs/debs2022gc/commit/aa0b709aaf1dac1567b7b08a5112e5f4d4ae984f
-    author_login: chunsejin
-    author_url: https://github.com/chunsejin
-  - date: 2023-02-12 11:54:24.000000000 Z
-    message: |-
-      Update README.md
-
-      update citing
-    url: https://github.com/datascience-labs/debs2022gc/commit/a493b3f3bcd878526bf86fc54a5f6dedaa9c16a0
-    author_login: chunsejin
-    author_url: https://github.com/chunsejin
-  - date: 2023-02-12 11:53:16.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/debs2022gc/commit/248dec43017a46d3b284427c5a381ab88412ee29
-    author_login: chunsejin
-    author_url: https://github.com/chunsejin
-  - date: 2022-05-29 17:29:16.000000000 Z
-    message: |-
-      Merge pull request #4 from developsu/feature/fe
-
-      feat : frontend update
-    url: https://github.com/datascience-labs/debs2022gc/commit/e0d6993eb7b8fdd47201439d96419c1a90d3207b
-    author_login: yanggak12
-    author_url: https://github.com/yanggak12
-  - date: 2022-05-29 17:27:00.000000000 Z
-    message: 'docs : update readme'
-    url: https://github.com/datascience-labs/debs2022gc/commit/717135bf9b89d608d5ad9929343e178fdca6393b
-    author_login: yanggak12
-    author_url: https://github.com/yanggak12
 - repo: jhparkland/Data_Analytics_for_Age_friendly_busan
   title: Data_Analytics_for_Age_friendly_busan
   owner: jhparkland
@@ -153,3 +103,53 @@
     url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/884e61382582e8bce3b5bab01ecaac294870ad55
     author_login: jhparkland
     author_url: https://github.com/jhparkland
+- repo: developsu/debs2022gc
+  title: debs2022gc
+  owner: developsu
+  description:
+  url: "/projects/debs2022gc/"
+  contributors:
+  - login: chunsejin
+    avatar: https://avatars.githubusercontent.com/u/2449416?v=4&s=50
+    url: https://github.com/chunsejin
+  - login: developsu
+    avatar: https://avatars.githubusercontent.com/u/87559466?v=4&s=50
+    url: https://github.com/developsu
+  - login: JinseongHwang
+    avatar: https://avatars.githubusercontent.com/u/52629158?v=4&s=50
+    url: https://github.com/JinseongHwang
+  - login: yanggak12
+    avatar: https://avatars.githubusercontent.com/u/46489446?v=4&s=50
+    url: https://github.com/yanggak12
+  commits:
+  - date: 2023-02-12 11:54:24.000000000 Z
+    message: |-
+      Update README.md
+
+      update citing
+    url: https://github.com/developsu/debs2022gc/commit/a493b3f3bcd878526bf86fc54a5f6dedaa9c16a0
+    author_login: chunsejin
+    author_url: https://github.com/chunsejin
+  - date: 2023-02-12 11:53:16.000000000 Z
+    message: Update README.md
+    url: https://github.com/developsu/debs2022gc/commit/248dec43017a46d3b284427c5a381ab88412ee29
+    author_login: chunsejin
+    author_url: https://github.com/chunsejin
+  - date: 2022-05-29 17:29:16.000000000 Z
+    message: |-
+      Merge pull request #4 from developsu/feature/fe
+
+      feat : frontend update
+    url: https://github.com/developsu/debs2022gc/commit/e0d6993eb7b8fdd47201439d96419c1a90d3207b
+    author_login: yanggak12
+    author_url: https://github.com/yanggak12
+  - date: 2022-05-29 17:27:00.000000000 Z
+    message: 'docs : update readme'
+    url: https://github.com/developsu/debs2022gc/commit/717135bf9b89d608d5ad9929343e178fdca6393b
+    author_login: yanggak12
+    author_url: https://github.com/yanggak12
+  - date: 2022-05-29 17:26:43.000000000 Z
+    message: 'chore : request url'
+    url: https://github.com/developsu/debs2022gc/commit/f5af55a672dfc9550bdf614a63692369dcf83876
+    author_login: yanggak12
+    author_url: https://github.com/yanggak12
