@@ -31,7 +31,7 @@ jobs:
         ruby-version: 2.7
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Update projects
-      run: ruby update-and-preprocess.rb
+      run: ruby _script/update-and-preprocess.rb      
       
       
       
