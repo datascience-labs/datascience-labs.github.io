@@ -12,14 +12,9 @@ on:
     paths:
       - '_config.yml'
 
-permissions:
-  contents: read
-
 jobs:
   test:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up Ruby
@@ -27,7 +22,7 @@ jobs:
     # change this to (see https://github.com/ruby/setup-ruby#versioning):
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6
+        ruby-version: 2.7
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Update projects
       run: ruby _script/update-and-preprocess.rb      
