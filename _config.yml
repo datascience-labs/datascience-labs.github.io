@@ -45,6 +45,7 @@ exclude:
   - "Gemfile.lock"
 
 projects:
+  - "BonhyeonGu/Reasoning_over_Knowledge_Component_Streams"
   - "developsu/debs2022gc"
   - "jhparkland/Green-Car-Charging-Station-Site-Selection"
   - "jhparkland/Data_Analytics_for_Age_friendly_busan"

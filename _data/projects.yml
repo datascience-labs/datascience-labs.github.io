@@ -103,6 +103,47 @@
     url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/884e61382582e8bce3b5bab01ecaac294870ad55
     author_login: jhparkland
     author_url: https://github.com/jhparkland
+- repo: BonhyeonGu/Reasoning_over_Knowledge_Component_Streams
+  title: Reasoning_over_Knowledge_Component_Streams
+  owner: BonhyeonGu
+  description: Find Knowledge Component by Segment in the YouTube video.
+  url: "/projects/Reasoning_over_Knowledge_Component_Streams/"
+  contributors:
+  - login: BonhyeonGu
+    avatar: https://avatars.githubusercontent.com/u/24387014?v=4&s=50
+    url: https://github.com/BonhyeonGu
+  - login: Jmy-0
+    avatar: https://avatars.githubusercontent.com/u/62672025?v=4&s=50
+    url: https://github.com/Jmy-0
+  - login: chunsejin
+    avatar: https://avatars.githubusercontent.com/u/2449416?v=4&s=50
+    url: https://github.com/chunsejin
+  commits:
+  - date: 2023-03-03 02:14:36.000000000 Z
+    message: "Update README.md\n\n전체적인 구조, 설명 수정\r\n- Citation 및 License 추가 필요"
+    url: https://github.com/BonhyeonGu/Reasoning_over_Knowledge_Component_Streams/commit/4856ff6f3f6ce1b68dd9379d5acefd0e0c922546
+    author_login: chunsejin
+    author_url: https://github.com/chunsejin
+  - date: 2023-02-01 05:45:56.000000000 Z
+    message: 백링크 압축해제 삭제
+    url: https://github.com/BonhyeonGu/Reasoning_over_Knowledge_Component_Streams/commit/52712c7b797cb289afd532099fb9f3d0485edff8
+    author_login: BonhyeonGu
+    author_url: https://github.com/BonhyeonGu
+  - date: 2023-02-01 05:45:17.000000000 Z
+    message: 백링크 딕셔너리화
+    url: https://github.com/BonhyeonGu/Reasoning_over_Knowledge_Component_Streams/commit/20a10edd7337d86e339d5c30c354cd99800bbfca
+    author_login: BonhyeonGu
+    author_url: https://github.com/BonhyeonGu
+  - date: 2023-01-27 06:36:03.000000000 Z
+    message: 주석추가, 브레이크 컨티뉴로 수정
+    url: https://github.com/BonhyeonGu/Reasoning_over_Knowledge_Component_Streams/commit/591432561f5213d75c175f61c603153a69c3632f
+    author_login: BonhyeonGu
+    author_url: https://github.com/BonhyeonGu
+  - date: 2022-12-30 16:21:37.000000000 Z
+    message: 디버그 모드 추가
+    url: https://github.com/BonhyeonGu/Reasoning_over_Knowledge_Component_Streams/commit/18244bdaf62b74ccd8297b76fe99a3dc31f83114
+    author_login: Jmy-0
+    author_url: https://github.com/Jmy-0
 - repo: developsu/debs2022gc
   title: debs2022gc
   owner: developsu

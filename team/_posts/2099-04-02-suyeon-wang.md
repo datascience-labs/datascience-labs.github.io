@@ -5,4 +5,4 @@ position: Undergraduate intern
 alumni: true
 ---
 
-She is now a graduate student at Yonsei University. 
+She is now a graduate student at [Yonsei](https://www.yonsei.ac.kr/sc/index.jsp) University. 
