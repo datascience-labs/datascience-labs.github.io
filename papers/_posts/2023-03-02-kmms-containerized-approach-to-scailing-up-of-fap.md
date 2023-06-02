@@ -6,6 +6,7 @@ title: "공장 대기오염 모니터링 응용의 규모 확대를 위한 컨�
 authors: Suyeon Wang, Wonah Kim, Jungkyu Han, Sejin Chun
 year: 2023
 ref: 멀티미디어학회지 2023
+doi: https://doi.org/10.9717/kmms.2023.26.3.478
 journal: "한국멀티미디어학회"
 ---
 
@@ -19,5 +20,5 @@ The deterioration of air quality stems from air pollutants emitted by industrial
 </div>
 
 <div class="alert alert-primary" role="alert">
-   게재승인(Accepted)
+   왕수연, 김원아, 한정규, 천세진.(2023).공장 대기오염 모니터링 응용의 규모 확대를 위한 컨테이너화된 접근법.멀티미디어학회논문지,26(3),478-487.
 </div>
