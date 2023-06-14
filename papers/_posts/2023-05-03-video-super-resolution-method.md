@@ -6,7 +6,7 @@ title: "Residual Dense Block 기반 변형 가능한 합성곱 정렬 신경망�
 authors: Dongho Lee, Yooho Lee, Sejin Chun, Dongsan Jun
 year: 2023
 ref: 멀티미디어학회지 2023
-doi: https://doi.org/10.9717/kmms.2023.26.5.650
+doi: 10.9717/kmms.2023.26.5.650
 journal: "한국멀티미디어학회"
 ---
 

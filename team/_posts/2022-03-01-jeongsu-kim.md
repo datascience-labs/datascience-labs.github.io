@@ -7,7 +7,5 @@ kname: 김정수
 image: /images/team/jeongsu-kim.jpg
 ---
 
-TBD
-
-<h4><span class="badge badge-info">Projects</span></h4>
-
+<<div class="head">Research interests</div>
+<span class="badge badge-info">Semantic Table Interpretation</span><span class="badge badge-danger">Knowledge graph inferences</span>

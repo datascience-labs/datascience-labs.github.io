@@ -6,7 +6,7 @@ title: "Optimal Scenarios of Renewables and Chargers for an Electric Vehicle Cha
 authors: Jieun Ihm, Sejin Chun, Herie Park
 year: 2022
 ref: SCEMS 2022
-doi: https://doi.org/10.1109/SCEMS56272.2022.9990819
+doi: 10.1109/SCEMS56272.2022.9990819
 journal: "2022 IEEE 5th Student Conference on Electric Machines and Systems (SCEMS)"
 ---
 
