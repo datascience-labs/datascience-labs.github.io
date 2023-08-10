@@ -24,3 +24,4 @@ firebase.json
 .firebase/
 /.firebase/
 /.github/
+/projects/conrec/__pycache__
