@@ -1,4 +1,29 @@
 ---
+- repo: datascience-labs/conrec
+  title: conrec
+  owner: datascience-labs
+  description:
+  url: "/projects/conrec/"
+  contributors:
+  - login: chunsejin
+    avatar: https://avatars.githubusercontent.com/u/2449416?v=4&s=50
+    url: https://github.com/chunsejin
+  commits:
+  - date: 2023-08-08 13:16:01.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/conrec/commit/1b5f367b1e268d2f87d7c2dc671ff3f2beaeb6f4
+    author_login: chunsejin
+    author_url: https://github.com/chunsejin
+  - date: 2023-08-07 22:41:46.000000000 Z
+    message: Add files via upload
+    url: https://github.com/datascience-labs/conrec/commit/756feaab9dd32135f07e041f8357ad241d7a92ee
+    author_login: chunsejin
+    author_url: https://github.com/chunsejin
+  - date: 2023-08-07 22:40:34.000000000 Z
+    message: Initial commit
+    url: https://github.com/datascience-labs/conrec/commit/7a2c55b0541af9a1cf6020212518d81a423f4849
+    author_login: chunsejin
+    author_url: https://github.com/chunsejin
 - repo: jhparkland/Data_Analytics_for_Age_friendly_busan
   title: Data_Analytics_for_Age_friendly_busan
   owner: jhparkland
@@ -36,6 +61,11 @@
     avatar: https://avatars.githubusercontent.com/u/87919031?v=4&s=50
     url: https://github.com/Sagongmin
   commits:
+  - date: 2023-07-25 04:23:31.000000000 Z
+    message: Create README.md
+    url: https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/a543844535221bdb6e536dd67191cd63b334fb6a
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
   - date: 2023-03-03 12:11:05.000000000 Z
     message: Update index.md
     url: https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/92a3bd4304a6198e78127bf28ae1fc3bcbab7718
@@ -54,11 +84,6 @@
   - date: 2023-03-03 09:34:31.000000000 Z
     message: Create README,md
     url: https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/bc095f42a719d682102fd0c44f3b02d612726763
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2023-03-02 11:01:40.000000000 Z
-    message: test
-    url: https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/1d6ea086d531795dd821bde41962188a6696cb31
     author_login: jhparkland
     author_url: https://github.com/jhparkland
 - repo: jhparkland/Green-Car-Charging-Station-Site-Selection

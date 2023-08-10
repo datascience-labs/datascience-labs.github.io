@@ -14,3 +14,5 @@ gem 'netrc'
 gem 'jekyll-twitter-plugin'
 
 gem 'webrick'
+
+gem 'faraday-retry'
