@@ -23,13 +23,19 @@ mdarray.each { |md|
 
 	# if readme.md, rename to index.md
 	# if index.html already exists, remove
+	
 	if basename =~ /readme/i
-		if File.exists?(full_directory + "index.html")
-			File.delete(full_directory + "index.html")
+		begin
+			if File.exists?(full_directory + "index.html")
+				File.delete(full_directory + "index.html")
+			end
+			indexmd = full_directory + "index.md"
+			File.rename(md, indexmd)
+		rescue
+			puts 'rename error'
+		ensure
+			md = indexmd
 		end
-		indexmd = full_directory + "index.md"
-		File.rename(md, indexmd)
-		md = indexmd
 	end
 
 	# get project name if possible
