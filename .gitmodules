@@ -9,3 +9,8 @@
 [submodule "projects/Green-Car-Charging-Station-Site-Selection"]
     path = projects/Green-Car-Charging-Station-Site-Selection
     url = https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection.git
+
+
+[submodule "projects/conrec"]
+    path = datascience-labs/conrec
+    url = https://github.com/datascience-labs/conrec.git
