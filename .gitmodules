@@ -11,5 +11,5 @@
     url = https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection.git
 
 [submodule "projects/conrec"]
-    path = datascience-labs/conrec
+    path = projects/conrec
     url = https://github.com/datascience-labs/conrec.git

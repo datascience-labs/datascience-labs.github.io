@@ -14,6 +14,8 @@ GEM
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
+    faraday-retry (2.1.0)
+      faraday (~> 2.0)
     ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
@@ -77,6 +79,7 @@ PLATFORMS
 
 DEPENDENCIES
   execjs
+  faraday-retry
   jekyll (= 4.2.0)
   jekyll-twitter-plugin
   netrc
