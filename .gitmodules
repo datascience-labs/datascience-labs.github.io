@@ -13,3 +13,9 @@
 [submodule "projects/conrec"]
     path = projects/conrec
     url = https://github.com/datascience-labs/conrec.git
+
+[submodule "projects/Balance_Up"]
+    path = projects/Balance_Up
+    url = https://github.com/FarmingWon/Balance_Up
+
+    
