@@ -1,3 +1,7 @@
+[submodule "projects/conrec"]
+    path = datascience-labs/conrec
+    url = https://github.com/datascience-labs/conrec.git
+
 [submodule "projects/Data_Analytics_for_Age_friendly_busan"]
     path = projects/Data_Analytics_for_Age_friendly_busan
     url = https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan.git
@@ -9,8 +13,3 @@
 [submodule "projects/Green-Car-Charging-Station-Site-Selection"]
     path = projects/Green-Car-Charging-Station-Site-Selection
     url = https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection.git
-
-
-[submodule "projects/conrec"]
-    path = datascience-labs/conrec
-    url = https://github.com/datascience-labs/conrec.git
