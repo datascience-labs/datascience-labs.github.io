@@ -18,4 +18,4 @@ Location-Based1 Social Networks (LBSNs) are social networking services that allo
    Geographic Area Analysis by Using VAE based Area Embeddings on LBSN data
 </div>
 
-<h4><span class="badge badge-info">Accepted</span></h4>
+<h4><span class="badge badge-info">published</span></h4>
