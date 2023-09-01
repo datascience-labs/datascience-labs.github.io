@@ -6,7 +6,7 @@ title: "CONREC: Continuous Recommendation of Online Learning Videos Based on Con
 authors: Sungbeom Lee, Beomku Choi, Jungkyu Han, Sejin Chun
 year: 2023
 ref: RecSys 2023
-journal: "2023 17th ACM Conference on Recommender Systems(RecSys)"
+journal: "Knowledge-aware and Conversational Recommender Systems (KaRS) Workshop@ RecSys. 2023."
 github: https://github.com/datascience-labs/conrec
 ---
 
