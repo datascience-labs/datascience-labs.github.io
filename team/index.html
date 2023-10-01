@@ -1,0 +1,71 @@
+---
+layout: default
+title: data science lab / team
+categories:
+ - team
+---
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="title">
+			Current members
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+{% for member in site.categories.team reversed %}
+	{% if member.alumni != true %}
+    {% cycle 'add rows': '<div class="row">', '', '' %}
+		<div class="col-lg-4 memberbox">
+			<div class="media">
+				{% if member.image %}
+					<a class="float-left" href="{{ member.url }}">
+						<img width=160 class="mr-3" src="{{ member.image }}">
+					</a>
+				{% endif %}
+ 			 	<div class="media-body">
+    				<div class="head mb-1"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+    				<p class="note">{{ member.position }}</p>
+  				</div>
+			</div>
+			<div class="bigspacer"></div>
+			<div class="bigspacer"></div>
+        </div>
+    {% cycle 'close rows': '', '', '</div>' %}
+    {% endif %}
+{% endfor %}
+{% cycle 'close rows': '', '</div>', '</div>' %}
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="title">
+			Past members
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+{% for member in site.categories.team reversed %}
+	{% if member.alumni == true %}
+    {% cycle 'add rows 2': '<div class="row">', '', '' %}
+		<div class="col-lg-4 memberbox">
+			<div class="media">
+  				<!--
+  				<a class="pull-left" href="{{ member.url }}">
+    				<img width=160 class="media-object" src="{{ member.image }}">
+  				</a>
+  				-->
+ 			 	<div class="media-body">
+    				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+    				<p class="note">{{ member.position }}</p>
+  				</div>
+			</div>
+			<div class="bigspacer"></div>
+        </div>
+    {% cycle 'close rows 2': '', '', '</div>' %}
+    {% endif %}
+{% endfor %}
+{% cycle 'close rows 2': '', '</div>', '</div>' %}
