@@ -5,7 +5,7 @@ position: Undergraduate
 github: RYEONGRYEONG
 kname: 조성령
 email: 2243094@donga.ac.kr
-cv: /pdfs/team/seongryeong-jo-cv.pdf
+cv: https://drive.google.com/file/d/1N7ikzYnKRkujElGQCfB0CeXMVXEJ2EbO/view?usp=sharing, Seongryeong Jo CV
 ---
 
 I joined the Department of Computer Engineering at the [Dong-A University](https://english.donga.ac.kr/sites/english/index.do) in Mar. 2022. 
