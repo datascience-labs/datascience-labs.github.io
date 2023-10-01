@@ -4,7 +4,7 @@ title: Subin Yun
 position: Undergraduate
 github: y00ns
 kname : 윤수빈
-cv: /pdfs/team/Subin_Yun_cv.pdf
+cv: https://drive.google.com/file/d/14JYq7DOZnP_tbwCWpZEyism4yAwMi5Md/view?usp=sharing, Subin Yun CV
 email: yn346358@gmail.com
 ---
 

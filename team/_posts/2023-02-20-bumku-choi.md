@@ -4,7 +4,7 @@ title: Bumku Choi
 position: Undergraduate
 github: choibumku00
 kname : 최범규
-cv: pdfs/team/bumku-choi-cv.pdf
+cv: https://drive.google.com/file/d/1Ork7ge-Jv9x7229CPaMmIe7EtsaZvw9n/view?usp=drive_link, Bumku Choi CV
 email: choirony00@gmail.com
 ---
 

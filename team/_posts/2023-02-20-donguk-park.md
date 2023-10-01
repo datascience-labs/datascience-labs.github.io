@@ -4,7 +4,7 @@ title: Donguk Park
 position: Undergraduate
 github: DongUk-Park
 kname : 박동욱
-cv: /pdfs/team/donguk-park-cv.pdf
+cv: https://drive.google.com/file/d/1vVYlwUbWdn7XyGSKwtF7o-TJeBS4H2S7/view?usp=sharing, DongukPark CV
 email: parkdw00@naver.com
 ---
 

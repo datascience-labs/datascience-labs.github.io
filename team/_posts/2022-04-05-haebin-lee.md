@@ -4,7 +4,7 @@ title: Haebin Lee
 position: Undergraduate
 github: slst-23
 kname : 이해빈
-cv: /pdfs/team/haebin-lee-cv.pdf
+cv: https://drive.google.com/file/d/14U1EvmasoBOMEkuUqQ3nOTmGokDdCkY7/view?usp=sharing, HaebinLee CV
 email: haehaebinbin223@gmail.com
 ---
 
