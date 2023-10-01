@@ -1,0 +1,28 @@
+[data-testid="column"] {
+    border: 1px groove red;
+} 
+
+.overlay-layer {
+    position: absolute;
+    left: 0;
+    top: -100;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    display: inline-block;
+    width: calc(640px / 3) - 10; /* 박스의 너비 (video-container의 너비에 맞게 조정) */
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.circle {
+    display: inline-block;
+    width: 20px; /* 원의 너비 */
+    height: 20px; /* 원의 높이 */
+    margin: 3px; /* 원 사이의 간격 */
+    border-radius: 50%;
+    background-color: red; /* 원의 색상 */
+}

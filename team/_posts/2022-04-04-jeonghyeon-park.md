@@ -4,7 +4,7 @@ title: Jeonghyeon Park
 position: Undergraduate
 github: jhparkland
 kname : 박정현
-cv: https://drive.google.com/file/d/14VI9OhzAJYLae7lU0BUt_Mf3jRk1QH12/view?usp=drive_link, JeonghyeonPark CV
+cv: /pdfs/team/jeonghyeon-park-cv.pdf
 email: pwjdgus1017@donga.ac.kr
 ---
 

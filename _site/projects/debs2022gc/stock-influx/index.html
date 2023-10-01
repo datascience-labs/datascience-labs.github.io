@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>debs2022gc/stock-influx/</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- RSS feed -->
+	<link rel="alternate" type="application/rss+xml" title="Data science lab" href="https://www.datasciencelabs.org/feed.xml">
+
+  <!-- Customized Bootstrap + Font Awesome + Solarized -->
+  <link href="/css/style.css" rel="stylesheet" media="screen">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/images/favicon.png"/>
+
+	<!-- Typekit -->
+	<script>
+	  (function(d) {
+		var config = {
+		  kitId: 'xeu8jut',
+		  scriptTimeout: 3000
+		},
+		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	  })(document);
+	</script>
+
+	<!-- Google Analytics -->
+<!--	<script>-->
+<!--		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){-->
+<!--		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),-->
+<!--		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)-->
+<!--		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');-->
+
+<!--		ga('create', 'UA-26244371-2', 'bedford.io');-->
+<!--		ga('send', 'pageview');-->
+
+<!--	</script>-->
+
+	<!-- jQuery -->
+	<script src="/js/jquery.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+	<div id="header">
+		<nav class="navbar navbar-expand-md navbar-light bg-navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/logo.svg">
+					data science lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/blog/">blog</a>
+						</li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">papers</a>
+						</li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/projects/">projects</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/team/">team</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container mt-4">
+
+	
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="bigtitle titlebox">
+      <nav aria-label="breadcrumb">
+  			<ol class="breadcrumb">
+  			
+  			
+  				
+  				
+  				
+  				<li class="breadcrumb-item">
+            <a class="off" href="/projects/debs2022gc/">debs2022gc</a>
+          </li>
+  				
+  			
+  				
+  				
+  				
+  				<li class="breadcrumb-item active">
+            stock-influx
+          </li>
+  				
+  			
+  			</ol>
+      </nav>
+    </div>
+		<p>
+		<div class="head">
+			
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-lg-3">
+		<div class="bigspacer"></div>
+		<div class="smallhead">
+			Source code
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-cog fa-fw"></i>
+			<a class="off" href="https://github.com/developsu/debs2022gc">github.com/developsu/<wbr>debs2022gc</a>
+		</div>
+		<div class="bigspacer"></div>
+		<div class="smallhead">
+			Contributors
+		</div>
+		<div class="pad-left note">
+			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/chunsejin">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/2449416?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				chunsejin
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/developsu">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/87559466?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				developsu
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/JinseongHwang">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/52629158?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				JinseongHwang
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+			<div class="smallspacer"></div>
+			<div>
+				<a class="off" href="https://github.com/yanggak12">
+    			<img class="pull-left avatar" src="https://avatars.githubusercontent.com/u/46489446?v=4&s=50">
+    			<div class="handlebox" style="padding-left:5px;"">
+    				yanggak12
+    			</div>
+ 				</a>
+ 			</div>
+ 			
+		</div>
+		<div class="bigspacer"></div>
+		<div class="smallhead">
+			Latest commits
+		</div>
+		<div class="pad-left smallnote">
+			<ul class="list-unstyled">
+			
+				<div class="smallspacer"></div>
+				<li>
+					<i class="fa fa-check-square-o fa-fw"></i>
+					<a class="off" href="https://github.com/developsu/debs2022gc/commit/77513f76b3f530aa26ffceacfe00a2aa5523590d">
+					14 Aug 2023 - <span class="text-gray">updates</span>
+					</a>
+				</li>
+			
+				<div class="smallspacer"></div>
+				<li>
+					<i class="fa fa-check-square-o fa-fw"></i>
+					<a class="off" href="https://github.com/developsu/debs2022gc/commit/a493b3f3bcd878526bf86fc54a5f6dedaa9c16a0">
+					12 Feb 2023 - <span class="text-gray">Update README.md
+
+update citing</span>
+					</a>
+				</li>
+			
+				<div class="smallspacer"></div>
+				<li>
+					<i class="fa fa-check-square-o fa-fw"></i>
+					<a class="off" href="https://github.com/developsu/debs2022gc/commit/248dec43017a46d3b284427c5a381ab88412ee29">
+					12 Feb 2023 - <span class="text-gray">Update README.md</span>
+					</a>
+				</li>
+			
+				<div class="smallspacer"></div>
+				<li>
+					<i class="fa fa-check-square-o fa-fw"></i>
+					<a class="off" href="https://github.com/developsu/debs2022gc/commit/e0d6993eb7b8fdd47201439d96419c1a90d3207b">
+					30 May 2022 - <span class="text-gray">Merge pull request #4 from developsu/feature/fe
+
+feat : frontend update</span>
+					</a>
+				</li>
+			
+				<div class="smallspacer"></div>
+				<li>
+					<i class="fa fa-check-square-o fa-fw"></i>
+					<a class="off" href="https://github.com/developsu/debs2022gc/commit/717135bf9b89d608d5ad9929343e178fdca6393b">
+					30 May 2022 - <span class="text-gray">docs : update readme</span>
+					</a>
+				</li>
+			
+			</ul>
+		</div>
+		<div class="spacer"></div>
+
+		
+			
+		
+			
+		
+			
+		
+			
+			<!-- 108 -->
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<!-- 109 -->
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<!-- 110 -->
+			
+		
+			
+			<!-- 111 -->
+			
+		
+			
+			<!-- 112 -->
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+
+		
+		<div class="smallhead">
+			Pages
+		</div>
+		<div class="pad-left smallnote">
+			<ul class="list-unstyled">
+			
+				
+			
+				
+			
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/debs2022gc/stock-influx/back-end/HELP.html">
+					<i class="fa fa-folder-open-o"></i>  / stock-influx / back-end / HELP
+					</a>
+				</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/debs2022gc/stock-influx/">
+					<i class="fa fa-folder-open-o"></i>  / stock-influx / 
+					</a>
+				</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/debs2022gc/stock-influx/back-end/">
+					<i class="fa fa-folder-open-o"></i>  / stock-influx / back-end / 
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/debs2022gc/stock-influx/front-end/">
+					<i class="fa fa-folder-open-o"></i>  / stock-influx / front-end / 
+					</a>
+				</li>
+				
+			
+				
+				<div class="smallspacer"></div>
+				<li>
+					<a class="off" href="/projects/debs2022gc/">
+					<i class="fa fa-folder-open-o"></i>  / 
+					</a>
+				</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+		</div>
+		<div class="spacer"></div>
+		
+
+	</div>
+	<div class="col-lg-8">
+		<div class="post">
+			<p>
+			<h1 id="debs-2022-visualization">DEBS 2022 Visualization</h1>
+
+<h2 id="architecture">Architecture</h2>
+
+<p><img src="https://user-images.githubusercontent.com/52629158/164049682-233bdfdd-6004-4c26-8227-0aea2f59c894.png" alt="debs-visualization" /></p>
+
+<p><br /></p>
+
+<h2 id="front-end-skill">Front-end Skill</h2>
+
+<p>Front-end Developer: <a href="https://github.com/yanggak12">Yoonsang Yang</a></p>
+
+<ul>
+  <li>Typescript</li>
+  <li>React.js 17.0</li>
+  <li>Chart.js 3.7</li>
+  <li>Next.js 12.1</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="back-end-skill">Back-end Skill</h2>
+
+<p>Back-end Developer: <a href="https://github.com/JinseongHwang">Jinseong Hwang</a></p>
+
+<ul>
+  <li>Java 11</li>
+  <li>Spring Boot 2.5</li>
+  <li>Gradle 7.4</li>
+  <li>InfluxDB 1.4</li>
+  <li>Google Drive API v3</li>
+  <li>Docker 20.10</li>
+  <li>Swagger 3.0</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="api-document">API Document</h2>
+
+<ul>
+  <li><strong><a href="http://localhost:8080/swagger-ui/index.html">Swagger 3.0</a></strong></li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="run-this-application">Run this Application</h2>
+
+<ul>
+  <li><strong>Please check you are not using ports [3000, 8080, 8086]</strong></li>
+  <li>Please run the command below in current directory.</li>
+</ul>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo chmod </span>u+x run.sh
+<span class="nb">sudo</span> ./run.sh
+</code></pre></div></div>
+<ul>
+  <li>Access here → <a href="http://localhost:3000">http://localhost:3000</a></li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="stop-this-application">Stop this Application</h2>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>docker-compose down
+</code></pre></div></div>
+
+		</div>
+	</div>
+	<div class="col-lg-1"></div>
+</div>
+
+
+	</div>
+
+	<div id="footer"><span style="display:none">foo</span></div>
+
+</body>
+</html>

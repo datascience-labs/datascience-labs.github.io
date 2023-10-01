@@ -4,7 +4,7 @@ title: Yeryeong Kim
 position: Undergraduate
 github: yeryeong713
 kname : 김예령
-cv: https://drive.google.com/file/d/14YvchKMEWRL4CQScPIQYmFAoGNGvJURD/view?usp=sharing, Yeryeong Kim CV
+cv: /pdfs/team/yeryeong-kim-cv.pdf
 email: schsb098@gmail.com
 ---
 

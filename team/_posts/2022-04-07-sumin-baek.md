@@ -4,7 +4,7 @@ title: Sumin Baek
 position: Undergraduate
 github: qor6
 kname : 백수민
-cv: https://drive.google.com/file/d/1-nzEicaA9G7b1tq2q6a_PlCreaGqy2UC/view?usp=sharing, Sumin Baek CV
+cv: /pdfs/team/sumin-baek-cv.pdf
 email: qortnals21@gmail.com
 ---
 
