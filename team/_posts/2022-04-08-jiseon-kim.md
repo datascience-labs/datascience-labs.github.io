@@ -4,7 +4,7 @@ title: Jiseon Kim
 position: Undergraduate
 github: Prcnsi
 kname : 김지선
-cv: /pdfs/team/jiseon-kim.pdf
+cv: https://drive.google.com/file/d/14ZqYVl99OzGPqepRddSABtaD4dcrIoL0/view?usp=sharing, Jiseon Kim CV
 email: ji.dozin@gmail.com
 ---
 
