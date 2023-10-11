@@ -28,7 +28,7 @@ category: blog
 
 <div class="post-list">
 
-{% for post in site.categories.blog limit: 8 %}
+{% for post in site.categories.blog limit: 12 %}
 
 	<div class="blog-post">
 		<div class="row">
@@ -98,6 +98,7 @@ category: blog
 				{% endif %}
 				<div class="post">
 					{{ post.content }}
+					<hr style="border: 2px solid black;">
 				</div>
 			</div>
 			<div class="col-lg-1"></div>
@@ -107,7 +108,7 @@ category: blog
 		<div class="spacer"></div>
 
 	</div>
-
+	
 {% endfor %}
 
 </div>
