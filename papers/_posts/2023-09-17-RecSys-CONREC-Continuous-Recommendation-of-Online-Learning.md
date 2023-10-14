@@ -5,7 +5,7 @@ group: knowevo
 title: "CONREC: Continuous Recommendation of Online Learning Videos Based on Concept Maps"
 authors: Sungbeom Lee, Beomku Choi, Jungkyu Han, Sejin Chun
 year: 2023
-ref: RecSys 2023
+ref: KARS@RecSys 2023
 journal: "Knowledge-aware and Conversational Recommender Systems (KaRS) Workshop@ RecSys. 2023."
 github: https://github.com/datascience-labs/conrec
 ---
@@ -19,4 +19,4 @@ The global proliferation of COVID-19 has catalyzed a substantial transition from
    CONREC: Continuous Recommendation of Online Learning Videos Based on Concept Maps
 </div>
 
-<h4><span class="badge badge-info">Accepted</span></h4>
+<!-- <h4><span class="badge badge-info">Accepted</span></h4> -->
