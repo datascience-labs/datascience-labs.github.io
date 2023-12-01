@@ -12,3 +12,5 @@ email: jkhan@dau.ac.kr
 
 He is an Assistant Professor in the Department of Computer Engineering and Artificial Intelligence at the Dong-A University.
 
+<div class="head">Research interests</div>
+<span class="badge badge-info">Recommender System</span><span class="badge badge-danger">POI Recommendation</span>
