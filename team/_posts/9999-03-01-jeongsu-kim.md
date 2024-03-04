@@ -7,7 +7,10 @@ github: jeongsu-int
 cv: /pdfs/team/jeongsu-kim-cv.pdf
 image: /images/team/jeongsu-kim.jpg
 email: jeongsu.int@gmail.com
+alumni: true
 ---
+
+**He is now working as a researcher at Dong-A University Industry-University Cooperation Foundation.**
 
 I have joined the Department of Computer Engineering·Artificial Intelligence at the [Dong-A University](https://english.donga.ac.kr/english/Main.do) since March 2022. And since January 2022, I have been conducting big data analysis and semantic annotation research in the [data science lab(DSL)](https://www.datasciencelabs.org).
 

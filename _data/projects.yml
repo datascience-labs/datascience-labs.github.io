@@ -1,4 +1,192 @@
 ---
+- repo: y00ns/BI_project
+  title: BI_project
+  owner: y00ns
+  description:
+  url: "/projects/BI_project/"
+  contributors:
+  - login: y00ns
+    avatar: https://avatars.githubusercontent.com/u/104632673?v=4&s=50
+    url: https://github.com/y00ns
+  commits:
+  - date: 2024-03-04 04:59:01.000000000 Z
+    message: Update README.md
+    url: https://github.com/y00ns/BI_project/commit/13d8cffb17360a68c2ac854a20c7faee9ffea105
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 04:56:03.000000000 Z
+    message: Create 시장분석.md
+    url: https://github.com/y00ns/BI_project/commit/1e7ad139ad7c5258cd372393253f19d9451170f3
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 04:48:25.000000000 Z
+    message: Create 기존에 사용되던 이상데이터 탐지 방법.md
+    url: https://github.com/y00ns/BI_project/commit/34a6d3c451a5a4cf87c54a17370c041c507d0755
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 04:45:37.000000000 Z
+    message: Create 기존서비스와의 차별성.md
+    url: https://github.com/y00ns/BI_project/commit/0777b1a3e33aeb5655b907c7dec970db31e4f250
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 04:37:49.000000000 Z
+    message: Create AMI구성.md
+    url: https://github.com/y00ns/BI_project/commit/1f75e9694469b163f404d0a5ecad4157987523d7
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+- repo: y00ns/FDIA_with_TCN
+  title: FDIA_with_TCN
+  owner: y00ns
+  description:
+  url: "/projects/FDIA_with_TCN/"
+  contributors:
+  - login: y00ns
+    avatar: https://avatars.githubusercontent.com/u/104632673?v=4&s=50
+    url: https://github.com/y00ns
+  commits:
+  - date: 2024-03-04 03:33:59.000000000 Z
+    message: Add files via upload
+    url: https://github.com/y00ns/FDIA_with_TCN/commit/58e199a1d97063fb756fe5fe8371ed8552222c49
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 03:33:32.000000000 Z
+    message: Delete FDIA_DETECT_with_TCN.ipynb
+    url: https://github.com/y00ns/FDIA_with_TCN/commit/3ab7b3154469a289cc7e5634c460c7061dbe1d59
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 03:27:23.000000000 Z
+    message: Add files via upload
+    url: https://github.com/y00ns/FDIA_with_TCN/commit/01cbf72dfa1476cf32e14d920f92f82556f888c6
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 03:25:27.000000000 Z
+    message: Update README.md
+    url: https://github.com/y00ns/FDIA_with_TCN/commit/678860c4586ec266964b533adf0d3fa3fff54ff7
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 03:17:18.000000000 Z
+    message: Initial commit
+    url: https://github.com/y00ns/FDIA_with_TCN/commit/be98abb90ad311211f0a6cedf8e709cc64b0c854
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+- repo: jhparkland/Carbon-friendly
+  title: Carbon-friendly
+  owner: jhparkland
+  description: About The process involves measuring the carbon emissions generated
+    from deep learning training. If a server's training process produces high carbon
+    emissions, we transfer the workload to servers with lower carbon emissions. Ultimately,
+    this method aims to achieve a carbon net-zero state.
+  url: "/projects/Carbon-friendly/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  - login: dhfgoeofh
+    avatar: https://avatars.githubusercontent.com/u/80153046?v=4&s=50
+    url: https://github.com/dhfgoeofh
+  - login: izgnok
+    avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
+    url: https://github.com/izgnok
+  commits:
+  - date: 2024-03-04 02:41:06.000000000 Z
+    message: Update README.md
+    url: https://github.com/jhparkland/Carbon-friendly/commit/5488cb7ccee0ed6c6341562eb865141963035e15
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-03-04 02:37:03.000000000 Z
+    message: Update README.md
+    url: https://github.com/jhparkland/Carbon-friendly/commit/09302f024b1b9ed5c92fd75baf1e402ea50eaa25
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-03-04 02:36:16.000000000 Z
+    message: Update README.md
+    url: https://github.com/jhparkland/Carbon-friendly/commit/b73ee1ae8a5f9d3db7e0471e9698544ffd21058e
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-02-14 08:04:48.000000000 Z
+    message: Update README.md
+    url: https://github.com/jhparkland/Carbon-friendly/commit/86e9f8e458aa088b2783af8e3ac1d05a3606cf84
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-02-14 08:02:33.000000000 Z
+    message: Update README.md
+    url: https://github.com/jhparkland/Carbon-friendly/commit/c7c8a14aec17510714d5d0034c9badca7d3db511
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+- repo: datascience-labs/COCL
+  title: COCL
+  owner: datascience-labs
+  description:
+  url: "/projects/COCL/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  - login: Jossubin
+    avatar: https://avatars.githubusercontent.com/u/126739106?v=4&s=50
+    url: https://github.com/Jossubin
+  - login: dhfgoeofh
+    avatar: https://avatars.githubusercontent.com/u/80153046?v=4&s=50
+    url: https://github.com/dhfgoeofh
+  - login: Squ1rre1
+    avatar: https://avatars.githubusercontent.com/u/35986175?v=4&s=50
+    url: https://github.com/Squ1rre1
+  - login: DongUk-Park
+    avatar: https://avatars.githubusercontent.com/u/56333631?v=4&s=50
+    url: https://github.com/DongUk-Park
+  - login: FarmingWon
+    avatar: https://avatars.githubusercontent.com/u/98411696?v=4&s=50
+    url: https://github.com/FarmingWon
+  - login: Prcnsi
+    avatar: https://avatars.githubusercontent.com/u/86015194?v=4&s=50
+    url: https://github.com/Prcnsi
+  - login: RYEONGRYEONG
+    avatar: https://avatars.githubusercontent.com/u/126739223?v=4&s=50
+    url: https://github.com/RYEONGRYEONG
+  - login: chunsejin
+    avatar: https://avatars.githubusercontent.com/u/2449416?v=4&s=50
+    url: https://github.com/chunsejin
+  - login: klavna
+    avatar: https://avatars.githubusercontent.com/u/100742454?v=4&s=50
+    url: https://github.com/klavna
+  commits:
+  - date: 2023-12-08 12:07:55.000000000 Z
+    message: |-
+      Merge pull request #69 from RYEONGRYEONG/patch-6
+
+      Update background information and purpose.md
+    url: https://github.com/datascience-labs/COCL/commit/ea0822380f7388335dbaaaa29fc319888ea7c4a7
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-12-08 12:07:46.000000000 Z
+    message: |-
+      Merge pull request #68 from Jossubin/main
+
+      change .gitignore
+    url: https://github.com/datascience-labs/COCL/commit/4c12b085b2140ac359e24f2c7cc7a22f945f7bee
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-12-08 12:07:36.000000000 Z
+    message: |-
+      Merge pull request #67 from FarmingWon/main
+
+      relatedworks
+    url: https://github.com/datascience-labs/COCL/commit/21db004fc63836c1336a3a1064475eea92e463cc
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-12-08 12:07:25.000000000 Z
+    message: |-
+      Merge pull request #66 from DongUk-Park/main
+
+      Delete related_work directory
+    url: https://github.com/datascience-labs/COCL/commit/f2098e4a863150fb46c3ccd86f7153c20e5f07eb
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-12-08 11:33:19.000000000 Z
+    message: Update background information and purpose.md
+    url: https://github.com/datascience-labs/COCL/commit/8772442eb3c4aa281830aa37c2405b45f71b5392
+    author_login: RYEONGRYEONG
+    author_url: https://github.com/RYEONGRYEONG
 - repo: FarmingWon/Balance_Up
   title: Balance_Up
   owner: FarmingWon
@@ -12,54 +200,119 @@
     avatar: https://avatars.githubusercontent.com/u/100738522?v=4&s=50
     url: https://github.com/jmango61
   commits:
-  - date: 2023-08-14 09:12:43.000000000 Z
+  - date: 2023-11-26 07:05:11.000000000 Z
+    message: Update 밸런스_업.py
+    url: https://github.com/FarmingWon/Balance_Up/commit/864a5b9d34094f787ea652619dfde68742931ed4
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2023-11-13 09:20:51.000000000 Z
+    message: add eval code
+    url: https://github.com/FarmingWon/Balance_Up/commit/8347b76d48d94324f9788d072346c131ddcb09bc
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2023-11-12 06:20:06.000000000 Z
+    message: add document frequency
+    url: https://github.com/FarmingWon/Balance_Up/commit/4afa5c241b71686d5f45618ef04679589fb2c675
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2023-11-11 05:52:10.000000000 Z
+    message: add skills
+    url: https://github.com/FarmingWon/Balance_Up/commit/a4fcf860417e4aebbaba908843dcc7c7bafad912
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2023-11-11 05:50:33.000000000 Z
+    message: Delete skills/counts
+    url: https://github.com/FarmingWon/Balance_Up/commit/80c486a80c49b137732a8474bf12de1005bda774
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+- repo: jhparkland/Green-Car-Charging-Station-Site-Selection
+  title: Green-Car-Charging-Station-Site-Selection
+  owner: jhparkland
+  description: A Study on the Location Analysis of Green Car Charging Station Using
+    Bayesian Network
+  url: "/projects/Green-Car-Charging-Station-Site-Selection/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  - login: jyc4324
+    avatar: https://avatars.githubusercontent.com/u/101799316?v=4&s=50
+    url: https://github.com/jyc4324
+  commits:
+  - date: 2023-10-03 12:51:18.000000000 Z
     message: Update README.md
-    url: https://github.com/FarmingWon/Balance_Up/commit/878d336579778ed2136c40af0e0085bebb2c404e
-    author_login: jmango61
-    author_url: https://github.com/jmango61
-  - date: 2023-08-14 09:06:39.000000000 Z
-    message: Add files via upload
-    url: https://github.com/FarmingWon/Balance_Up/commit/ba173182cde716dd54143b7be74ba312945e7276
-    author_login: FarmingWon
-    author_url: https://github.com/FarmingWon
-  - date: 2023-08-14 09:04:24.000000000 Z
-    message: Initial commit
-    url: https://github.com/FarmingWon/Balance_Up/commit/958a09418d0ea124620ffeac2182c71ee569a33a
-    author_login: FarmingWon
-    author_url: https://github.com/FarmingWon
+    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/218cc1f9e931cc48f07ca64575e04c5021a4a770
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-10-03 12:47:31.000000000 Z
+    message: |-
+      Merge pull request #18 from jhparkland/jhparkland-patch-1
+
+      Create README.md
+    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/be4fff7f4fe749f26b6b2989dbe66f6f7ba3afb8
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-10-03 12:47:22.000000000 Z
+    message: Create README.md
+    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/ac46bf3f7c41105389cb7ce2ae23c3d2705db72e
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-03-03 10:50:59.000000000 Z
+    message: add
+    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/d98bbf72b236e6f74118df0ac900e3227f76a51b
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-03-03 09:36:21.000000000 Z
+    message: Create README.md
+    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/fcf86526e323e45ed90eca482fe3992ef83ee06d
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
 - repo: datascience-labs/conrec
   title: conrec
   owner: datascience-labs
-  description:
+  description: Continuous Recommendation of Online Learning Videos Based on Concept
+    Maps
   url: "/projects/conrec/"
   contributors:
   - login: chunsejin
     avatar: https://avatars.githubusercontent.com/u/2449416?v=4&s=50
     url: https://github.com/chunsejin
+  - login: Squ1rre1
+    avatar: https://avatars.githubusercontent.com/u/35986175?v=4&s=50
+    url: https://github.com/Squ1rre1
+  - login: choibumku00
+    avatar: https://avatars.githubusercontent.com/u/101037541?v=4&s=50
+    url: https://github.com/choibumku00
   commits:
+  - date: 2023-09-13 00:03:41.000000000 Z
+    message: |-
+      Merge pull request #2 from choibumku00/main
+
+      pull request
+    url: https://github.com/datascience-labs/conrec/commit/6d00234dae75eb76476ed3aca6638cb43ff03098
+    author_login: chunsejin
+    author_url: https://github.com/chunsejin
+  - date: 2023-09-04 08:42:29.000000000 Z
+    message: Update readme.md
+    url: https://github.com/datascience-labs/conrec/commit/5fe3ec90d61a46e5a198e7f711a3bb3688d97b4d
+    author_login: choibumku00
+    author_url: https://github.com/choibumku00
+  - date: 2023-08-16 00:30:48.000000000 Z
+    message: |-
+      Merge pull request #1 from Squ1rre1/main
+
+      app.py modularize
+    url: https://github.com/datascience-labs/conrec/commit/9a5cdb780947c6b90012f49fe7b9a4bd2636e608
+    author_login: chunsejin
+    author_url: https://github.com/chunsejin
+  - date: 2023-08-15 22:58:21.000000000 Z
+    message: app.py modularize
+    url: https://github.com/datascience-labs/conrec/commit/ed1fc399bc954caf3dbbae4ac72203737383f5a8
+    author_login: Squ1rre1
+    author_url: https://github.com/Squ1rre1
   - date: 2023-08-14 06:12:41.000000000 Z
     message: Update readme.md
     url: https://github.com/datascience-labs/conrec/commit/0ea619457104efe02194bc1d0bf991146fd06162
-    author_login: chunsejin
-    author_url: https://github.com/chunsejin
-  - date: 2023-08-14 06:12:18.000000000 Z
-    message: Rename index.md to readme.md
-    url: https://github.com/datascience-labs/conrec/commit/06c96d0fb1d8f1a0c3b82e16203513fb974eb9c7
-    author_login: chunsejin
-    author_url: https://github.com/chunsejin
-  - date: 2023-08-14 06:11:29.000000000 Z
-    message: updates
-    url: https://github.com/datascience-labs/conrec/commit/40fdbbd73ef52177e3d006421cab2459fb42be6e
-    author_login: chunsejin
-    author_url: https://github.com/chunsejin
-  - date: 2023-08-08 13:16:01.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/conrec/commit/1b5f367b1e268d2f87d7c2dc671ff3f2beaeb6f4
-    author_login: chunsejin
-    author_url: https://github.com/chunsejin
-  - date: 2023-08-07 22:41:46.000000000 Z
-    message: Add files via upload
-    url: https://github.com/datascience-labs/conrec/commit/756feaab9dd32135f07e041f8357ad241d7a92ee
     author_login: chunsejin
     author_url: https://github.com/chunsejin
 - repo: developsu/debs2022gc
@@ -172,47 +425,5 @@
   - date: 2023-03-03 09:35:04.000000000 Z
     message: Rename README,md to README.md
     url: https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan/commit/ebcd2d944347f686d20128bad81be0b4895bf6c7
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-- repo: jhparkland/Green-Car-Charging-Station-Site-Selection
-  title: Green-Car-Charging-Station-Site-Selection
-  owner: jhparkland
-  description: A Study on the Location Analysis of Green Car Charging Station Using
-    Bayesian Network
-  url: "/projects/Green-Car-Charging-Station-Site-Selection/"
-  contributors:
-  - login: jhparkland
-    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
-    url: https://github.com/jhparkland
-  - login: jyc4324
-    avatar: https://avatars.githubusercontent.com/u/101799316?v=4&s=50
-    url: https://github.com/jyc4324
-  commits:
-  - date: 2023-03-03 10:50:59.000000000 Z
-    message: add
-    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/d98bbf72b236e6f74118df0ac900e3227f76a51b
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2023-03-03 09:36:21.000000000 Z
-    message: Create README.md
-    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/fcf86526e323e45ed90eca482fe3992ef83ee06d
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2023-03-02 11:03:39.000000000 Z
-    message: add
-    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/b0c0c6299e6dc64da98e589e9f23a2cdbca6728e
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2023-03-02 10:49:58.000000000 Z
-    message: |-
-      Merge pull request #17 from jhparkland/add-license-1
-
-      Create LICENSE
-    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/7157fb7e350c744a1f4b2602702f3d5788325348
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2023-03-02 10:49:47.000000000 Z
-    message: Create LICENSE
-    url: https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection/commit/884e61382582e8bce3b5bab01ecaac294870ad55
     author_login: jhparkland
     author_url: https://github.com/jhparkland
