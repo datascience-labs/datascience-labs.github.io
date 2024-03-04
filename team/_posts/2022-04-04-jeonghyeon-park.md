@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jeonghyeon Park
-position: Undergraduate
+position: Master student
 github: jhparkland
 kname : 박정현
 cv: https://drive.google.com/file/d/14VI9OhzAJYLae7lU0BUt_Mf3jRk1QH12/view?usp=drive_link, JeonghyeonPark CV

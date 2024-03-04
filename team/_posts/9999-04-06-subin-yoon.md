@@ -6,6 +6,7 @@ github: y00ns
 kname : 윤수빈
 cv: https://drive.google.com/file/d/14JYq7DOZnP_tbwCWpZEyism4yAwMi5Md/view?usp=sharing, Subin Yun CV
 email: yn346358@gmail.com
+alumni: true
 ---
 
 
