@@ -30,4 +30,8 @@
     path = projects/Carbon-friendly
     url = https://github.com/jhparkland/Carbon-friendly
 
+[submodule "projects/Balance_Up"]
+    path = projects/Balance_Up
+    url = https://github.com/FarmingWon/Balance_Up
+
     
