@@ -14,8 +14,20 @@
     path = projects/conrec
     url = https://github.com/datascience-labs/conrec.git
 
-[submodule "projects/Balance_Up"]
-    path = projects/Balance_Up
-    url = https://github.com/FarmingWon/Balance_Up
+[submodule "projects/BI_project"]
+    path = projects/BI_project
+    url = https://github.com/y00ns/Balance_Up
+
+[submodule "projects/FDIA_with_TCN"]
+    path = projects/FDIA_with_TCN
+    url = https://github.com/y00ns/FDIA_with_TCN
+
+[submodule "projects/COCL"]
+    path = projects/COCL
+    url = https://github.com/datascience_labs/COCL
+
+[submodule "projects/Carbon-friendly"]
+    path = projects/Carbon-friendly
+    url = https://github.com/jhparkland/Carbon-friendly
 
     
