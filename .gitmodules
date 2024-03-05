@@ -4,7 +4,7 @@
 
 [submodule "projects/debs2022gc"]
     path = projects/debs2022gc
-    url = https://github.com/developsu/debs2022gc.git
+    url = https://github.com/datascience-labs/debs2022gc.git
 
 [submodule "projects/Green-Car-Charging-Station-Site-Selection"]
     path = projects/Green-Car-Charging-Station-Site-Selection
