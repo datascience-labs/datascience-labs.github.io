@@ -1,4 +1,80 @@
 ---
+- repo: datascience-labs/FDIA_with_TCN
+  title: FDIA_with_TCN
+  owner: datascience-labs
+  description:
+  url: "/projects/FDIA_with_TCN/"
+  contributors:
+  - login: y00ns
+    avatar: https://avatars.githubusercontent.com/u/104632673?v=4&s=50
+    url: https://github.com/y00ns
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  commits:
+  - date: 2024-03-05 00:23:49.000000000 Z
+    message: test
+    url: https://github.com/datascience-labs/FDIA_with_TCN/commit/a034aa8f4ae7b355129e70210d277b38222818ea
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-03-04 03:33:59.000000000 Z
+    message: Add files via upload
+    url: https://github.com/datascience-labs/FDIA_with_TCN/commit/58e199a1d97063fb756fe5fe8371ed8552222c49
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 03:33:32.000000000 Z
+    message: Delete FDIA_DETECT_with_TCN.ipynb
+    url: https://github.com/datascience-labs/FDIA_with_TCN/commit/3ab7b3154469a289cc7e5634c460c7061dbe1d59
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 03:27:23.000000000 Z
+    message: Add files via upload
+    url: https://github.com/datascience-labs/FDIA_with_TCN/commit/01cbf72dfa1476cf32e14d920f92f82556f888c6
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 03:25:27.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/FDIA_with_TCN/commit/678860c4586ec266964b533adf0d3fa3fff54ff7
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+- repo: datascience-labs/BI_project
+  title: BI_project
+  owner: datascience-labs
+  description:
+  url: "/projects/BI_project/"
+  contributors:
+  - login: y00ns
+    avatar: https://avatars.githubusercontent.com/u/104632673?v=4&s=50
+    url: https://github.com/y00ns
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  commits:
+  - date: 2024-03-05 00:23:43.000000000 Z
+    message: test
+    url: https://github.com/datascience-labs/BI_project/commit/2b432d98da29a1a4741c505697ebd392e145652a
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-03-04 04:59:01.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/BI_project/commit/13d8cffb17360a68c2ac854a20c7faee9ffea105
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 04:56:03.000000000 Z
+    message: Create 시장분석.md
+    url: https://github.com/datascience-labs/BI_project/commit/1e7ad139ad7c5258cd372393253f19d9451170f3
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 04:48:25.000000000 Z
+    message: Create 기존에 사용되던 이상데이터 탐지 방법.md
+    url: https://github.com/datascience-labs/BI_project/commit/34a6d3c451a5a4cf87c54a17370c041c507d0755
+    author_login: y00ns
+    author_url: https://github.com/y00ns
+  - date: 2024-03-04 04:45:37.000000000 Z
+    message: Create 기존서비스와의 차별성.md
+    url: https://github.com/datascience-labs/BI_project/commit/0777b1a3e33aeb5655b907c7dec970db31e4f250
+    author_login: y00ns
+    author_url: https://github.com/y00ns
 - repo: datascience-labs/Carbon-friendly
   title: Carbon-friendly
   owner: datascience-labs
@@ -18,6 +94,11 @@
     avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
     url: https://github.com/izgnok
   commits:
+  - date: 2024-03-05 00:23:23.000000000 Z
+    message: test
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/51444fad6648e5ce55ec602abe72a89a7aa3f8ae
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
   - date: 2024-03-04 12:13:26.000000000 Z
     message: add
     url: https://github.com/datascience-labs/Carbon-friendly/commit/7c69bd545d6f61633496e60314c668e658482f88
@@ -38,11 +119,44 @@
     url: https://github.com/datascience-labs/Carbon-friendly/commit/09302f024b1b9ed5c92fd75baf1e402ea50eaa25
     author_login: jhparkland
     author_url: https://github.com/jhparkland
-  - date: 2024-03-04 02:36:16.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/b73ee1ae8a5f9d3db7e0471e9698544ffd21058e
+- repo: datascience-labs/Balance_Up
+  title: Balance_Up
+  owner: datascience-labs
+  description: Employment information recommendation based on Life Balance
+  url: "/projects/Balance_Up/"
+  contributors:
+  - login: FarmingWon
+    avatar: https://avatars.githubusercontent.com/u/98411696?v=4&s=50
+    url: https://github.com/FarmingWon
+  - login: jmango61
+    avatar: https://avatars.githubusercontent.com/u/100738522?v=4&s=50
+    url: https://github.com/jmango61
+  commits:
+  - date: 2024-03-05 00:23:23.000000000 Z
+    message: test
+    url: https://github.com/datascience-labs/Balance_Up/commit/6e226359f6f81967772e764b202e69580e5e48ba
     author_login: jhparkland
     author_url: https://github.com/jhparkland
+  - date: 2023-11-26 07:05:11.000000000 Z
+    message: Update 밸런스_업.py
+    url: https://github.com/datascience-labs/Balance_Up/commit/864a5b9d34094f787ea652619dfde68742931ed4
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2023-11-13 09:20:51.000000000 Z
+    message: add eval code
+    url: https://github.com/datascience-labs/Balance_Up/commit/8347b76d48d94324f9788d072346c131ddcb09bc
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2023-11-12 06:20:06.000000000 Z
+    message: add document frequency
+    url: https://github.com/datascience-labs/Balance_Up/commit/4afa5c241b71686d5f45618ef04679589fb2c675
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2023-11-11 05:52:10.000000000 Z
+    message: add skills
+    url: https://github.com/datascience-labs/Balance_Up/commit/a4fcf860417e4aebbaba908843dcc7c7bafad912
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
 - repo: datascience-labs/COCL
   title: COCL
   owner: datascience-labs
@@ -272,114 +386,6 @@
     url: https://github.com/datascience-labs/Data_Analytics_for_Age_friendly_busan/commit/8649909d545be38502e9df2ba30d5e444b2100b6
     author_login: jhparkland
     author_url: https://github.com/jhparkland
-- repo: datascience-labs/BI_project
-  title: BI_project
-  owner: datascience-labs
-  description:
-  url: "/projects/BI_project/"
-  contributors:
-  - login: y00ns
-    avatar: https://avatars.githubusercontent.com/u/104632673?v=4&s=50
-    url: https://github.com/y00ns
-  commits:
-  - date: 2024-03-04 04:59:01.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/BI_project/commit/13d8cffb17360a68c2ac854a20c7faee9ffea105
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-  - date: 2024-03-04 04:56:03.000000000 Z
-    message: Create 시장분석.md
-    url: https://github.com/datascience-labs/BI_project/commit/1e7ad139ad7c5258cd372393253f19d9451170f3
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-  - date: 2024-03-04 04:48:25.000000000 Z
-    message: Create 기존에 사용되던 이상데이터 탐지 방법.md
-    url: https://github.com/datascience-labs/BI_project/commit/34a6d3c451a5a4cf87c54a17370c041c507d0755
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-  - date: 2024-03-04 04:45:37.000000000 Z
-    message: Create 기존서비스와의 차별성.md
-    url: https://github.com/datascience-labs/BI_project/commit/0777b1a3e33aeb5655b907c7dec970db31e4f250
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-  - date: 2024-03-04 04:37:49.000000000 Z
-    message: Create AMI구성.md
-    url: https://github.com/datascience-labs/BI_project/commit/1f75e9694469b163f404d0a5ecad4157987523d7
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-- repo: datascience-labs/FDIA_with_TCN
-  title: FDIA_with_TCN
-  owner: datascience-labs
-  description:
-  url: "/projects/FDIA_with_TCN/"
-  contributors:
-  - login: y00ns
-    avatar: https://avatars.githubusercontent.com/u/104632673?v=4&s=50
-    url: https://github.com/y00ns
-  commits:
-  - date: 2024-03-04 03:33:59.000000000 Z
-    message: Add files via upload
-    url: https://github.com/datascience-labs/FDIA_with_TCN/commit/58e199a1d97063fb756fe5fe8371ed8552222c49
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-  - date: 2024-03-04 03:33:32.000000000 Z
-    message: Delete FDIA_DETECT_with_TCN.ipynb
-    url: https://github.com/datascience-labs/FDIA_with_TCN/commit/3ab7b3154469a289cc7e5634c460c7061dbe1d59
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-  - date: 2024-03-04 03:27:23.000000000 Z
-    message: Add files via upload
-    url: https://github.com/datascience-labs/FDIA_with_TCN/commit/01cbf72dfa1476cf32e14d920f92f82556f888c6
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-  - date: 2024-03-04 03:25:27.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/FDIA_with_TCN/commit/678860c4586ec266964b533adf0d3fa3fff54ff7
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-  - date: 2024-03-04 03:17:18.000000000 Z
-    message: Initial commit
-    url: https://github.com/datascience-labs/FDIA_with_TCN/commit/be98abb90ad311211f0a6cedf8e709cc64b0c854
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-- repo: datascience-labs/Balance_Up
-  title: Balance_Up
-  owner: datascience-labs
-  description: Employment information recommendation based on Life Balance
-  url: "/projects/Balance_Up/"
-  contributors:
-  - login: FarmingWon
-    avatar: https://avatars.githubusercontent.com/u/98411696?v=4&s=50
-    url: https://github.com/FarmingWon
-  - login: jmango61
-    avatar: https://avatars.githubusercontent.com/u/100738522?v=4&s=50
-    url: https://github.com/jmango61
-  commits:
-  - date: 2023-11-26 07:05:11.000000000 Z
-    message: Update 밸런스_업.py
-    url: https://github.com/datascience-labs/Balance_Up/commit/864a5b9d34094f787ea652619dfde68742931ed4
-    author_login: FarmingWon
-    author_url: https://github.com/FarmingWon
-  - date: 2023-11-13 09:20:51.000000000 Z
-    message: add eval code
-    url: https://github.com/datascience-labs/Balance_Up/commit/8347b76d48d94324f9788d072346c131ddcb09bc
-    author_login: FarmingWon
-    author_url: https://github.com/FarmingWon
-  - date: 2023-11-12 06:20:06.000000000 Z
-    message: add document frequency
-    url: https://github.com/datascience-labs/Balance_Up/commit/4afa5c241b71686d5f45618ef04679589fb2c675
-    author_login: FarmingWon
-    author_url: https://github.com/FarmingWon
-  - date: 2023-11-11 05:52:10.000000000 Z
-    message: add skills
-    url: https://github.com/datascience-labs/Balance_Up/commit/a4fcf860417e4aebbaba908843dcc7c7bafad912
-    author_login: FarmingWon
-    author_url: https://github.com/FarmingWon
-  - date: 2023-11-11 05:50:33.000000000 Z
-    message: Delete skills/counts
-    url: https://github.com/datascience-labs/Balance_Up/commit/80c486a80c49b137732a8474bf12de1005bda774
-    author_login: FarmingWon
-    author_url: https://github.com/FarmingWon
 - repo: datascience-labs/debs2022gc
   title: debs2022gc
   owner: datascience-labs
