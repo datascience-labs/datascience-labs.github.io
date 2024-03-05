@@ -1,14 +1,14 @@
 [submodule "projects/Data_Analytics_for_Age_friendly_busan"]
     path = projects/Data_Analytics_for_Age_friendly_busan
-    url = https://github.com/jhparkland/Data_Analytics_for_Age_friendly_busan.git
+    url = https://github.com/datascience-labs/Data_Analytics_for_Age_friendly_busan.git
 
 [submodule "projects/debs2022gc"]
     path = projects/debs2022gc
-    url = https://github.com/developsu/debs2022gc.git
+    url = https://github.com/datascience-labs/debs2022gc.git
 
 [submodule "projects/Green-Car-Charging-Station-Site-Selection"]
     path = projects/Green-Car-Charging-Station-Site-Selection
-    url = https://github.com/jhparkland/Green-Car-Charging-Station-Site-Selection.git
+    url = https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection.git
 
 [submodule "projects/conrec"]
     path = projects/conrec
@@ -16,22 +16,20 @@
 
 [submodule "projects/BI_project"]
     path = projects/BI_project
-    url = https://github.com/y00ns/Balance_Up
+    url = https://github.com/datascience-labs/BI_project.git
 
 [submodule "projects/FDIA_with_TCN"]
     path = projects/FDIA_with_TCN
-    url = https://github.com/y00ns/FDIA_with_TCN
+    url = https://github.com/datascience-labs/FDIA_with_TCN.git
 
 [submodule "projects/COCL"]
     path = projects/COCL
-    url = https://github.com/datascience_labs/COCL
+    url = https://github.com/datascience-labs/COCL.git
 
 [submodule "projects/Carbon-friendly"]
     path = projects/Carbon-friendly
-    url = https://github.com/jhparkland/Carbon-friendly
+    url = https://github.com/datascience-labs/Carbon-friendly.git
 
 [submodule "projects/Balance_Up"]
     path = projects/Balance_Up
-    url = https://github.com/FarmingWon/Balance_Up
-
-    
+    url = https://github.com/datascience-labs/Balance_Up.git
