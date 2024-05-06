@@ -2,8 +2,7 @@
 layout: paper
 ptype: domjour
 group: knowevo
-title: 분산에너지 가상발전소의 정산금 향상을 위한 오차율
-평가 기반 최대 이익 시계열 클러스터링 기법
+title: 분산에너지 가상발전소의 정산금 향상을 위한 오차율 평가 기반 최대 이익 시계열 클러스터링 기법
 authors: Subin Cho, Yeonghun Jeong, Seongryeong Jo, Jeongil Seo, Sejin Chun
 year: 2024
 ref: Journal of Korea Multimedia Society
