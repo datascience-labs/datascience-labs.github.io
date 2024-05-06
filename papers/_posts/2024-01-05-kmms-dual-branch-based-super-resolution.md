@@ -2,9 +2,10 @@
 layout: paper
 ptype: intjour
 group: knowevo
-title: "Dual Branch based Super Resolution Method for the Quality Enhancement of Facial Areas"
+title: 얼굴 영역 화질향상을 위한 Dual Branch 기반 초해상화 방법
 authors: Donggeon Jo, Geunyeong Kwon, Yooho Lee, Kugjin Yun, Won-Sik Cheong, Dongsan Jun, Sejin Chun
 year: 2024
+doi: 10.9717/kmms.2023.26.12.1526
 ref: Journal of Korea Multimedia Society
 journal: Journal of Korea Multimedia Society
 ---
@@ -15,7 +16,7 @@ Because high-quality facial images have an effect on face detection and recognit
 <h4><span class="badge badge-info">Highlights</span></h4>
 
 <div class="alert alert-warning" role="alert">
-   얼굴 영역 화질향상을 위한 Dual Branch 기반 초해상화 방법
+   Dual Branch based Super Resolution Method for the Quality Enhancement of Facial Areas
 </div>
 
 <!-- <h4><span class="badge badge-info">Accepted</span></h4> -->
