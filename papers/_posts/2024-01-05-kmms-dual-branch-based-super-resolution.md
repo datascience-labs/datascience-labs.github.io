@@ -1,6 +1,6 @@
 ---
 layout: paper
-ptype: intjour
+ptype: domjour
 group: knowevo
 title: 얼굴 영역 화질향상을 위한 Dual Branch 기반 초해상화 방법
 authors: Donggeon Jo, Geunyeong Kwon, Yooho Lee, Kugjin Yun, Won-Sik Cheong, Dongsan Jun, Sejin Chun
