@@ -8,6 +8,7 @@ year: 2023
 ref: RACS 2023
 journal: "Proceedings of the 2023 International Conference on Research in Adaptive and Convergent Systems"
 doi: 10.1145/3599957.3606245
+keywords: Geographical Influence, Point of Interest, Area Characteristics, Location-based Social Network
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>
