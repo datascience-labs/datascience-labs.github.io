@@ -7,6 +7,7 @@ authors: Muyeon Jo, Sungbeom Lee, Sejin Chun, Jungkyu Han
 year: 2023
 ref: 한국스마트미디어학회 종합학술대회 2023.
 journal: "한국스마트미디어학회 2023년 종합학술대회"
+keywords: Smart city, Digital Twin
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

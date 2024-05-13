@@ -7,6 +7,7 @@ authors: Jiseon Kim, Gun-han Kim, Jeong-soo Kim, Sejin Chun, Jungkyu Han
 year: 2022
 ref: 한국멀티미디어학회 추계학술발표대회 2022
 journal: "2022년 한국멀티미디어학회 추계학술발표대회"
+keywords: Potential analysis, Location analysis, Renewable energy
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

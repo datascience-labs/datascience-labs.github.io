@@ -8,6 +8,7 @@ year: 2022
 image: /images/papers/kmms2022-spring-open-gis-afc.png
 ref: 한국멀티미디어학회 춘계학술발표대회 2022
 journal: "2022년 한국멀티미디어학회 춘계학술발표대회"
+keywords: GIS, urban networks, age-friendly cities framework
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>
