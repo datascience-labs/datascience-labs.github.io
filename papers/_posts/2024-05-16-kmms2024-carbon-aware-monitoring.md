@@ -20,3 +20,6 @@ keywords: Carbon-aware, geo-distributed cloud computing, deep learning, monitori
     <figcaption>개발된 탄소발자국 모니터링 대시보드의 메인화면</figcaption>
 </figure>
 
+<div class="alert alert-warning" role="alert">
+   Monitoring Carbon Footprints ofDeep Learning Workloads in the Clouds
+</div>
