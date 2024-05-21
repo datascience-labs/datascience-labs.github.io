@@ -8,6 +8,7 @@ year: 2024
 doi: 10.9717/kmms.2023.26.12.1526
 ref: Journal of Korea Multimedia Society
 journal: Journal of Korea Multimedia Society
+feature: KCI;
 keywords: Image Enhancement, Super Resolution, Convolutional Neural Network, Face Detection
 ---
 

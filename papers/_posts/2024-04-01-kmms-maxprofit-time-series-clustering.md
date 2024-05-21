@@ -8,6 +8,7 @@ year: 2024
 ref: Journal of Korea Multimedia Society
 doi: https://doi.org/10.9717/kmms.2024.27.4.473
 journal: Journal of Korea Multimedia Society
+feature: KCI;
 keywords: Renewable Energy, NMAE, Time Series, Clustering
 ---
 
