@@ -20,9 +20,9 @@ keywords: trust-based, virtual power plant, optimization
     <figcaption>신뢰도 기반 최적화모델 프레임워크</figcaption>
 </figure>
 
-<!-- <div class="alert alert-primary" role="alert">
-    본 논문은 <strong>2022년 한국멀티미디어학회 추계학술발표대회 우수논문상</strong> 수상하였습니다
-</div> -->
+<div class="alert alert-primary" role="alert">
+    본 논문은 <strong>2024년 한국멀티미디어학회 춘계학술발표대회 우수논문상</strong> 수상하였습니다
+</div>
 
 
 <div class="alert alert-warning" role="alert">
