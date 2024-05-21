@@ -48,9 +48,12 @@ categories:
         <div class="smallhead mb-1"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
         <p class="note"><strong>{{ paper.ref }}</strong></p>
         {% if paper.feature %}
-            {% assign features = paper.feature | split: '; ' %}
+            {% assign features = paper.feature | split: ';' %}
             {% for feature in features %}
-                <span class="badge badge-primary"><strong>{{ feature }}</strong></span>
+                {% assign trimmed_feature = feature | strip %}
+                {% if trimmed_feature != "" %}
+                    <span class="badge badge-primary"><strong>{{ trimmed_feature }}</strong></span>
+                {% endif %}
             {% endfor %}
         {% endif %}
       </div>
