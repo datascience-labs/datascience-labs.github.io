@@ -8,6 +8,7 @@ year: 2021
 ref: IEEE Access
 journal: IEEE Access, 7, 86226-86241.
 doi: 10.1109/ACCESS.2019.2923414
+feature: SCIE;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

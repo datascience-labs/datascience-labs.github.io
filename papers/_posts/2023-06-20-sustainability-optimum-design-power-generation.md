@@ -8,6 +8,7 @@ year: 2023
 ref: Sustainability 
 journal: "Sustainability"
 doi: 10.3390/su15139931
+feature: SCIE;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

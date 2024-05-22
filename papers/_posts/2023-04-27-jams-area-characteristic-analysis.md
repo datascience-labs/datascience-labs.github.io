@@ -9,6 +9,7 @@ ref: 한국스마트미디어학회 종합학술대회 2023.
 journal: "한국스마트미디어학회 2023년 종합학술대회"
 image: /images/papers/jams-area-characteristic-analysis.png
 keywords: Geographical Influence, Point of Interest, Area Characteristics, Location-based Social Network
+feature: RESEARCH;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

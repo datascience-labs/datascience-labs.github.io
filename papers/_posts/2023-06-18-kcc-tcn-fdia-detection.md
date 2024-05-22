@@ -7,6 +7,7 @@ authors: Haebin Lee, Subin Yun, Jungkyu Han, Sejin Chun
 year: 2023
 ref: 2023 한국컴퓨터종합학술대회 
 journal: "2023 한국컴퓨터종합학술대회"
+feature: RESEARCH;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

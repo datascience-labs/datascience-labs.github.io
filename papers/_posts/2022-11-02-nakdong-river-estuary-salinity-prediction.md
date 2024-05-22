@@ -8,6 +8,7 @@ year: 2022
 ref: 스마트미디어저널 2022
 doi: 10.30693/SMJ.2022.11.2.31
 journal: "2022, vol.11, no.2, [특별호] 스마트미디어를 위한 인공지능, 빅데이터 pp. 31-38"
+feature: KCI;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

@@ -10,6 +10,7 @@ journal: "한국멀티미디어학회"
 image: /images/papers/kmms-speekg-knowledge-graph-based-semantic-speech-translation.png
 github: https://github.com/BonhyeonGu/Reasoning_over_Knowledge_Component_Streams
 keywords: Online Education Resources, Knowledge Graphs, Online Lecture Courses Recommendation
+feature: RESEARCH;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

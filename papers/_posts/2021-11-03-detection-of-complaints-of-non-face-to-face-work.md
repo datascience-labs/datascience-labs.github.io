@@ -7,6 +7,7 @@ authors: 이선민, 천세진, 박상언, 이태욱, 김우주
 year: 2021
 ref: 정보시스템연구 2021.
 journal: "정보시스템연구, 2021, vol.30, no.4, pp. 277-301"
+feature: RESEARCH;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

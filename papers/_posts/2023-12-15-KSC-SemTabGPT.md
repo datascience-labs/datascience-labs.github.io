@@ -7,6 +7,7 @@ authors: Jeongsu Kim, Jungkyu Han, Sejin Chun
 year: 2023
 ref: 한국소프트웨어 종합학술대회 2023
 journal: "2023 한국소프트웨어종합학술대회"
+feature: RESEARCH;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

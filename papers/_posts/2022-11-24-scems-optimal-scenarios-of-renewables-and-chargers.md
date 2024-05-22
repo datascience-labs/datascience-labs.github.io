@@ -8,6 +8,7 @@ year: 2022
 ref: SCEMS 2022
 doi: 10.1109/SCEMS56272.2022.9990819
 journal: "2022 IEEE 5th Student Conference on Electric Machines and Systems (SCEMS)"
+feature: RESEARCH;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

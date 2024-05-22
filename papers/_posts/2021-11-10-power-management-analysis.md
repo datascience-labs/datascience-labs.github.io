@@ -7,6 +7,7 @@ authors: 이지훈, 최문봉, 박경용, 천세진, 박혜리
 year: 2021
 ref: 조명-전기설비학회 추계학술발표대회 2021.
 journal: "2021년 조명-전기설비학회 추계학술발표대회"
+feature: RESEARCH;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

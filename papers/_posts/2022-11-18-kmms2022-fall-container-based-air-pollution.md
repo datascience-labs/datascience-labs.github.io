@@ -7,6 +7,7 @@ authors: Suyeon Wang, Wonah Kim, Jungkyu Han, Sejin Chun
 year: 2022
 ref: 한국멀티미디어학회 추계학술발표대회 2022
 journal: "2022년 한국멀티미디어학회 추계학술발표대회"
+feature: RESEARCH;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

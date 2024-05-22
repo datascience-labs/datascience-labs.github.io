@@ -10,6 +10,7 @@ ref: ACM DEBS 2022
 journal: "DEBS '22: Proceedings of the 16th ACM International Conference on Distributed and Event-Based SystemsJune 2022 Pages 171–175"
 doi: 10.1145/3524860.3539652
 keyword: Stream management, Information systems, Database management system engines
+feature: RESEARCH;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

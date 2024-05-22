@@ -10,6 +10,7 @@ journal: "Proceedings of the 2023 International Conference on Research in Adapti
 image: /images/papers/RACS-Geographic-Area-Analysis.png
 doi: 10.1145/3599957.3606245
 keywords: Geographical Influence, Point of Interest, Area Characteristics, Location-based Social Network
+feature: RESEARCH;
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>
