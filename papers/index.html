@@ -46,7 +46,16 @@ categories:
     <div class="media">
       <div class="media-body">
         <div class="smallhead mb-1"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-        <p class="note"><strong>{{ paper.ref }}</strong></p>
+        <p class="note" style="margin-bottom: 0;"><strong>{{ paper.ref }}</strong></p>
+        {% if paper.feature %}
+            {% assign features = paper.feature | split: ';' %}
+            {% for feature in features %}
+                {% assign trimmed_feature = feature | strip %}
+                {% if trimmed_feature != "" %}
+                    <span class="badge badge-primary"><strong>{{ trimmed_feature }}</strong></span>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
       </div>
       <a href="{{ paper.url }}">
         <img class="ml-3" width=100 class="media-object" src="{{ paper.image }}">
