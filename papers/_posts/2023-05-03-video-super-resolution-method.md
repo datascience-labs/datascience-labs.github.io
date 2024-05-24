@@ -8,6 +8,7 @@ year: 2023
 ref: 멀티미디어학회지 2023
 doi: 10.9717/kmms.2023.26.5.650
 journal: "한국멀티미디어학회"
+feature: KMMs;Neural Network;KCI;Research
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

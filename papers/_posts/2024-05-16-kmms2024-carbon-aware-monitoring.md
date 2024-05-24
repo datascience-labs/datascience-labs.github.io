@@ -2,13 +2,14 @@
 layout: paper
 ptype: domconf
 group: knowevo
-title: "클라우드 내 딥러닝 워크로드의탄소발자국 모니터링"
+title: "클라우드 내 딥러닝 워크로드의 탄소발자국 모니터링"
 authors: Jiseon Kim, Jeonghyeon Park, Jungkyu Han, Sejin Chun
 year: 2024
 image: /images/papers/kmms2024-spring-carbon-monitoring-dash-board.png
 ref: 한국멀티미디어학회 춘계학술발표대회 2024.
 journal: "2024년 한국멀티미디어학회 춘계학술발표대회"
 keywords: Carbon-aware, geo-distributed cloud computing, deep learning, monitoring
+feature: KMMS;Carbon-aware Computing;CONF;Poster
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

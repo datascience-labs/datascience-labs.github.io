@@ -9,6 +9,7 @@ ref: 한국소프트웨어 종합학술대회 2023.
 journal: "2023 한국소프트웨어종합학술대회"
 image: /images/papers/ksc-skill-based-embedding-jobmatching.png
 keywords: job recommendation, job matching, skill embedding, Large Language Model 
+feature: KSC;Recommendation;CONF;Poster
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

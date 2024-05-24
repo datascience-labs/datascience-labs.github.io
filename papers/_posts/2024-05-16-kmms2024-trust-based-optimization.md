@@ -9,6 +9,7 @@ image: /images/papers/kmms2024-spring-Trust-based-VPP.png
 ref: 한국멀티미디어학회 춘계학술발표대회 2024.
 journal: "2024년 한국멀티미디어학회 춘계학술발표대회"
 keywords: trust-based, virtual power plant, optimization
+feature: KMMS;Time Series Data;CONF;Poster
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

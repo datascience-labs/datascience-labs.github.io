@@ -28,6 +28,10 @@ categories:
  			 	<div class="media-body">
     				<div class="head mb-1"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
     				<p class="note">{{ member.position }}</p>
+					{% assign interests_array = member.interests | split: ", " %}
+					{% for interests in interests_array %} 
+					<span class="badge badge-info">{{ interests }}</span>
+					{% endfor %}
   				</div>
 			</div>
 			<div class="bigspacer"></div>

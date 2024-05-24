@@ -2,6 +2,7 @@
 layout: member
 title: Jeonghyeon Park
 position: Master student
+interests: Carbon-Aware Computing, Cloud Computing
 github: jhparkland
 kname : 박정현
 cv: https://drive.google.com/file/d/14VI9OhzAJYLae7lU0BUt_Mf3jRk1QH12/view?usp=drive_link, JeonghyeonPark CV

@@ -10,6 +10,7 @@ image: /images/papers/RecSys-CONREC-Continuous-Recommendation-of-Online-Learning
 journal: "Knowledge-aware and Conversational Recommender Systems (KaRS) Workshop@ RecSys. 2023."
 github: https://github.com/datascience-labs/conrec
 keywords: Concept maps, Knowledge graph, Learning video recommendation
+feature: KARS@RecSys;Knowledge Graph;CONF;Workshop
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

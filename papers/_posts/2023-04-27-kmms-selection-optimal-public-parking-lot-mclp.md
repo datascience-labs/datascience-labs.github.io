@@ -7,6 +7,7 @@ authors: Haebin Lee, Dahye Kim, Gwiyeon Nam, Yuji Jung, Jungkyu Han, Yougjin Par
 year: 2023
 ref: 멀티미디어학회지 2023
 journal: "한국멀티미디어학회"
+feature: NRF Top Tier;CLOUD;19.2%;Cloud Computing;CONF;Research
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

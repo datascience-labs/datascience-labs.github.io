@@ -8,6 +8,8 @@ year: 2023
 ref: Sustainability 
 journal: "Sustainability"
 doi: 10.3390/su15139931
+keywords: electric vehicle, electric vehicle charging station, renewable power generation, carbon emission, economical analysis, HOMER
+feature: Sustainability;Renewable Power Generation;SCIE;Research
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

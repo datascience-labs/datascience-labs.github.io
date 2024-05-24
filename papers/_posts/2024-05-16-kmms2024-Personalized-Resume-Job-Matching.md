@@ -9,6 +9,7 @@ image: /images/papers/kmms2024-spring-personalized-job-matching-framework.png
 ref: 한국멀티미디어학회 춘계학술발표대회 2024.
 journal: "2024년 한국멀티미디어학회 춘계학술발표대회"
 keywords: graph-based embeddings, job matching
+feature: KMMS;Graph Embedding;CONF;Poster
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

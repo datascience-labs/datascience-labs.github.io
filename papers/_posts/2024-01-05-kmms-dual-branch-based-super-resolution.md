@@ -10,6 +10,7 @@ ref: Journal of Korea Multimedia Society
 journal: Journal of Korea Multimedia Society
 feature: KCI;
 keywords: Image Enhancement, Super Resolution, Convolutional Neural Network, Face Detection
+feature: KMMS;Neural Network;KCI;Research
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>
