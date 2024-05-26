@@ -7,6 +7,7 @@ authors: Suyeon Wang, Wonah Kim, Jungkyu Han, Sejin Chun
 year: 2023
 ref: 멀티미디어학회지 2023
 doi: 10.9717/kmms.2023.26.3.478
+feature: KCI;
 journal: "한국멀티미디어학회"
 ---
 

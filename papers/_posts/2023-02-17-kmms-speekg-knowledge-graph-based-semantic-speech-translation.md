@@ -8,7 +8,7 @@ year: 2023
 ref: 멀티미디어학회지 2023
 journal: "한국멀티미디어학회"
 image: /images/papers/kmms-speekg-knowledge-graph-based-semantic-speech-translation.png
-github: https://github.com/BonhyeonGu/Reasoning_over_Knowledge_Component_Streams
+# github: https://github.com/BonhyeonGu/Reasoning_over_Knowledge_Component_Streams
 keywords: Online Education Resources, Knowledge Graphs, Online Lecture Courses Recommendation
 ---
 

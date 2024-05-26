@@ -7,6 +7,7 @@ authors: Sejin Chun, Jooik Jung, Kyong-Ho Lee
 year: 2021
 ref: IEEE Access
 journal: IEEE Access, 7, 86226-86241.
+feature: SCIE;
 doi: 10.1109/ACCESS.2019.2923414
 ---
 

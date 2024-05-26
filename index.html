@@ -149,7 +149,7 @@ categories:
 		<div class="card-header text-white bg-secondary">Featured project</div>
 		<div class="card-body">
 			<a class="card-title" href="{{ project.url }}">{{ project.title  }}</a>
-			<p class="card-text">{{  project.description }}</p>
+			<p class="card-text">{{  project.description | truncate: 150 }}</p>
 		</div>
 		<div class="card-footer">
 			Updated

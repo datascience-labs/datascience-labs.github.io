@@ -6,6 +6,7 @@ title: 동적 토픽 모델링과 감성 분석을 이용한 COVID-19 구간별 
 authors: 이선민, 천세진, 박상언, 이태욱, 김우주
 year: 2021
 ref: 정보시스템연구 2021.
+feature: KCI;
 journal: "정보시스템연구, 2021, vol.30, no.4, pp. 277-301"
 ---
 

@@ -6,6 +6,7 @@ title: "공공데이터 기반 공영주차장 최적입지 선정을 위한 최
 authors: Haebin Lee, Dahye Kim, Gwiyeon Nam, Yuji Jung, Jungkyu Han, Yougjin Park
 year: 2023
 ref: 멀티미디어학회지 2023
+feature: KCI;
 journal: "한국멀티미디어학회"
 ---
 
