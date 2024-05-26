@@ -112,6 +112,9 @@ categories:
 	{% for paper in site.categories.papers limit:4 %}
 	<div class="card">
 		<div class="card-header text-white bg-primary">Newly published</div>
+		<div class="card-img-top">
+			<div align="center"><img src="{{ paper.venue }}"></div>
+		</div>
 		<div class="card-body">
 			<a class="card-title" href="{{ paper.url }}">{{ paper.title }}</a>
 			<p class="card-text">{{ paper.ref }}</p>
