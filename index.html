@@ -111,13 +111,7 @@ categories:
 <div class="card-deck">
 	{% for paper in site.categories.papers limit:4 %}
 	<div class="card">
-		<div class="card-header text-white bg-primary">
-			{% if paper.feature contains 'Accepted' %}
-				Paper accepted
-			{% else %}
-				Newly published
-			{% endif %}
-		</div>
+		<div class="card-header text-white bg-primary">Newly published</div>
 		<div class="card-body">
 			{% if paper.venue %}
 				<img class="card-img-top" src="{{ paper.venue }}"></img>
