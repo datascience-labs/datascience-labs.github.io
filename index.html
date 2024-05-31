@@ -20,7 +20,7 @@ categories:
 	<div class="col-lg-12">
 		<div class="smallhead">
       <p>
-		The Data Science Lab at <a class="off" href="http://www.donga.ac.kr/">Dong-A University</a> aims to incorporate a knowledge graph into recommender systems. Our goal is to discover potential paths between users and items by exploring dynamic interlinks within an evolving knowledge graph. We apply various recommendation, analytics, and reasoning techniques to real-time processing of data streams and (quasi-)static datasets in areas such as air quality monitoring, smart energy monitoring, location intelligence, retail tech, massive online open courses, and more.
+		The Data Science Lab at <a class="off" href="http://www.donga.ac.kr/">Dong-A University</a> aims to incorporate a knowledge graph into recommender systems. Our goal is to discover potential paths between users and items by exploring dynamic interlinks within an evolving knowledge graph. We apply various recommendation, analytics, and reasoning techniques to real-time processing of data streams and (quasi-)static datasets in areas such as air quality monitoring, smart energy monitoring, location intelligence, retail tech, carbon-aware-computing, massive online open courses, and more.
       </p>
 		</div>
 	</div>
@@ -111,8 +111,17 @@ categories:
 <div class="card-deck">
 	{% for paper in site.categories.papers limit:4 %}
 	<div class="card">
-		<div class="card-header text-white bg-primary">Newly published</div>
+		<div class="card-header text-white bg-primary">
+			{% if paper.feature contains 'Accepted' %}
+				Paper accepted
+			{% else %}
+				Newly published
+			{% endif %}
+		</div>
 		<div class="card-body">
+			{% if paper.venue %}
+				<img class="card-img-top" src="{{ paper.venue }}"></img>
+			{% endif %}
 			<a class="card-title" href="{{ paper.url }}">{{ paper.title }}</a>
 			<p class="card-text">{{ paper.ref }}</p>
 		</div>
@@ -140,7 +149,7 @@ categories:
 		<div class="card-header text-white bg-secondary">Featured project</div>
 		<div class="card-body">
 			<a class="card-title" href="{{ project.url }}">{{ project.title  }}</a>
-			<p class="card-text">{{  project.description }}</p>
+			<p class="card-text">{{  project.description | truncate: 150 }}</p>
 		</div>
 		<div class="card-footer">
 			Updated

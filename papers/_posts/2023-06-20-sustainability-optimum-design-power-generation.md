@@ -7,6 +7,7 @@ authors: Jieun Ihm, Bilal Amghar, Sejin Chun, Herie Park
 year: 2023
 ref: Sustainability 
 journal: "Sustainability"
+feature: SCIE;
 doi: 10.3390/su15139931
 ---
 

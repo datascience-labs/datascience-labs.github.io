@@ -7,6 +7,7 @@ authors: Dongho Lee, Yooho Lee, Sejin Chun, Dongsan Jun
 year: 2023
 ref: 멀티미디어학회지 2023
 doi: 10.9717/kmms.2023.26.5.650
+feature: KCI;
 journal: "한국멀티미디어학회"
 ---
 
