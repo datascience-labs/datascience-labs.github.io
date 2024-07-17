@@ -18,11 +18,6 @@
     url = https://github.com/datascience-labs/conrec.git
     branch = main
 
-[submodule "projects/BI_project"]
-    path = projects/BI_project
-    url = https://github.com/datascience-labs/BI_project.git
-    branch = main
-
 [submodule "projects/FDIA_with_TCN"]
     path = projects/FDIA_with_TCN
     url = https://github.com/datascience-labs/FDIA_with_TCN.git
