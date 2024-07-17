@@ -10,11 +10,10 @@
 	<link rel="alternate" type="application/rss+xml" title="Data science lab" href="https://www.datasciencelabs.org/feed.xml">
 
   <!-- Customized Bootstrap + Font Awesome + Solarized -->
-  <link href="/css/style.css" rel="stylesheet" media="screen">
+    <link href="/css/style.css" rel="stylesheet" media="screen">
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="/images/favicon.png"/>
-
 	<!-- Typekit -->
 	<script>
 	  (function(d) {
@@ -43,7 +42,6 @@
 
 	<!-- Bootstrap -->
 	<script src="/js/bootstrap.min.js"></script>
-
 </head>
 
 <body>
@@ -90,6 +88,9 @@
 
 	<div class="row">
 	<div class="col-lg-12">
+		
+
+		<img width=85 class="float-left pad-right d-block d-sm-none" src="/images/papers/RACS-Geographic-Area-Analysis.png">
 		
 		<div class="titlebox">
 			<div class="title">
@@ -146,6 +147,11 @@
 		<div class="post">
 			<h4><span class="badge badge-info">Abstract</span></h4>
 <p>Location-Based1 Social Networks (LBSNs) are social networking services that allow users to share the Points of Interest (POIs) they have visited. The data from LBSNs are used for personalized place recommendations and the analysis of user mobility. In this study, we propose a method to analyze LBSN data from two perspectives: the functionalities provided by different areas in a city and the mobility of users visiting those areas. Specifically, we employ the Variational Auto Encoder (VAE) to embed the distribution of user visits over POI categories and the distribution of user visits over areas for each area. We then use these embeddings to analyze the similarity of areas. The analysis reveals that user visits are concentrated in relatively nearby areas, while areas with similar functionalities are distributed widely across the entire city. Furthermore, we found that user visits have a stronger influence than the visited categories in determining the characteristics of areas.</p>
+
+<figure>
+    <img class="pull-left pad-right media-object d-none d-sm-block" src="/images/papers/RACS-Geographic-Area-Analysis.png" />
+    <figcaption>The proposed model</figcaption>
+</figure>
 
 <div class="alert alert-warning" role="alert">
    Geographic Area Analysis by Using VAE based Area Embeddings on LBSN data
