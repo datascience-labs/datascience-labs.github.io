@@ -1,4 +1,69 @@
 ---
+- repo: datascience-labs/COCL
+  title: COCL
+  owner: datascience-labs
+  description: A undergraduate project on managing carbon emissions on campus.
+  url: "/projects/COCL/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  - login: Jossubin
+    avatar: https://avatars.githubusercontent.com/u/126739106?v=4&s=50
+    url: https://github.com/Jossubin
+  - login: dhfgoeofh
+    avatar: https://avatars.githubusercontent.com/u/80153046?v=4&s=50
+    url: https://github.com/dhfgoeofh
+  - login: Squ1rre1
+    avatar: https://avatars.githubusercontent.com/u/35986175?v=4&s=50
+    url: https://github.com/Squ1rre1
+  - login: DongUk-Park
+    avatar: https://avatars.githubusercontent.com/u/56333631?v=4&s=50
+    url: https://github.com/DongUk-Park
+  - login: FarmingWon
+    avatar: https://avatars.githubusercontent.com/u/98411696?v=4&s=50
+    url: https://github.com/FarmingWon
+  - login: Prcnsi
+    avatar: https://avatars.githubusercontent.com/u/86015194?v=4&s=50
+    url: https://github.com/Prcnsi
+  - login: RYEONGRYEONG
+    avatar: https://avatars.githubusercontent.com/u/126739223?v=4&s=50
+    url: https://github.com/RYEONGRYEONG
+  - login: chunsejin
+    avatar: https://avatars.githubusercontent.com/u/2449416?v=4&s=50
+    url: https://github.com/chunsejin
+  - login: klavna
+    avatar: https://avatars.githubusercontent.com/u/100742454?v=4&s=50
+    url: https://github.com/klavna
+  commits:
+  - date: 2024-07-17 03:15:46.000000000 Z
+    message: Update .gitmodules
+    url: https://github.com/datascience-labs/COCL/commit/c6fc526fcfa47c168616c50d500e4cbd54fae314
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-07-17 02:07:45.000000000 Z
+    message: Update .gitmodules
+    url: https://github.com/datascience-labs/COCL/commit/c9a271939fc9c4493789dde20fd4d4bb09125a0c
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-07-17 02:06:35.000000000 Z
+    message: submoduels
+    url: https://github.com/datascience-labs/COCL/commit/f753af7828113db9cd5f49cd75963d36407ba20b
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-03-04 12:07:28.000000000 Z
+    message: asd
+    url: https://github.com/datascience-labs/COCL/commit/58828c1ca377531252e5c28962835d6b43070aad
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-12-08 12:07:55.000000000 Z
+    message: |-
+      Merge pull request #69 from RYEONGRYEONG/patch-6
+
+      Update background information and purpose.md
+    url: https://github.com/datascience-labs/COCL/commit/ea0822380f7388335dbaaaa29fc319888ea7c4a7
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
 - repo: datascience-labs/FDIA_with_TCN
   title: FDIA_with_TCN
   owner: datascience-labs
@@ -75,50 +140,6 @@
     url: https://github.com/datascience-labs/BI_project/commit/0777b1a3e33aeb5655b907c7dec970db31e4f250
     author_login: y00ns
     author_url: https://github.com/y00ns
-- repo: datascience-labs/Carbon-friendly
-  title: Carbon-friendly
-  owner: datascience-labs
-  description: About The process involves measuring the carbon emissions generated
-    from deep learning training. If a server's training process produces high carbon
-    emissions, we transfer the workload to servers with lower carbon emissions. Ultimately,
-    this method aims to achieve a carbon net-zero state.
-  url: "/projects/Carbon-friendly/"
-  contributors:
-  - login: jhparkland
-    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
-    url: https://github.com/jhparkland
-  - login: dhfgoeofh
-    avatar: https://avatars.githubusercontent.com/u/80153046?v=4&s=50
-    url: https://github.com/dhfgoeofh
-  - login: izgnok
-    avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
-    url: https://github.com/izgnok
-  commits:
-  - date: 2024-03-05 00:23:23.000000000 Z
-    message: test
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/51444fad6648e5ce55ec602abe72a89a7aa3f8ae
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 12:13:26.000000000 Z
-    message: add
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/7c69bd545d6f61633496e60314c668e658482f88
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 11:43:17.000000000 Z
-    message: s
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/0bc22be21df12d08abd0bdb5b9424097a280a8fe
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 02:41:06.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/5488cb7ccee0ed6c6341562eb865141963035e15
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 02:37:03.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/09302f024b1b9ed5c92fd75baf1e402ea50eaa25
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
 - repo: datascience-labs/Balance_Up
   title: Balance_Up
   owner: datascience-labs
@@ -131,6 +152,9 @@
   - login: jmango61
     avatar: https://avatars.githubusercontent.com/u/100738522?v=4&s=50
     url: https://github.com/jmango61
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
   commits:
   - date: 2024-03-05 00:23:23.000000000 Z
     message: test
@@ -157,78 +181,48 @@
     url: https://github.com/datascience-labs/Balance_Up/commit/a4fcf860417e4aebbaba908843dcc7c7bafad912
     author_login: FarmingWon
     author_url: https://github.com/FarmingWon
-- repo: datascience-labs/COCL
-  title: COCL
+- repo: datascience-labs/Carbon-friendly
+  title: Carbon-friendly
   owner: datascience-labs
-  description:
-  url: "/projects/COCL/"
+  description: About The process involves measuring the carbon emissions generated
+    from deep learning training. If a server's training process produces high carbon
+    emissions, we transfer the workload to servers with lower carbon emissions. Ultimately,
+    this method aims to achieve a carbon net-zero state.
+  url: "/projects/Carbon-friendly/"
   contributors:
   - login: jhparkland
     avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
     url: https://github.com/jhparkland
-  - login: Jossubin
-    avatar: https://avatars.githubusercontent.com/u/126739106?v=4&s=50
-    url: https://github.com/Jossubin
   - login: dhfgoeofh
     avatar: https://avatars.githubusercontent.com/u/80153046?v=4&s=50
     url: https://github.com/dhfgoeofh
-  - login: Squ1rre1
-    avatar: https://avatars.githubusercontent.com/u/35986175?v=4&s=50
-    url: https://github.com/Squ1rre1
-  - login: DongUk-Park
-    avatar: https://avatars.githubusercontent.com/u/56333631?v=4&s=50
-    url: https://github.com/DongUk-Park
-  - login: FarmingWon
-    avatar: https://avatars.githubusercontent.com/u/98411696?v=4&s=50
-    url: https://github.com/FarmingWon
-  - login: Prcnsi
-    avatar: https://avatars.githubusercontent.com/u/86015194?v=4&s=50
-    url: https://github.com/Prcnsi
-  - login: RYEONGRYEONG
-    avatar: https://avatars.githubusercontent.com/u/126739223?v=4&s=50
-    url: https://github.com/RYEONGRYEONG
-  - login: chunsejin
-    avatar: https://avatars.githubusercontent.com/u/2449416?v=4&s=50
-    url: https://github.com/chunsejin
-  - login: klavna
-    avatar: https://avatars.githubusercontent.com/u/100742454?v=4&s=50
-    url: https://github.com/klavna
+  - login: izgnok
+    avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
+    url: https://github.com/izgnok
   commits:
-  - date: 2024-03-04 12:07:28.000000000 Z
-    message: asd
-    url: https://github.com/datascience-labs/COCL/commit/58828c1ca377531252e5c28962835d6b43070aad
+  - date: 2024-03-04 12:24:33.000000000 Z
+    message: test
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/5d83cfff289c1b45304418219ff5b3f002435343
     author_login: jhparkland
     author_url: https://github.com/jhparkland
-  - date: 2023-12-08 12:07:55.000000000 Z
-    message: |-
-      Merge pull request #69 from RYEONGRYEONG/patch-6
-
-      Update background information and purpose.md
-    url: https://github.com/datascience-labs/COCL/commit/ea0822380f7388335dbaaaa29fc319888ea7c4a7
+  - date: 2024-03-04 12:13:26.000000000 Z
+    message: add
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/7c69bd545d6f61633496e60314c668e658482f88
     author_login: jhparkland
     author_url: https://github.com/jhparkland
-  - date: 2023-12-08 12:07:46.000000000 Z
-    message: |-
-      Merge pull request #68 from Jossubin/main
-
-      change .gitignore
-    url: https://github.com/datascience-labs/COCL/commit/4c12b085b2140ac359e24f2c7cc7a22f945f7bee
+  - date: 2024-03-04 11:43:17.000000000 Z
+    message: s
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/0bc22be21df12d08abd0bdb5b9424097a280a8fe
     author_login: jhparkland
     author_url: https://github.com/jhparkland
-  - date: 2023-12-08 12:07:36.000000000 Z
-    message: |-
-      Merge pull request #67 from FarmingWon/main
-
-      relatedworks
-    url: https://github.com/datascience-labs/COCL/commit/21db004fc63836c1336a3a1064475eea92e463cc
+  - date: 2024-03-04 02:41:06.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/5488cb7ccee0ed6c6341562eb865141963035e15
     author_login: jhparkland
     author_url: https://github.com/jhparkland
-  - date: 2023-12-08 12:07:25.000000000 Z
-    message: |-
-      Merge pull request #66 from DongUk-Park/main
-
-      Delete related_work directory
-    url: https://github.com/datascience-labs/COCL/commit/f2098e4a863150fb46c3ccd86f7153c20e5f07eb
+  - date: 2024-03-04 02:37:03.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/09302f024b1b9ed5c92fd75baf1e402ea50eaa25
     author_login: jhparkland
     author_url: https://github.com/jhparkland
 - repo: datascience-labs/conrec
@@ -389,7 +383,7 @@
 - repo: datascience-labs/debs2022gc
   title: debs2022gc
   owner: datascience-labs
-  description:
+  description: The project on DEBS 2022 grand challenge.
   url: "/projects/debs2022gc/"
   contributors:
   - login: chunsejin
