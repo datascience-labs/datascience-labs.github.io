@@ -13,11 +13,6 @@
     url = https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection.git
     branch = main
 
-[submodule "projects/conrec"]
-    path = projects/conrec
-    url = https://github.com/datascience-labs/conrec.git
-    branch = main
-
 [submodule "projects/FDIA_with_TCN"]
     path = projects/FDIA_with_TCN
     url = https://github.com/datascience-labs/FDIA_with_TCN.git

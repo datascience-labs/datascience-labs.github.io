@@ -1,4 +1,90 @@
 ---
+- repo: datascience-labs/Green-Car-Charging-Station-Site-Selection
+  title: Green-Car-Charging-Station-Site-Selection
+  owner: datascience-labs
+  description: A Study on the Location Analysis of Green Car Charging Station Using
+    Bayesian Network
+  url: "/projects/Green-Car-Charging-Station-Site-Selection/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  - login: jyc4324
+    avatar: https://avatars.githubusercontent.com/u/101799316?v=4&s=50
+    url: https://github.com/jyc4324
+  commits:
+  - date: 2024-07-17 04:53:55.000000000 Z
+    message: update
+    url: https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection/commit/f06c8ec34ad56f25a4d5c88d4c5f38c831d42c25
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-03-04 11:41:40.000000000 Z
+    message: add
+    url: https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection/commit/c79a100cd5acceafb6b619aab183d96ecb1a51c0
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-10-03 12:51:18.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection/commit/218cc1f9e931cc48f07ca64575e04c5021a4a770
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-10-03 12:47:31.000000000 Z
+    message: |-
+      Merge pull request #18 from jhparkland/jhparkland-patch-1
+
+      Create README.md
+    url: https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection/commit/be4fff7f4fe749f26b6b2989dbe66f6f7ba3afb8
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2023-10-03 12:47:22.000000000 Z
+    message: Create README.md
+    url: https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection/commit/ac46bf3f7c41105389cb7ce2ae23c3d2705db72e
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+- repo: datascience-labs/Carbon-friendly
+  title: Carbon-friendly
+  owner: datascience-labs
+  description: About The process involves measuring the carbon emissions generated
+    from deep learning training. If a server's training process produces high carbon
+    emissions, we transfer the workload to servers with lower carbon emissions. Ultimately,
+    this method aims to achieve a carbon net-zero state.
+  url: "/projects/Carbon-friendly/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  - login: dhfgoeofh
+    avatar: https://avatars.githubusercontent.com/u/80153046?v=4&s=50
+    url: https://github.com/dhfgoeofh
+  - login: izgnok
+    avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
+    url: https://github.com/izgnok
+  commits:
+  - date: 2024-07-17 04:46:40.000000000 Z
+    message: update
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/cfac6eaa08fe7cdce5ff9714a7f430d7ce00f047
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-03-04 12:24:33.000000000 Z
+    message: test
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/5d83cfff289c1b45304418219ff5b3f002435343
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-03-04 12:13:26.000000000 Z
+    message: add
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/7c69bd545d6f61633496e60314c668e658482f88
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-03-04 11:43:17.000000000 Z
+    message: s
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/0bc22be21df12d08abd0bdb5b9424097a280a8fe
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-03-04 02:41:06.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/5488cb7ccee0ed6c6341562eb865141963035e15
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
 - repo: datascience-labs/COCL
   title: COCL
   owner: datascience-labs
@@ -36,6 +122,21 @@
     avatar: https://avatars.githubusercontent.com/u/100742454?v=4&s=50
     url: https://github.com/klavna
   commits:
+  - date: 2024-07-17 04:43:54.000000000 Z
+    message: update
+    url: https://github.com/datascience-labs/COCL/commit/2448f8b6f3dc69dd1fdec3b4abb29cb1e4fe41e9
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-07-17 04:26:13.000000000 Z
+    message: update
+    url: https://github.com/datascience-labs/COCL/commit/9dcc0d34b4553821c2301f1b8a74729227bfce25
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-07-17 04:15:09.000000000 Z
+    message: Update .gitmodules
+    url: https://github.com/datascience-labs/COCL/commit/04f24e6c3a204c88665eba68be64928d6aa17c68
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
   - date: 2024-07-17 03:15:46.000000000 Z
     message: Update .gitmodules
     url: https://github.com/datascience-labs/COCL/commit/c6fc526fcfa47c168616c50d500e4cbd54fae314
@@ -44,24 +145,6 @@
   - date: 2024-07-17 02:07:45.000000000 Z
     message: Update .gitmodules
     url: https://github.com/datascience-labs/COCL/commit/c9a271939fc9c4493789dde20fd4d4bb09125a0c
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-07-17 02:06:35.000000000 Z
-    message: submoduels
-    url: https://github.com/datascience-labs/COCL/commit/f753af7828113db9cd5f49cd75963d36407ba20b
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 12:07:28.000000000 Z
-    message: asd
-    url: https://github.com/datascience-labs/COCL/commit/58828c1ca377531252e5c28962835d6b43070aad
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2023-12-08 12:07:55.000000000 Z
-    message: |-
-      Merge pull request #69 from RYEONGRYEONG/patch-6
-
-      Update background information and purpose.md
-    url: https://github.com/datascience-labs/COCL/commit/ea0822380f7388335dbaaaa29fc319888ea7c4a7
     author_login: jhparkland
     author_url: https://github.com/jhparkland
 - repo: datascience-labs/FDIA_with_TCN
@@ -100,44 +183,6 @@
   - date: 2024-03-04 03:25:27.000000000 Z
     message: Update README.md
     url: https://github.com/datascience-labs/FDIA_with_TCN/commit/678860c4586ec266964b533adf0d3fa3fff54ff7
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-- repo: datascience-labs/BI_project
-  title: BI_project
-  owner: datascience-labs
-  description:
-  url: "/projects/BI_project/"
-  contributors:
-  - login: y00ns
-    avatar: https://avatars.githubusercontent.com/u/104632673?v=4&s=50
-    url: https://github.com/y00ns
-  - login: jhparkland
-    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
-    url: https://github.com/jhparkland
-  commits:
-  - date: 2024-03-05 00:23:43.000000000 Z
-    message: test
-    url: https://github.com/datascience-labs/BI_project/commit/2b432d98da29a1a4741c505697ebd392e145652a
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 04:59:01.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/BI_project/commit/13d8cffb17360a68c2ac854a20c7faee9ffea105
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-  - date: 2024-03-04 04:56:03.000000000 Z
-    message: Create 시장분석.md
-    url: https://github.com/datascience-labs/BI_project/commit/1e7ad139ad7c5258cd372393253f19d9451170f3
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-  - date: 2024-03-04 04:48:25.000000000 Z
-    message: Create 기존에 사용되던 이상데이터 탐지 방법.md
-    url: https://github.com/datascience-labs/BI_project/commit/34a6d3c451a5a4cf87c54a17370c041c507d0755
-    author_login: y00ns
-    author_url: https://github.com/y00ns
-  - date: 2024-03-04 04:45:37.000000000 Z
-    message: Create 기존서비스와의 차별성.md
-    url: https://github.com/datascience-labs/BI_project/commit/0777b1a3e33aeb5655b907c7dec970db31e4f250
     author_login: y00ns
     author_url: https://github.com/y00ns
 - repo: datascience-labs/Balance_Up
@@ -181,143 +226,6 @@
     url: https://github.com/datascience-labs/Balance_Up/commit/a4fcf860417e4aebbaba908843dcc7c7bafad912
     author_login: FarmingWon
     author_url: https://github.com/FarmingWon
-- repo: datascience-labs/Carbon-friendly
-  title: Carbon-friendly
-  owner: datascience-labs
-  description: About The process involves measuring the carbon emissions generated
-    from deep learning training. If a server's training process produces high carbon
-    emissions, we transfer the workload to servers with lower carbon emissions. Ultimately,
-    this method aims to achieve a carbon net-zero state.
-  url: "/projects/Carbon-friendly/"
-  contributors:
-  - login: jhparkland
-    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
-    url: https://github.com/jhparkland
-  - login: dhfgoeofh
-    avatar: https://avatars.githubusercontent.com/u/80153046?v=4&s=50
-    url: https://github.com/dhfgoeofh
-  - login: izgnok
-    avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
-    url: https://github.com/izgnok
-  commits:
-  - date: 2024-03-04 12:24:33.000000000 Z
-    message: test
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/5d83cfff289c1b45304418219ff5b3f002435343
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 12:13:26.000000000 Z
-    message: add
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/7c69bd545d6f61633496e60314c668e658482f88
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 11:43:17.000000000 Z
-    message: s
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/0bc22be21df12d08abd0bdb5b9424097a280a8fe
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 02:41:06.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/5488cb7ccee0ed6c6341562eb865141963035e15
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 02:37:03.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/09302f024b1b9ed5c92fd75baf1e402ea50eaa25
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-- repo: datascience-labs/conrec
-  title: conrec
-  owner: datascience-labs
-  description: Continuous Recommendation of Online Learning Videos Based on Concept
-    Maps
-  url: "/projects/conrec/"
-  contributors:
-  - login: chunsejin
-    avatar: https://avatars.githubusercontent.com/u/2449416?v=4&s=50
-    url: https://github.com/chunsejin
-  - login: Squ1rre1
-    avatar: https://avatars.githubusercontent.com/u/35986175?v=4&s=50
-    url: https://github.com/Squ1rre1
-  - login: choibumku00
-    avatar: https://avatars.githubusercontent.com/u/101037541?v=4&s=50
-    url: https://github.com/choibumku00
-  - login: jhparkland
-    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
-    url: https://github.com/jhparkland
-  commits:
-  - date: 2024-03-04 12:07:07.000000000 Z
-    message: sdasd
-    url: https://github.com/datascience-labs/conrec/commit/35dd09cb8f757b992e83981dccbf45f1a531c084
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2023-09-13 00:03:41.000000000 Z
-    message: |-
-      Merge pull request #2 from choibumku00/main
-
-      pull request
-    url: https://github.com/datascience-labs/conrec/commit/6d00234dae75eb76476ed3aca6638cb43ff03098
-    author_login: chunsejin
-    author_url: https://github.com/chunsejin
-  - date: 2023-09-04 08:42:29.000000000 Z
-    message: Update readme.md
-    url: https://github.com/datascience-labs/conrec/commit/5fe3ec90d61a46e5a198e7f711a3bb3688d97b4d
-    author_login: choibumku00
-    author_url: https://github.com/choibumku00
-  - date: 2023-08-16 00:30:48.000000000 Z
-    message: |-
-      Merge pull request #1 from Squ1rre1/main
-
-      app.py modularize
-    url: https://github.com/datascience-labs/conrec/commit/9a5cdb780947c6b90012f49fe7b9a4bd2636e608
-    author_login: chunsejin
-    author_url: https://github.com/chunsejin
-  - date: 2023-08-15 22:58:21.000000000 Z
-    message: app.py modularize
-    url: https://github.com/datascience-labs/conrec/commit/ed1fc399bc954caf3dbbae4ac72203737383f5a8
-    author_login: Squ1rre1
-    author_url: https://github.com/Squ1rre1
-- repo: datascience-labs/Green-Car-Charging-Station-Site-Selection
-  title: Green-Car-Charging-Station-Site-Selection
-  owner: datascience-labs
-  description: A Study on the Location Analysis of Green Car Charging Station Using
-    Bayesian Network
-  url: "/projects/Green-Car-Charging-Station-Site-Selection/"
-  contributors:
-  - login: jhparkland
-    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
-    url: https://github.com/jhparkland
-  - login: jyc4324
-    avatar: https://avatars.githubusercontent.com/u/101799316?v=4&s=50
-    url: https://github.com/jyc4324
-  commits:
-  - date: 2024-03-04 11:41:40.000000000 Z
-    message: add
-    url: https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection/commit/c79a100cd5acceafb6b619aab183d96ecb1a51c0
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2023-10-03 12:51:18.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection/commit/218cc1f9e931cc48f07ca64575e04c5021a4a770
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2023-10-03 12:47:31.000000000 Z
-    message: |-
-      Merge pull request #18 from jhparkland/jhparkland-patch-1
-
-      Create README.md
-    url: https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection/commit/be4fff7f4fe749f26b6b2989dbe66f6f7ba3afb8
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2023-10-03 12:47:22.000000000 Z
-    message: Create README.md
-    url: https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection/commit/ac46bf3f7c41105389cb7ce2ae23c3d2705db72e
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2023-03-03 10:50:59.000000000 Z
-    message: add
-    url: https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection/commit/d98bbf72b236e6f74118df0ac900e3227f76a51b
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
 - repo: datascience-labs/Data_Analytics_for_Age_friendly_busan
   title: Data_Analytics_for_Age_friendly_busan
   owner: datascience-labs
