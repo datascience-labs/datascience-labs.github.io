@@ -1,4 +1,48 @@
 ---
+- repo: datascience-labs/Carbon-friendly
+  title: Carbon-friendly
+  owner: datascience-labs
+  description: About The process involves measuring the carbon emissions generated
+    from deep learning training. If a server's training process produces high carbon
+    emissions, we transfer the workload to servers with lower carbon emissions. Ultimately,
+    this method aims to achieve a carbon net-zero state.
+  url: "/projects/Carbon-friendly/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  - login: dhfgoeofh
+    avatar: https://avatars.githubusercontent.com/u/80153046?v=4&s=50
+    url: https://github.com/dhfgoeofh
+  - login: izgnok
+    avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
+    url: https://github.com/izgnok
+  commits:
+  - date: 2024-07-17 05:20:03.000000000 Z
+    message: Update index.md
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/a773ef4efb67a36f984efe146b57b2d6a8e4e6c7
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-07-17 05:19:52.000000000 Z
+    message: Delete GPU.png
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/a660764688383ed4788dc3f7dd392ffedcff3021
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-07-17 05:17:56.000000000 Z
+    message: Update index.md
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/9210423d343a7eff5c4d2bbcb0ea3eb1d8d6c77d
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-07-17 05:14:01.000000000 Z
+    message: Add files via upload
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/bc65acec0bc0bee1c6c5d9f078c7c2daef87f71a
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-07-17 04:46:40.000000000 Z
+    message: update
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/cfac6eaa08fe7cdce5ff9714a7f430d7ce00f047
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
 - repo: datascience-labs/Green-Car-Charging-Station-Site-Selection
   title: Green-Car-Charging-Station-Site-Selection
   owner: datascience-labs
@@ -39,50 +83,6 @@
   - date: 2023-10-03 12:47:22.000000000 Z
     message: Create README.md
     url: https://github.com/datascience-labs/Green-Car-Charging-Station-Site-Selection/commit/ac46bf3f7c41105389cb7ce2ae23c3d2705db72e
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-- repo: datascience-labs/Carbon-friendly
-  title: Carbon-friendly
-  owner: datascience-labs
-  description: About The process involves measuring the carbon emissions generated
-    from deep learning training. If a server's training process produces high carbon
-    emissions, we transfer the workload to servers with lower carbon emissions. Ultimately,
-    this method aims to achieve a carbon net-zero state.
-  url: "/projects/Carbon-friendly/"
-  contributors:
-  - login: jhparkland
-    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
-    url: https://github.com/jhparkland
-  - login: dhfgoeofh
-    avatar: https://avatars.githubusercontent.com/u/80153046?v=4&s=50
-    url: https://github.com/dhfgoeofh
-  - login: izgnok
-    avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
-    url: https://github.com/izgnok
-  commits:
-  - date: 2024-07-17 04:46:40.000000000 Z
-    message: update
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/cfac6eaa08fe7cdce5ff9714a7f430d7ce00f047
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 12:24:33.000000000 Z
-    message: test
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/5d83cfff289c1b45304418219ff5b3f002435343
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 12:13:26.000000000 Z
-    message: add
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/7c69bd545d6f61633496e60314c668e658482f88
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 11:43:17.000000000 Z
-    message: s
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/0bc22be21df12d08abd0bdb5b9424097a280a8fe
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-03-04 02:41:06.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/5488cb7ccee0ed6c6341562eb865141963035e15
     author_login: jhparkland
     author_url: https://github.com/jhparkland
 - repo: datascience-labs/COCL
