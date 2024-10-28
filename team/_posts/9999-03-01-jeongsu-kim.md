@@ -17,6 +17,8 @@ I have joined the Department of Computer Engineering·Artificial Intelligence at
 
 The main research of interest are big data processing design and natural language analysis, and in my spare time, I enjoy traveling around various worlds while reading novels. Currently, I am conducting research because I am interested in developing efficient LLM use using natural language and knowledge graphs.
 
+Master's thesis: Knowledge Graph-Empowered Annotation of Web Tables using Large Language Model
+_석사학위논문: 초거대 언어모델을 사용한 지식그래프기반 웹 테이블 어노테이션 프레임워크_
 
 
 <div class="head">Research interests</div>
