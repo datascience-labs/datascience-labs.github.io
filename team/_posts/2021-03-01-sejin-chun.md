@@ -8,7 +8,7 @@ github: chunsejin
 scholar: Q0dsps8AAAAJ
 linkedin: sejin-chun-8744a783
 image: /images/team/sjchun.jpg
-cv: https://drive.google.com/file/d/17pMfX44ItmkB0x3QKipAQU0W--fwBSWo/view?usp=drive_link
+cv: https://drive.google.com/file/d/17pMfX44ItmkB0x3QKipAQU0W--fwBSWo/view?usp=drive_link, Sejin Chun CV
 email: sjchun@dau.ac.kr
 ---
 
