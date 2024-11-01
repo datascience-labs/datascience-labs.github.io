@@ -3,7 +3,6 @@ layout: misc
 title: Acheivement
 ---
 
-## Acheivement
 **Data science laboratory** has built an impressive history since 2021, marked by outstanding research contributions, achievements, and notable awards.
 
 ### Awards

@@ -176,15 +176,14 @@ categories:
 	<div class="col-lg-12 reduced-gutter">
 		<div class="pad-left">
 			<ul class="list-inline">
-				{% assign ordered_titles = "about,research,join,achievement,contact" | split: "," %}
-				{% for title in ordered_titles %}
-					{% assign page = site.categories.misc | where: "title", title | first %}
-					{% if page %}
-						<li class="footernav list-inline-item">
-							<i class="fa fa-angle-right"></i> <a class="off" href="{{ page.url }}">{{ page.title }}</a>
-						</li>
-					{% endif %}
+				{% for page in site.categories.misc %}
+				<li class="footernav list-inline-item">
+					<i class="fa fa-angle-right"></i> <a class="off" href="{{ page.url }}">{{ page.title }}</a>
+				</li>
 				{% endfor %}
+<!--				<li class="footernav list-inline-item">-->
+<!--					<i class="fa fa-angle-right"></i> <a class="off" href="/talks/">Talks</a>-->
+<!--				</li>-->
 			</ul>
 		</div>
 		<div class="spacer"></div>
