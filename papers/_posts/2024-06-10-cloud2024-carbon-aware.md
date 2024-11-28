@@ -19,5 +19,9 @@ Recently, many deep learning models have been trained in geographically distribu
 <h4><span class="badge badge-info">Highlights</span></h4>
 <figure>
     <img class="pull-left pad-right media-object d-none d-sm-block" src="{{ page.image }}">
-    <figcaption>CAFTM method</figcaption>
+    <figcaption>The proposed framework</figcaption>
 </figure>
+
+<div class="alert alert-primary" role="alert">
+    Acceptance Rate: 19.4%
+</div>
