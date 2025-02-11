@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Jiseong Na
+title: Jiseok Song
 position: Undergraduate
 kname : 송지석
 github : pnzx
