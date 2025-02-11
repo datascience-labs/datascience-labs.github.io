@@ -4,7 +4,7 @@ title: Wonseok Son
 position: Master Student
 github: FarmingWon
 kname : 손원석
-image: /images/team/wsson.png
+image: /images/team/wsson.jpg
 cv: https://drive.google.com/file/d/1CITpX-3gbtX7fzKB0EZpPoCwxdCNwG1C/view?usp=drive_link , WonseokSon CV
 email: thsdnjstjr1@gmail.com
 ---
