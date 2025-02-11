@@ -2,7 +2,7 @@
 layout: member
 title: Jeongsu Kim
 kname: 김정수
-position: Phd student
+position: PhD Student
 github: jeongsu-int
 cv: /pdfs/team/jeongsu-kim-cv.pdf
 image: /images/team/jeongsu-kim.jpg
