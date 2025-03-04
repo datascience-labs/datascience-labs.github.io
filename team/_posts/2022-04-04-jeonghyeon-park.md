@@ -8,7 +8,7 @@ scholar: fhlWqOYAAAAJ
 linkedin: jeonghyeon-park
 cv: https://drive.google.com/file/d/14VI9OhzAJYLae7lU0BUt_Mf3jRk1QH12/view?usp=drive_link, JeonghyeonPark CV
 image: /images/team/jeonghyeon-park.jpg
-email: pwjdgus1017@donga.ac.kr
+email: jeonghyeon.park@datasciencelabs.org
 ---
 
 
