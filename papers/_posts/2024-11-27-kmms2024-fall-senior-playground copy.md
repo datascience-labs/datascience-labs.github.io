@@ -6,7 +6,7 @@ title: "공공 데이터 및 GIS를 활용한 부산시 어르신 놀이터 최�
 authors: Yeongeun Oh, Jeonghyeon Park, Jae-Kyeong Kim, Wonah Kim, Jungkyu Han, Sejin Chun
 year: 2024
 ref: 한국멀티미디어학회 추계학술발표대회 2024.
-journal: "2024 한국멀미디어학회 추계학술발표대회"
+journal: "2024 한국멀티미디어학회 추계학술발표대회"
 keywords: Senior Playgrounds, GIS, Urban Graph
 ---
 
