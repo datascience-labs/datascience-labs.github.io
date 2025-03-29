@@ -2,8 +2,7 @@
 layout: paper
 ptype: domconf
 group: knowevo
-title: 거대언어모델 기반 Conflict-Free Replicated Data Type을 사용하여
-분산 테이블의 의미적 어노테이션 일관성 보장
+title: "거대언어모델 기반 Conflict-Free Replicated Data Type을 사용하여 분산 테이블의 의미적 어노테이션 일관성 보장"
 authors: Wonseok Son, Sejin Chun, Jungkyu Han
 year: 2025
 ref: 한국통신학회 동계종합학술발표회 2025.
