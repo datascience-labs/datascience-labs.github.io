@@ -18,6 +18,7 @@
 #      - url: https://github.com/trvrb/coaltrace/commit/ebb95806f989d8fd6ecbf6aa8308647298dd21ad
 
 require 'octokit'
+require 'dotenv/load'
 require 'yaml'
 require 'netrc'
 
