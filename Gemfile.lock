@@ -82,6 +82,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.8.0)
     uri (1.0.2)
+    wdm (0.2.0)
     webrick (1.9.0)
 
 PLATFORMS
@@ -96,6 +97,7 @@ DEPENDENCIES
   jekyll-twitter-plugin
   netrc
   octokit
+  wdm (>= 0.1.0)
   webrick
 
 BUNDLED WITH

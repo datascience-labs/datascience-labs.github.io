@@ -1,11 +1,41 @@
 ---
+- repo: datascience-labs/anomali-flow
+  title: anomali-flow
+  owner: datascience-labs
+  description:
+  url: "/projects/anomali-flow/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  - login: chunsejin
+    avatar: https://avatars.githubusercontent.com/u/2449416?v=4&s=50
+    url: https://github.com/chunsejin
+  commits:
+  - date: 2025-03-31 01:29:15.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/anomali-flow/commit/82234b054e7696427d5fdb3edac8e6f1094c7fe7
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2025-03-31 01:28:12.000000000 Z
+    message: Add files via upload
+    url: https://github.com/datascience-labs/anomali-flow/commit/75aae82e1c6e366a9552b265fadb4cbc354ea01f
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2025-03-30 16:05:50.000000000 Z
+    message: init
+    url: https://github.com/datascience-labs/anomali-flow/commit/6c7a845982e63c8e6375ec8d9b7f3588f225932f
+    author_login: chunsejin
+    author_url: https://github.com/chunsejin
+  - date: 2025-03-30 12:07:39.000000000 Z
+    message: Initial commit
+    url: https://github.com/datascience-labs/anomali-flow/commit/4634fb20361a7b071352b03e914d378ca57682fc
+    author_login: chunsejin
+    author_url: https://github.com/chunsejin
 - repo: datascience-labs/Carbon-friendly
   title: Carbon-friendly
   owner: datascience-labs
-  description: About The process involves measuring the carbon emissions generated
-    from deep learning training. If a server's training process produces high carbon
-    emissions, we transfer the workload to servers with lower carbon emissions. Ultimately,
-    this method aims to achieve a carbon net-zero state.
+  description: IEEE CLOUD 2024
   url: "/projects/Carbon-friendly/"
   contributors:
   - login: jhparkland
@@ -18,6 +48,11 @@
     avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
     url: https://github.com/izgnok
   commits:
+  - date: 2025-03-23 11:15:21.000000000 Z
+    message: Update index.md
+    url: https://github.com/datascience-labs/Carbon-friendly/commit/f6987bd95121ea767dd70c41b67c6a52996dda19
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
   - date: 2024-07-17 05:20:03.000000000 Z
     message: Update index.md
     url: https://github.com/datascience-labs/Carbon-friendly/commit/a773ef4efb67a36f984efe146b57b2d6a8e4e6c7
@@ -36,11 +71,6 @@
   - date: 2024-07-17 05:14:01.000000000 Z
     message: Add files via upload
     url: https://github.com/datascience-labs/Carbon-friendly/commit/bc65acec0bc0bee1c6c5d9f078c7c2daef87f71a
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-07-17 04:46:40.000000000 Z
-    message: update
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/cfac6eaa08fe7cdce5ff9714a7f430d7ce00f047
     author_login: jhparkland
     author_url: https://github.com/jhparkland
 - repo: datascience-labs/Green-Car-Charging-Station-Site-Selection
@@ -194,9 +224,9 @@
   - login: FarmingWon
     avatar: https://avatars.githubusercontent.com/u/98411696?v=4&s=50
     url: https://github.com/FarmingWon
-  - login: jmango61
+  - login: sunyoonk
     avatar: https://avatars.githubusercontent.com/u/100738522?v=4&s=50
-    url: https://github.com/jmango61
+    url: https://github.com/sunyoonk
   - login: jhparkland
     avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
     url: https://github.com/jhparkland
@@ -241,9 +271,9 @@
   - login: Kim-qjaJ
     avatar: https://avatars.githubusercontent.com/u/100742437?v=4&s=50
     url: https://github.com/Kim-qjaJ
-  - login: k69121
+  - login: beopgi
     avatar: https://avatars.githubusercontent.com/u/90255741?v=4&s=50
-    url: https://github.com/k69121
+    url: https://github.com/beopgi
   - login: pear-c
     avatar: https://avatars.githubusercontent.com/u/100738513?v=4&s=50
     url: https://github.com/pear-c
