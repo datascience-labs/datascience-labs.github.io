@@ -32,3 +32,8 @@
     path = projects/Balance_Up
     url = https://github.com/datascience-labs/Balance_Up.git
     branch = main
+
+[submodule "anomali-flow"]
+	path = anomali-flow
+	url = https://github.com/datascience-labs/anomali-flow.git
+    branch = main
