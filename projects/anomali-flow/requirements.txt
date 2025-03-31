@@ -1,0 +1,12 @@
+numpy==1.23.1
+fastapi
+uvicorn
+pydantic
+streamlit
+celery
+pymongo
+redis
+scikit-learn
+tensorly
+bokeh==2.4.3
+prefect

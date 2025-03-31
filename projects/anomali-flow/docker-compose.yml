@@ -1,0 +1,80 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    networks:
+      - mynetwork
+  
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - mynetwork
+
+  celery_worker:
+    build: .
+    command: celery -A worker worker --loglevel=info
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+      - mongo
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=mongodb://mongo:27017/celery_results
+    networks:
+      - mynetwork
+
+  fastapi:
+    build: .
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+      - mongo
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=mongodb://mongo:27017/celery_results
+    ports:
+      - "8000:8000"
+    networks:
+      - mynetwork
+
+  streamlit:
+    build: .
+    command: streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    depends_on:
+      - fastapi
+    networks:
+      - mynetwork
+  
+  orion:
+    image: prefecthq/prefect:2.11.5-python3.11
+    #   restart: always
+    volumes:
+      - .:/prefect
+    entrypoint: ["prefect", "orion", "start"]
+    environment:
+      - PREFECT_ORION_API_HOST=0.0.0.0
+    ports:
+      - 4200:4200
+
+volumes:
+  mongo-data:
+  prefect:
+
+networks:
+  mynetwork:
+    driver: bridge
