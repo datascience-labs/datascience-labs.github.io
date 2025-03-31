@@ -34,6 +34,6 @@
     branch = main
 
 [submodule "anomali-flow"]
-	path = anomali-flow
+	path = projects/anomali-flow
 	url = https://github.com/datascience-labs/anomali-flow.git
     branch = main
