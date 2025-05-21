@@ -5,6 +5,14 @@ categories:
  - team
 ---
 
+<!-- 프로필 이미지 크기 지정 -->
+<style> 
+    .profile-img {
+        width: 160px !important;
+        height: 210px !important;
+    }
+</style>
+
 <div class="row">
 	<div class="col-lg-12">
 		<div class="title">
@@ -22,7 +30,7 @@ categories:
 			<div class="media">
 				{% if member.image %}
 					<a class="float-left" href="{{ member.url }}">
-						<img width=160 class="mr-3" src="{{ member.image }}">
+						<img class="mr-3 profile-img" src="{{ member.image }}">
 					</a>
 				{% endif %}
  			 	<div class="media-body">

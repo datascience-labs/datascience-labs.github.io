@@ -6,6 +6,7 @@ github: JaeKyeong-Kim
 kname : 김재경
 cv: https://drive.google.com/file/d/1vZU2yGvU7jp_xO3VhZNjNznInPCEUs0q/view?usp=drive_link, Jaekyeong Kim CV
 email: jkkimds64@gmail.com
+image: /images/team/김재경_프로필.png
 ---
 
 
