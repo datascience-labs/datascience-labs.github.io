@@ -14,4 +14,4 @@ I joined the Department of Computer Engineering at [Dong-A University](https://w
 
 
 <div class="head">Research interests</div>
-<span class="badge badge-info">digital twin</span><br/><span class="badge badge-success">Stream Processing</span>
+<span class="badge badge-info">digital twin</span><span class="badge badge-danger">Stream Processing</span>
