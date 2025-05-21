@@ -1,6 +1,6 @@
 ---
 layout: member
-title: geonhan Kim
+title: Geonhan Kim
 position: Undergraduate
 kname : 김건한
 github: gokimkh123
