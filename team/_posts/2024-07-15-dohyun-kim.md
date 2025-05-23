@@ -9,5 +9,4 @@ email: jgb08191@gmail.com
 image: /images/team/김도현_프로필.png
 ---
 
-I entered the AI Department at [Dong-A University](https://english.donga.ac.kr/sites/english/index.do) in March 2022. It has been active since November 2023. [Data Science Lab](https://www.datasciencelabs.org/) is focusing on research on location selection methodology using data mining and graph networks.
-
+I joined the Department of Mathematics & Department of Computer Engineering at [Dong-A University](https://english.donga.ac.kr/sites/english/index.do) in March 2020. From July 2024, I started working at [Data science Lab](https://www.datasciencelabs.org/).
