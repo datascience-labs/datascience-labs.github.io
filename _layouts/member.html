@@ -130,9 +130,9 @@ layout: default
 		{% assign searchkname = member.kname %}
 
 		{% for paper in site.categories.papers %}
-		{% if paper.authors contains searchstring %}
-		{% assign papersq = true %}
-		{% endif %}
+			{% if paper.kauthors contains searchkname %}
+				{% assign papersq = true %}
+			{% endif %}
 		{% endfor %}
 
 		{% if papersq == true %}
