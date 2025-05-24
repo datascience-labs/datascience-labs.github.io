@@ -8,6 +8,7 @@ year: 2021
 ref: 멀티미디어학회논문지 2021.
 feature: KCI;
 journal: "멀티미디어학회논문지, 2021, vol.24, no.12, pp. 1673-1681"
+categories: papers
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

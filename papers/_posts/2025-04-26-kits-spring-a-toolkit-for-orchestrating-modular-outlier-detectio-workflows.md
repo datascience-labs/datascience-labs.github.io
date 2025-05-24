@@ -4,11 +4,12 @@ ptype: domconf
 group: knowevo
 title: "모듈화된 이상 탐지 워크플로우의 조합을 위한 도구"
 authors: ["김원아", "유가은", "이도현", "이예원", "박채영", "최지호", "박정현", "천세진"]
+kauthors: ["김원아", "유가은", "이도현", "이예원", "박채영", "최지호", "박정현", "천세진"]
 year: 2025
 ref: The Korean Society of Intelligent Transport Systems
 journal: "The Korean Society of Intelligent Transport Systems"
 keywords: Outlier Detection, Anomaly Detection, Workflow Orchestration, Toolkits
-categories: [papers]
+categories: papers
 ---
 
 <h4><span class="badge badge-info">Main Contribution</span></h4>

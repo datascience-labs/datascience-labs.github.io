@@ -3,12 +3,14 @@ layout: paper
 ptype: domjour
 group: knowevo
 title: "POI 추천을 위한 지리 적응형 어텐션 모델"
-authors: Moyeon Jo, Sejin Chun, Jungkyu Han  
+authors: Muyeon Jo, Sejin Chun, Jungkyu Han  
+kauthors: ["조무연", "천세진", "한정규"]
 year: 2025
 feature: KCI;
 ref: Journal of Korean Institute of Information Scientists and Engineers
 journal: "Journal of Korean Institute of Information Scientists and Engineers"
 keywords: location based social network, POI recommender system, geographical influence, attention network
+categories: papers
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

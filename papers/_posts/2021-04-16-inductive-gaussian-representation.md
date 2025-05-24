@@ -9,6 +9,7 @@ ref: Expert Systems With Applications
 journal: Expert Systems with Applications, Vol 178, 114912"
 feature: SCIE;
 doi: https://doi.org/10.1016/j.eswa.2021.114912
+categories: papers
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

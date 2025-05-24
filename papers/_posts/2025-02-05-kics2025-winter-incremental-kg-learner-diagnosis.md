@@ -4,9 +4,11 @@ ptype: domconf
 group: knowevo
 title: "온라인 강의로부터 학습자 상태 진단 위한 증분적 지식 그래프 시스템"
 authors: 임가겸,천세진,한정규
+kauthors: ["임가겸", "천세진", "한정규"]
 year: 2025
 ref: 한국통신학회 동계종합학술발표회 2025.
 journal: "2025 한국통신학회 동계종합학술발표회"
+categories: papers
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

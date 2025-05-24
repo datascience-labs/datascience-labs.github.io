@@ -4,9 +4,11 @@ ptype: domconf
 group: knowevo
 title: "디지털 트윈 행정의 상호운영을 향상하기 위한 시맨틱 모델"
 authors: Yewon Lee, Jungkyu Han, Sejin Chun
+kauthors: ["이예원", "한정규", "천세진"]
 year: 2025
 ref: 한국통신학회 동계종합학술발표회 2025.
 journal: "2025 한국통신학회 동계종합학술발표회"
+categories: papers
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

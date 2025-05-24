@@ -8,6 +8,7 @@ year: 2021
 ref: 정보시스템연구 2021.
 feature: KCI;
 journal: "정보시스템연구, 2021, vol.30, no.4, pp. 277-301"
+categories: papers
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

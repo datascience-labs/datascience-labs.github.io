@@ -4,9 +4,11 @@ ptype: domconf
 group: knowevo
 title: "거대언어모델 기반 Conflict-Free Replicated Data Type을 사용하여 분산 테이블의 의미적 어노테이션 일관성 보장"
 authors: Wonseok Son, Sejin Chun, Jungkyu Han
+kauthors: ["손원석", "천세진", "한정규"]
 year: 2025
 ref: 한국통신학회 동계종합학술발표회 2025.
 journal: "2025 한국통신학회 동계종합학술발표회"
+categories: papers
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>
