@@ -136,17 +136,16 @@ layout: default
 		{% endfor %}
 
 		{% if papersq == true %}
-			<div class="bigspacer"></div>
-			<div class="head">Papers</div>
-			<div class="spacer"></div>
+		<div class="bigspacer"></div>
+		<div class="head">Papers</div>
+		<div class="spacer"></div>
 		{% for paper in site.categories.papers %}
-			{% if paper.kauthors contains searchkname %}
+		  {% if paper.kauthors contains searchkname %}
 			<p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></p>
-			{% endif %}
+		  {% endif %}
 		{% endfor %}
-		{% else %}
-			<p>No papers found for {{ searchstring }} or {{ searchkname }}</p>
-		{% endif %}
+	  {% endif %}
+	  
 
 		{% for project in site.data.projects %}
 			{% for contributor in project.contributors %}
