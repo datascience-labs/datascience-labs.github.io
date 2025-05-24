@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "가상발전소 정산금을 최대화하기 위한 신뢰도 기반 최적화모델"
 authors: Jaekyeong Kim, Jeonghyeon Park, Seongryeong Jo, Jungkyu Han, Sejin Chun  
+kauthors: ["김재경", "박정현", "조성령", "한정규", "천세진"]
 year: 2024
 image: /images/papers/kmms2024-spring-Trust-based-VPP.png
 ref: 한국멀티미디어학회 춘계학술발표대회 2024.

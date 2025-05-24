@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "공장 대기오염의 실시간 모니터링을 위한 컨테이너 기반 빅데이터 처리 플랫폼"
 authors: Suyeon Wang, Wonah Kim, Jungkyu Han, Sejin Chun
+kauthors: ["왕수연", "김원아", "한정규", "천세진"]
 year: 2022
 ref: 한국멀티미디어학회 추계학술발표대회 2022
 journal: "2022년 한국멀티미디어학회 추계학술발표대회"

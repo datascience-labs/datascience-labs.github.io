@@ -3,7 +3,7 @@ layout: paper
 ptype: domconf
 group: knowevo
 title: "변화하는 채용시장에 대응: 향상된 직업 매칭을 위한 직무역량 기반 임베딩"
-kauthors: 장일현, 손원석, 구해윤, 전상균, 서정일, 천세진
+kauthors: ["장일현", "손원석", "구해윤", "전상균", "서정일", "천세진"]
 authors: Ilhyeon Jang, Wonseok Son, Haeyoon Koo, Sangkyun Jeon, Jeongil Seo, Sejin Chun
 year: 2023
 ref: 한국소프트웨어 종합학술대회 2023.

@@ -5,6 +5,7 @@ group: knowevo
 title: "A Trust-Aware Adjustment on Energy Prediction of Distributed Renewable
 Energy Resources Toward Reliable Virtual Power Plant"
 authors: Jaekyeong Kim, Jeonghyeon Park, Seongryeong Jo, Sejin Chun, Jungkyu Han  
+kauthors: ["김재경", "박정현", "조성령", "천세진", "한정규"]
 year: 2024
 image: /images/papers/NOLTA2024-Trust-based-VPP.png
 venue: /images/papers/NOLTA2024-Trust-based-VPP.png

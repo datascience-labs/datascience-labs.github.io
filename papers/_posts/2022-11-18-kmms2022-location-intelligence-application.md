@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "베이지안 네트워크 기반 친환경 자동차 충전소의 부지선정을 위한 위치지능화 응용"
 authors: Jeonghyeon Park, Daero Kim, Ayoung Kim, Jinyoung Choi, Jungkyu Han, Sejin Chun  
+kauthors: ["박정현", "김대로", "김아영", "최진영", "한정규", "천세진"]
 year: 2022
 image: /images/papers/kmms2022-fall-location-intelligence-application.png
 ref: 한국멀티미디어학회 추계학술발표대회 2022.

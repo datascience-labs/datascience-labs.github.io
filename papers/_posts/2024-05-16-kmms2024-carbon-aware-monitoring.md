@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "클라우드 내 딥러닝 워크로드의탄소발자국 모니터링"
 authors: Jiseon Kim, Jeonghyeon Park, Jungkyu Han, Sejin Chun
+kauthors: ["김지선", "박정현", "한정규", "천세진"]
 year: 2024
 image: /images/papers/kmms2024-spring-carbon-monitoring-dash-board.png
 ref: 한국멀티미디어학회 춘계학술발표대회 2024.

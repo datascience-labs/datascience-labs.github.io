@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "Temporal Convolutional Autoencoder를 사용한 스마트 그리드에서의 FDIA 탐지 기법"
 authors: Haebin Lee, Subin Yun, Jungkyu Han, Sejin Chun
+kauthors: ["이해빈", "윤수빈", "한정규", "천세진"]
 year: 2023
 ref: 2023 한국컴퓨터종합학술대회 
 journal: "2023 한국컴퓨터종합학술대회"

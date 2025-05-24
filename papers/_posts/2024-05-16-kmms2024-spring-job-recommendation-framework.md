@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "지식 그래프 임베딩을 활용한 LLM 기반 직업 추천 프레임워크"
 authors: Haeyoon Koo, Sungbeom Lee, Sejin Chun, Jungkyu Han  
+kauthors: ["구해윤", "이성범", "천세진", "한정규"]
 year: 2024
 image: /images/papers/kmms2024-spring-job-recommendation-framework.png
 ref: 한국멀티미디어학회 춘계학술발표대회 2024.

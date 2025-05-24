@@ -4,6 +4,7 @@ ptype: intconf
 group: knowevo
 title: "Carbon-Aware and Fault-Tolerant Migration of Deep Learning Workloads in the Geo-distributed Cloud"
 authors: Jeonghyeon Park, Daero Kim, Jiseon Kim, Jungkyu Han, Sejin Chun  
+kauthors: ["박정현", "김대로", "김지선", "한정규", "천세진"]
 year: 2024
 image: /images/papers/cloud2024.png
 ref: IEEE CLOUD 2024

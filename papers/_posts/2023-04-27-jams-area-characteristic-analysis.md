@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "LBSN 데이터와 VAE로 학습한 특징 임베딩을 활용한 지역 특징 분석"
 authors: Muyeon Jo, Sejin Chun, Jungkyu Han
+kauthors: ["조무연", "천세진", "한정규"]
 year: 2023
 ref: 한국스마트미디어학회 종합학술대회 2023.
 journal: "한국스마트미디어학회 2023년 종합학술대회"

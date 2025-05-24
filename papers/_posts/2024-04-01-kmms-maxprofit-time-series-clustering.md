@@ -4,6 +4,7 @@ ptype: domjour
 group: knowevo
 title: 분산에너지 가상발전소의 정산금 향상을 위한 오차율 평가 기반 최대 이익 시계열 클러스터링 기법
 authors: Subin Cho, Yeonghun Jeong, Seongryeong Jo, Jeongil Seo, Sejin Chun
+kauthors: ["조수빈", "정영훈", "조성령", "서정일", "천세진"]
 year: 2024
 ref: Journal of Korea Multimedia Society
 doi: https://doi.org/10.9717/kmms.2024.27.4.473
@@ -21,4 +22,4 @@ Renewable energy is currently driving innovation in the energy industry. However
    MaxProfit Time Series Clustering Technique Based on Error Rate Evaluation to Improve Reward of Distributed Energy Virtual Power Plant
 </div>
 
-<h4><span class="badge badge-info">Journal of Korea Multimedia Society Vol. 27, No. 4, April 2024(pp. 473-481)</span></h4> 
+<h4><span class="badge badge-info">Journal of Korea Multimedia Society Vol. 27, No. 4, April 2024(pp. 473-481)</span></h4>

@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "디지털 트윈 기반 행정 서비스를 실현하기 위한 지식 그래프 설계"
 authors: Yewon Lee, Jihyeon Kim, Kakyeom Lim, Sungbeom Lee, Jungkyu Han, Sejin Chun
+kauthors: ["이예원", "김지현", "임가겸", "이성범", "한정규", "천세진"]
 year: 2024
 ref: 한국멀티미디어학회 추계발표학술대회 2024.
 journal: "2024 한국멀티미디어학회 추계발표학술대회"

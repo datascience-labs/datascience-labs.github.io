@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "스마트시티 디지털 트윈의 센서 질의를 위한 효과적인 그래프 기반 시맨틱 데이터 표현"
 authors: Muyeon Jo, Sungbeom Lee, Sejin Chun, Jungkyu Han
+kauthors: ["조무연", "이성범", "천세진", "한정규"]
 year: 2023
 ref: 한국스마트미디어학회 종합학술대회 2023.
 journal: "한국스마트미디어학회 2023년 종합학술대회"

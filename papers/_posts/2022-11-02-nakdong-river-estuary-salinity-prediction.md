@@ -4,6 +4,7 @@ ptype: domjour
 group: recsys
 title: "머신러닝 기법을 활용한 낙동강 하구 염분농도 예측"
 authors: 이호준, 조민규, 한정규, 천세진
+kauthors: ["이호준", "조민규", "한정규", "천세진"]
 year: 2022
 ref: 스마트미디어저널 2022
 doi: 10.30693/SMJ.2022.11.2.31

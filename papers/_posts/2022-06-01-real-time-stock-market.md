@@ -5,6 +5,7 @@ group: knowevo
 title: "Real-time Stock Market Analytics for Improving Deployment and Accessibility using PySpark and Docker"
 image: /images/papers/debs2022-framework.png
 authors: Suyeon Wang, Jaekyong Kim, Yoonsang Yang, Jinseong Hwang, Jungkyu Han, Sejin Chun
+kauthors: ["왕수연", "김재경", "양윤상", "황진성", "한정규", "천세진"]
 year: 2022
 ref: ACM DEBS 2022
 journal: "DEBS '22: Proceedings of the 16th ACM International Conference on Distributed and Event-Based SystemsJune 2022 Pages 171–175"

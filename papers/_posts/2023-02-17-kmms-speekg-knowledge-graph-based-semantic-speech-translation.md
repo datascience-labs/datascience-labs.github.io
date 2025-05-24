@@ -4,6 +4,7 @@ ptype: domjour
 group: knowevo
 title: "SpeeKG: 온라인 강의 영상 추천을 위한 지식그래프 기반 의미적인 음성 번역 기법"
 authors: Sungbeom Lee, Bonhyeon Gu, Muyeon Jo, Jungkyu Han, Sejin Chun
+kauthors: ["이성범", "구본현", "조무연", "한정규", "천세진"]
 year: 2023
 ref: 멀티미디어학회지 2023
 journal: "한국멀티미디어학회"

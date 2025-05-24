@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "그래프 대조 학습을 통한 이력서-직종 간 개인화된 매칭"
 authors: Wonseok Son, Daero Kim, Sejin Chun, Jungkyu Han 
+kauthors: ["손원석", "김대로", "천세진", "한정규"]
 year: 2024
 image: /images/papers/kmms2024-spring-personalized-job-matching-framework.png
 ref: 한국멀티미디어학회 춘계학술발표대회 2024.

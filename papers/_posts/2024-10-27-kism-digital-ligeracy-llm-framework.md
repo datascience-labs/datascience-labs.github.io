@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "맞춤형 디지털 리터러시를 위한 LLM과 지식 그래프를 활용한 프레임워크 설계"
 authors: Kakyeom Lim, Jeonghyeon Park, Jungkyu Han, Sejin Chun
+kauthors: ["임가겸", "박정현", "한정규", "천세진"]
 year: 2024
 ref: 한국스마트미디어학회 추계학술대회 2024.
 journal: "2024 한국스마트미디어학회&한국전자거래학회 추계학술대회"

@@ -9,6 +9,7 @@ ref: 멀티미디어학회논문지 2021.
 feature: KCI;
 journal: "멀티미디어학회논문지, 2021, vol.24, no.12, pp. 1673-1681"
 categories: papers
+kauthors: ["한정규", "천세진"]
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

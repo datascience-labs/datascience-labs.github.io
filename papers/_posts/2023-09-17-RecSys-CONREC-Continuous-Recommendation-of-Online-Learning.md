@@ -4,6 +4,7 @@ ptype: intconf
 group: knowevo
 title: "CONREC: Continuous Recommendation of Online Learning Videos Based on Concept Maps"
 authors: Sungbeom Lee, Beomku Choi, Jungkyu Han, Sejin Chun
+kauthors: ["이성범", "최범구", "한정규", "천세진"]
 year: 2023
 ref: KARS@RecSys 2023
 image: /images/papers/RecSys-CONREC-Continuous-Recommendation-of-Online-Learning.png

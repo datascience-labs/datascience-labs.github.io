@@ -4,6 +4,7 @@ ptype: intjour
 group: knowevo
 title: "Optimum Design of a Renewable Power Generation System-Implemented-Electric Vehicle Charging Station in South Korea"
 authors: Jieun Ihm, Bilal Amghar, Sejin Chun, Herie Park
+kauthors: ["임지은", "빌랄 암가르", "천세진", "박혜리"]
 year: 2023
 ref: Sustainability 
 journal: "Sustainability"

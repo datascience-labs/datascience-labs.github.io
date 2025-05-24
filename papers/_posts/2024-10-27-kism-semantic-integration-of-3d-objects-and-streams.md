@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "디지털 트윈 도시에서 3D 객체와 실시간 스트림처리의 의미론적 통합"
 authors: Yewon Lee, Sungbeom Lee, Jungkyu Han, Sejin Chun
+kauthors: ["이예원", "이성범", "한정규", "천세진"]
 year: 2024
 ref: 한국스마트미디어학회 추계학술대회 2024.
 journal: "2024 한국스마트미디어학회&한국전자거래학회 추계학술대회"

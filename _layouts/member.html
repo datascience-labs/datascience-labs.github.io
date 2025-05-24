@@ -136,17 +136,19 @@ layout: default
 		{% endfor %}
 
 		{% if papersq == true %}
-			<div class="bigspacer"></div>
-			<div class="head">Papers</div>
-			<div class="spacer"></div>
-		{% for paper in site.categories.papers %}
-			{% if paper.kauthors contains searchkname %}
-			<p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></p>
-			{% endif %}
+		{% assign filtered_papers = site.categories.papers | where_exp: "item", "item.kauthors contains searchkname" %}
+		{% assign preferred_papers = filtered_papers | where_exp: "item", "item.ptype == 'intjour' or item.ptype == 'intconf'" %}
+		{% assign other_papers = filtered_papers | reject_exp: "item", "item.ptype == 'intjour' or item.ptype == 'intconf'" %}
+		{% assign all_sorted_papers = preferred_papers | concat: other_papers %}
+		{% assign display_papers = all_sorted_papers | slice: 0, 5 %}
+		<div class="bigspacer"></div>
+		<div class="head">Papers ({{ filtered_papers | size }})</div>
+		<div class="spacer"></div>
+		{% for paper in display_papers %}
+		  <p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></p>
 		{% endfor %}
-		{% else %}
-			<p>No papers found for {{ searchstring }} or {{ searchkname }}</p>
-		{% endif %}
+	  	{% endif %}
+	  
 
 		{% for project in site.data.projects %}
 			{% for contributor in project.contributors %}

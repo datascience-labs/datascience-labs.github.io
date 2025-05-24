@@ -4,6 +4,7 @@ ptype: intjour
 group: knowevo
 title: "Budget-Constrained Runtime Allocation of Linked Data Services in Stream Processing"
 authors: Jungkyu Han, Sejin Chun
+kauthors: ["한정규", "천세진"]
 year: 2024
 doi: https://doi.org/10.1007/s41019-024-00277-4
 ref: Data Science and Engineering 

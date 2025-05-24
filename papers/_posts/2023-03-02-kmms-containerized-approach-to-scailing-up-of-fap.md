@@ -4,6 +4,7 @@ ptype: domjour
 group: knowevo
 title: "공장 대기오염 모니터링 응용의 규모 확대를 위한 컨테이너화된 접근법"
 authors: Suyeon Wang, Wonah Kim, Jungkyu Han, Sejin Chun
+kauthors: ["왕수연", "김원아", "한정규", "천세진"]
 year: 2023
 ref: 멀티미디어학회지 2023
 doi: 10.9717/kmms.2023.26.3.478

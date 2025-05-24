@@ -4,6 +4,7 @@ ptype: intconf
 group: knowevo
 title: "Optimal Scenarios of Renewables and Chargers for an Electric Vehicle Charging Station using Public Data"
 authors: Jieun Ihm, Sejin Chun, Herie Park
+kauthors: ["임지은", "천세진", "박혜리"]
 year: 2022
 ref: SCEMS 2022
 doi: 10.1109/SCEMS56272.2022.9990819

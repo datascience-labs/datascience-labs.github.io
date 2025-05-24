@@ -3,7 +3,7 @@ layout: paper
 ptype: domconf
 group: knowevo
 title: "SemTabGPT: 초거대 언어모델을 사용한 지식그래프 기반 시맨틱 테이블 인터프리테이션"
-kauthors: 김정수, 한정규, 천세진
+kauthors: ["김정수", "한정규", "천세진"]
 authors: Jeongsu Kim, Jungkyu Han, Sejin Chun
 year: 2023
 ref: 한국소프트웨어 종합학술대회 2023

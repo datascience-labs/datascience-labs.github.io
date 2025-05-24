@@ -4,6 +4,7 @@ ptype: domjour
 group: knowevo
 title: "공공데이터 기반 공영주차장 최적입지 선정을 위한 최대 커버지역 문제(MCLP) 해결 기법"
 authors: Haebin Lee, Dahye Kim, Gwiyeon Nam, Yuji Jung, Jungkyu Han, Yougjin Park
+kauthors: ["이해빈", "김다혜", "남귀연", "정유지", "한정규", "박영진"]
 year: 2023
 ref: 멀티미디어학회지 2023
 feature: KCI;

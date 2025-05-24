@@ -4,6 +4,7 @@ ptype: intconf
 group: knowevo
 title: "Geographic Area Analysis by Using VAE based Area Embeddings on LBSN data"
 authors: Muyeon Jo, Sejin Chun, Jungkyu Han
+kauthors: ["조무연", "천세진", "한정규"]
 year: 2023
 ref: RACS 2023
 journal: "Proceedings of the 2023 International Conference on Research in Adaptive and Convergent Systems"

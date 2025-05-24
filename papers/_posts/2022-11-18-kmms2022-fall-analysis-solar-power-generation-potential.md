@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "분산 에너지 자원 활성화를 위한 폐철도 부지의 태양광 발전 잠재성 분석"
 authors: Jiseon Kim, Gun-han Kim, Jeong-soo Kim, Sejin Chun, Jungkyu Han
+kauthors: ["김지선", "김건한", "김정수", "천세진", "한정규"]
 year: 2022
 ref: 한국멀티미디어학회 추계학술발표대회 2022
 journal: "2022년 한국멀티미디어학회 추계학술발표대회"

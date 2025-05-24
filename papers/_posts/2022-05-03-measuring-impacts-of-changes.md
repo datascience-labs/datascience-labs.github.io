@@ -4,6 +4,7 @@ ptype: domconf
 group: knowevo
 title: "지식그래프의 변화가 딥러닝 기법에 미치는 영향을 측정하는 지표 개발"
 authors: Sejin Chun
+kauthors: ["천세진"]
 year: 2022
 ref: 한국멀티미디어학회 춘계학술발표대회 2022
 journal: "2022년 한국멀티미디어학회 춘계학술발표대회"
