@@ -9,7 +9,7 @@ year: 2025
 ref: IEEE CASE 2025
 journal: "IEEE International Conference on Automation Science and Engineering (CASE 2025)"
 keywords: Automation Technologies for Smart Cities, Calibration and Identification, Data fusion 
-feature: Accepted;
+feature: Accepted
 venue: /images/papers/CASE2025-STA.png
 image1: /images/papers/CASE2025-STA.png
 image2: /images/papers/CASE2025-DCCO.png
