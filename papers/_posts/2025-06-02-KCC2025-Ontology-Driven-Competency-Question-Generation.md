@@ -8,7 +8,7 @@ kauthors: ["이예원", "손원석", "김정수", "한정규", "천세진"]
 keywords: Large Language Model, Competency Question Generation, ReAct, Re-ranking, NeOn Methodology, Ontology Automation
 year: 2025
 ref: 한국정보과학회 한국컴퓨터종합학술대회 2025
-journal: "2025 한국컴퓨터종합학술대회 (KCC2025)"
+journal: "2025 한국컴퓨터종합학술대회"
 venue: /images/papers/KCC2025.png
 image: /images/papers/KCC2025.png
 ---
