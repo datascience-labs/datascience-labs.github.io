@@ -25,16 +25,17 @@ mdarray.each { |md|
 	# if index.html already exists, remove
 	
 	if basename =~ /readme/i
+		indexmd = full_directory + "index.md"
 		begin
 			if File.exists?(full_directory + "index.html")
 				File.delete(full_directory + "index.html")
 			end
-			indexmd = full_directory + "index.md"
-			File.rename(md, indexmd)
-		rescue
-			puts 'rename error'
-		ensure
+			contents = File.read(md)
+			File.write(indexmd, contents)
 			md = indexmd
+		rescue => e
+			puts "readme copy error: #{e.message}"
+			next
 		end
 	end
 
