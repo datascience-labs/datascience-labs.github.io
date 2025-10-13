@@ -1,4 +1,24 @@
 ---
+- repo: datascience-labs/CDRL4AD
+  title: CDRL4AD
+  owner: datascience-labs
+  description:
+  url: "/projects/CDRL4AD/"
+  contributors:
+  - login: Wona11
+    avatar: https://avatars.githubusercontent.com/u/101161955?v=4&s=50
+    url: https://github.com/Wona11
+  commits:
+  - date: 2025-10-11 13:03:55.000000000 Z
+    message: Add files via upload
+    url: https://github.com/datascience-labs/CDRL4AD/commit/4cefc8f0bd6093e39f603d03d22bd5bc4b67f7f5
+    author_login: Wona11
+    author_url: https://github.com/Wona11
+  - date: 2025-10-11 13:03:04.000000000 Z
+    message: Initial commit
+    url: https://github.com/datascience-labs/CDRL4AD/commit/5650c182c37be5f1770b37dccc1cc987ad9643c4
+    author_login: Wona11
+    author_url: https://github.com/Wona11
 - repo: datascience-labs/anomali-flow
   title: anomali-flow
   owner: datascience-labs
@@ -11,7 +31,15 @@
   - login: chunsejin
     avatar: https://avatars.githubusercontent.com/u/2449416?v=4&s=50
     url: https://github.com/chunsejin
+  - login: jhparkinglot
+    avatar: https://avatars.githubusercontent.com/u/126451260?v=4&s=50
+    url: https://github.com/jhparkinglot
   commits:
+  - date: 2025-03-31 05:07:20.000000000 Z
+    message: update
+    url: https://github.com/datascience-labs/anomali-flow/commit/989245b30fceaa1939e76304956aefe694465c89
+    author_login: jhparkinglot
+    author_url: https://github.com/jhparkinglot
   - date: 2025-03-31 01:29:15.000000000 Z
     message: Update README.md
     url: https://github.com/datascience-labs/anomali-flow/commit/82234b054e7696427d5fdb3edac8e6f1094c7fe7
@@ -33,10 +61,10 @@
     author_login: chunsejin
     author_url: https://github.com/chunsejin
 - repo: datascience-labs/Carbon-friendly
-  title: Carbon-friendly
+  title: CAFTM
   owner: datascience-labs
   description: IEEE CLOUD 2024
-  url: "/projects/Carbon-friendly/"
+  url: "/projects/CAFTM/"
   contributors:
   - login: jhparkland
     avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
@@ -50,27 +78,27 @@
   commits:
   - date: 2025-03-23 11:15:21.000000000 Z
     message: Update index.md
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/f6987bd95121ea767dd70c41b67c6a52996dda19
+    url: https://github.com/datascience-labs/CAFTM/commit/f6987bd95121ea767dd70c41b67c6a52996dda19
     author_login: jhparkland
     author_url: https://github.com/jhparkland
   - date: 2024-07-17 05:20:03.000000000 Z
     message: Update index.md
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/a773ef4efb67a36f984efe146b57b2d6a8e4e6c7
+    url: https://github.com/datascience-labs/CAFTM/commit/a773ef4efb67a36f984efe146b57b2d6a8e4e6c7
     author_login: jhparkland
     author_url: https://github.com/jhparkland
   - date: 2024-07-17 05:19:52.000000000 Z
     message: Delete GPU.png
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/a660764688383ed4788dc3f7dd392ffedcff3021
+    url: https://github.com/datascience-labs/CAFTM/commit/a660764688383ed4788dc3f7dd392ffedcff3021
     author_login: jhparkland
     author_url: https://github.com/jhparkland
   - date: 2024-07-17 05:17:56.000000000 Z
     message: Update index.md
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/9210423d343a7eff5c4d2bbcb0ea3eb1d8d6c77d
+    url: https://github.com/datascience-labs/CAFTM/commit/9210423d343a7eff5c4d2bbcb0ea3eb1d8d6c77d
     author_login: jhparkland
     author_url: https://github.com/jhparkland
   - date: 2024-07-17 05:14:01.000000000 Z
     message: Add files via upload
-    url: https://github.com/datascience-labs/Carbon-friendly/commit/bc65acec0bc0bee1c6c5d9f078c7c2daef87f71a
+    url: https://github.com/datascience-labs/CAFTM/commit/bc65acec0bc0bee1c6c5d9f078c7c2daef87f71a
     author_login: jhparkland
     author_url: https://github.com/jhparkland
 - repo: datascience-labs/Green-Car-Charging-Station-Site-Selection
