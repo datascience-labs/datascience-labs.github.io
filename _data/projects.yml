@@ -9,6 +9,11 @@
     avatar: https://avatars.githubusercontent.com/u/101161955?v=4&s=50
     url: https://github.com/Wona11
   commits:
+  - date: 2025-10-13 04:55:24.000000000 Z
+    message: Fix formatting issues in README.md
+    url: https://github.com/datascience-labs/CDRL4AD/commit/8f253b732612d41906278d61541f0edb198ec746
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
   - date: 2025-10-11 13:03:55.000000000 Z
     message: Add files via upload
     url: https://github.com/datascience-labs/CDRL4AD/commit/4cefc8f0bd6093e39f603d03d22bd5bc4b67f7f5
@@ -19,6 +24,85 @@
     url: https://github.com/datascience-labs/CDRL4AD/commit/5650c182c37be5f1770b37dccc1cc987ad9643c4
     author_login: Wona11
     author_url: https://github.com/Wona11
+- repo: datascience-labs/CAFTM
+  title: CAFTM
+  owner: datascience-labs
+  description: IEEE CLOUD 2024
+  url: "/projects/CAFTM/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  - login: dhfgoeofh
+    avatar: https://avatars.githubusercontent.com/u/80153046?v=4&s=50
+    url: https://github.com/dhfgoeofh
+  - login: izgnok
+    avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
+    url: https://github.com/izgnok
+  commits:
+  - date: 2025-10-13 04:55:07.000000000 Z
+    message: Create README.md
+    url: https://github.com/datascience-labs/CAFTM/commit/4b436142784bbd342ae0618da37c13d1447fbf9c
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2025-10-13 04:39:17.000000000 Z
+    message: Update project metadata and team information
+    url: https://github.com/datascience-labs/CAFTM/commit/0d942b855545e6024243e65f2fcd31ce79ac762a
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2025-03-23 11:15:21.000000000 Z
+    message: Update index.md
+    url: https://github.com/datascience-labs/CAFTM/commit/f6987bd95121ea767dd70c41b67c6a52996dda19
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-07-17 05:20:03.000000000 Z
+    message: Update index.md
+    url: https://github.com/datascience-labs/CAFTM/commit/a773ef4efb67a36f984efe146b57b2d6a8e4e6c7
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2024-07-17 05:19:52.000000000 Z
+    message: Delete GPU.png
+    url: https://github.com/datascience-labs/CAFTM/commit/a660764688383ed4788dc3f7dd392ffedcff3021
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+- repo: datascience-labs/GreenAccounter
+  title: GreenAccounter
+  owner: datascience-labs
+  description:
+  url: "/projects/GreenAccounter/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  commits:
+  - date: 2025-10-13 04:54:29.000000000 Z
+    message: |-
+      Clean up README by removing layout and project info
+
+      Removed project metadata from README.
+    url: https://github.com/datascience-labs/GreenAccounter/commit/2f5e4efc709bb16b8c3831056e53b4959d0eecce
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2025-10-13 04:54:15.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/GreenAccounter/commit/6bf199c90bbea03c486cb621c83e326e902b86bc
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2025-09-30 08:22:30.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/GreenAccounter/commit/af17e6dbc638c92cbd2fe4794e632354df7924e2
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2025-09-30 08:22:16.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/GreenAccounter/commit/2754d91fee90fba969d00b03a55fc9b5ceb0a5a0
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2025-09-30 08:21:10.000000000 Z
+    message: Add files via upload
+    url: https://github.com/datascience-labs/GreenAccounter/commit/beb47541922067b4809b76e4389a78ac57e7996b
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
 - repo: datascience-labs/anomali-flow
   title: anomali-flow
   owner: datascience-labs
@@ -60,47 +144,6 @@
     url: https://github.com/datascience-labs/anomali-flow/commit/4634fb20361a7b071352b03e914d378ca57682fc
     author_login: chunsejin
     author_url: https://github.com/chunsejin
-- repo: datascience-labs/Carbon-friendly
-  title: CAFTM
-  owner: datascience-labs
-  description: IEEE CLOUD 2024
-  url: "/projects/CAFTM/"
-  contributors:
-  - login: jhparkland
-    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
-    url: https://github.com/jhparkland
-  - login: dhfgoeofh
-    avatar: https://avatars.githubusercontent.com/u/80153046?v=4&s=50
-    url: https://github.com/dhfgoeofh
-  - login: izgnok
-    avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
-    url: https://github.com/izgnok
-  commits:
-  - date: 2025-03-23 11:15:21.000000000 Z
-    message: Update index.md
-    url: https://github.com/datascience-labs/CAFTM/commit/f6987bd95121ea767dd70c41b67c6a52996dda19
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-07-17 05:20:03.000000000 Z
-    message: Update index.md
-    url: https://github.com/datascience-labs/CAFTM/commit/a773ef4efb67a36f984efe146b57b2d6a8e4e6c7
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-07-17 05:19:52.000000000 Z
-    message: Delete GPU.png
-    url: https://github.com/datascience-labs/CAFTM/commit/a660764688383ed4788dc3f7dd392ffedcff3021
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-07-17 05:17:56.000000000 Z
-    message: Update index.md
-    url: https://github.com/datascience-labs/CAFTM/commit/9210423d343a7eff5c4d2bbcb0ea3eb1d8d6c77d
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-07-17 05:14:01.000000000 Z
-    message: Add files via upload
-    url: https://github.com/datascience-labs/CAFTM/commit/bc65acec0bc0bee1c6c5d9f078c7c2daef87f71a
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
 - repo: datascience-labs/Green-Car-Charging-Station-Site-Selection
   title: Green-Car-Charging-Station-Site-Selection
   owner: datascience-labs
