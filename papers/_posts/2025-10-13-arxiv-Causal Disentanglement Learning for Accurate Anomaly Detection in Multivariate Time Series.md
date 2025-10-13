@@ -5,7 +5,7 @@ group: knowevo
 title: "Causal Disentanglement Learning for Accurate Anomaly Detection in Multivariate Time Series"
 authors: Wonah Kim, Jeonghyeon Park, Dongsan Jun, Jungkyu Han,  Sejin Chun
 kauthors: ["김원아", "박정현", "전동산", "한정규", "천세진"]
-keywords: Anomaly Detection, Multivariate Time Series, Causal Disentanglemen, Graph Neural Network
+keywords: Anomaly Detection, Multivariate Time Series, Causal Disentanglement, Graph Neural Network
 year: 2025
 ref: arXiv
 journal: "arXiv"

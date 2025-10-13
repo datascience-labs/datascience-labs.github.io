@@ -282,6 +282,43 @@ img.avatar {
   padding-bottom: 20px;
 }
 
+.post figure {
+  margin: 20px 0;
+}
+
+.post figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post figure figcaption {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  .post figure {
+    text-align: center;
+  }
+
+  .post figure img {
+    display: block;
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.75rem;
+    padding-right: 0;
+  }
+
+  .post figure .pad-right {
+    padding-right: 0;
+  }
+
+  .post figure img.d-none.d-sm-block {
+    display: block !important;
+  }
+}
+
 blockquote {
 	@extend .text-gray;
   border-left: 5px solid #e7e7e7;
