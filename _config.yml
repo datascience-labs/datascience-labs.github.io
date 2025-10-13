@@ -53,3 +53,4 @@ projects:
   - "datascience-labs/COCL"
   - "datascience-labs/FDIA_with_TCN"
   - "datascience-labs/anomali-flow"
+  - "datascience-labs/CDRL4AD"
