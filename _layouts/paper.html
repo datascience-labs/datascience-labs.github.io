@@ -68,13 +68,11 @@ layout: default
 			<div class="bigspacer"></div>
 			{% endif %}
 			{% if page.doi %}
-			<span class="badge badge-primary">
-				DOI
-			</span>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a>
+			<div class="doi-row">
+				<a class="badge badge-primary" href="https://doi.org/{{ page.doi }}" target="_blank" rel="noopener">
+					DOI
+				</a>
+				<a class="off" href="https://doi.org/{{ page.doi }}" target="_blank" rel="noopener">{{ page.doi }}</a>
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
@@ -91,10 +89,9 @@ layout: default
 			{% endif %}
 		</div>
 	</div>
-	<div class="col-lg-8">
+	<div class="col-lg-9">
 		<div class="post">
 			{{ content }}
 		</div>
 	</div>
-	<div class="col-lg-1"></div>
 </div>

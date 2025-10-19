@@ -7,7 +7,7 @@ layout: default
 <div class="row">
 	<div class="col-lg-12">
 		{% if member.image %}
-		<img class="pull-left pad-right media-object d-none d-sm-block" width=160 src="{{ member.image }}">
+		<img class="pull-left pad-right media-object d-none d-sm-block profile-img" src="{{ member.image }}" alt="{{ member.title }}">
 		{% endif %}
 		<div class="titlebox">
 			<div class="bigtitle">
@@ -114,7 +114,9 @@ layout: default
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-inbox fa-fw"></i>
-			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
+			<a class="off breakable" href="mailto:{{ emailarray.first }}@{{ emailarray.last }}">
+				{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
+			</a>
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
@@ -129,21 +131,75 @@ layout: default
 		{% assign searchstring = lastname | append: ' ' | append: firstinitial %}
 		{% assign searchkname = member.kname %}
 
-		{% for paper in site.categories.papers %}
-			{% if paper.kauthors contains searchkname %}
-				{% assign papersq = true %}
-			{% endif %}
-		{% endfor %}
-
-		{% if papersq == true %}
+		{% assign member_papers = site.categories.papers | where_exp: "paper", "paper.kauthors contains searchkname" %}
+		{% if member_papers and member_papers != empty %}
 		<div class="bigspacer"></div>
 		<div class="head">Papers</div>
 		<div class="spacer"></div>
-		{% for paper in site.categories.papers %}
-		  {% if paper.kauthors contains searchkname %}
-			<p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></p>
-		  {% endif %}
+		{% assign categories = "intjour|International Journals,intconf|International Conferences,domjour|Domestic Journals,domconf|Domestic Conferences" | split: "," %}
+		{% assign rendered_count = 0 %}
+		{% for entry in categories %}
+			{% assign parts = entry | split: "|" %}
+			{% assign cat_key = parts[0] %}
+			{% assign cat_label = parts[1] %}
+			{% assign cat_papers = member_papers | where: "ptype", cat_key | sort: "year" | reverse %}
+			{% if cat_papers and cat_papers != empty %}
+			{% if rendered_count > 0 %}
+			<div class="spacer"></div>
+			{% endif %}
+			<div class="smallhead">{{ cat_label }}</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<ul class="list-unstyled paper-list">
+				{% for paper in cat_papers %}
+					{% assign venue = paper.journal | default: paper.ref %}
+					{% assign doi_url = nil %}
+					{% if paper.doi %}
+						{% if paper.doi contains "http" %}
+							{% assign doi_url = paper.doi %}
+						{% else %}
+							{% assign doi_url = "https://doi.org/" | append: paper.doi %}
+						{% endif %}
+					{% endif %}
+					<li class="paper-item">
+						<a class="off" href="{{ paper.url }}"><strong>{{ paper.title }}</strong></a><br>
+						<span class="note">Authors: {{ paper.authors }}</span><br>
+						{% if venue %}<span class="note">Venue: {{ venue }}</span><br>{% endif %}
+						<span class="note">Year: {{ paper.year }}{% if doi_url %} · <a class="off" href="{{ doi_url }}" target="_blank" rel="noopener">[Link]</a>{% endif %}</span>
+					</li>
+				{% endfor %}
+				</ul>
+			</div>
+			{% assign rendered_count = rendered_count | plus: 1 %}
+			{% endif %}
 		{% endfor %}
+		{% assign other_papers = member_papers | where_exp: "paper", "paper.ptype != 'intjour' and paper.ptype != 'intconf' and paper.ptype != 'domjour' and paper.ptype != 'domconf'" | sort: "year" | reverse %}
+		{% if other_papers and other_papers != empty %}
+			<div class="spacer"></div>
+			<div class="smallhead">Other Publications</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<ul class="list-unstyled paper-list">
+				{% for paper in other_papers %}
+					{% assign venue = paper.journal | default: paper.ref %}
+					{% assign doi_url = nil %}
+					{% if paper.doi %}
+						{% if paper.doi contains "http" %}
+							{% assign doi_url = paper.doi %}
+						{% else %}
+							{% assign doi_url = "https://doi.org/" | append: paper.doi %}
+						{% endif %}
+					{% endif %}
+					<li class="paper-item">
+						<a class="off" href="{{ paper.url }}"><strong>{{ paper.title }}</strong></a><br>
+						<span class="note">Authors: {{ paper.authors }}</span><br>
+						{% if venue %}<span class="note">Venue: {{ venue }}</span><br>{% endif %}
+						<span class="note">Year: {{ paper.year }}{% if doi_url %} · <a class="off" href="{{ doi_url }}" target="_blank" rel="noopener">[Link]</a>{% endif %}</span>
+					</li>
+				{% endfor %}
+				</ul>
+			</div>
+		{% endif %}
 	  {% endif %}
 	  
 

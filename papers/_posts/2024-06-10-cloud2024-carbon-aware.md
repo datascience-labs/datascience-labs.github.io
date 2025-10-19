@@ -12,6 +12,7 @@ journal: "IEEE International Conference on Cloud Computing (CLOUD)"
 keywords: carbon-aware, fault-tolerant, geo-distributed, cloud, deep learning, task migration
 feature: Top-Tier;Accepted;
 venue: /images/papers/cloud2024.png
+doi: https://ieeexplore.ieee.org/document/10643899
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>
