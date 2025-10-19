@@ -5,32 +5,51 @@ categories:
  - team
 ---
 
-<!-- 프로필 이미지 크기 지정 -->
-<style> 
-    .profile-img {
-        width: 160px !important;
-        height: 210px !important;
-    }
-</style>
+{% assign current_members = site.categories.team | where_exp: "member", "member.alumni != true" %}
+{% assign grouped_roles = "professor|Professors,phd|PhD Students,master|Master Students,undergrad|Undergraduate Students" | split: "," %}
+{% assign processed_ids = "" | split: "" %}
 
+{% for group_entry in grouped_roles %}
+	{% assign parts = group_entry | split: "|" %}
+	{% assign key = parts[0] %}
+	{% assign label = parts[1] %}
+	{% assign role_members = "" | split: "" %}
+	{% for member in current_members %}
+		{% assign normalized = member.position | downcase %}
+		{% if key == 'professor' and (normalized contains 'professor' or normalized contains 'co-principal investigator') %}
+			{% assign role_members = role_members | push: member %}
+		{% elsif key == 'phd' and normalized contains 'phd' %}
+			{% assign role_members = role_members | push: member %}
+		{% elsif key == 'master' and normalized contains 'master' %}
+			{% assign role_members = role_members | push: member %}
+		{% elsif key == 'undergrad' and (normalized contains 'undergraduate' or normalized contains 'intern') %}
+			{% assign role_members = role_members | push: member %}
+		{% endif %}
+	{% endfor %}
+	{% if role_members.size > 0 %}
 <div class="row">
 	<div class="col-lg-12">
 		<div class="title">
-			Current members
+			{{ label }}
 		</div>
 	</div>
 </div>
 
 <div class="bigspacer"></div>
 
-{% for member in site.categories.team reversed %}
-	{% if member.alumni != true %}
-    {% cycle 'add rows': '<div class="row">', '', '' %}
+	{% assign role_members = role_members | sort: "date" %}
+	{% for member in role_members %}
+		{% unless processed_ids contains member.url %}
+			{% assign processed_ids = processed_ids | push: member.url %}
+		{% endunless %}
+		{% assign mod = forloop.index0 | modulo: 3 %}
+		{% if mod == 0 %}
+<div class="row">
+		{% endif %}
 		<div class="col-lg-4 memberbox">
 			<div class="media">
 				{% if member.image %}
 					<a class="float-left" href="{{ member.url }}">
-						<img class="mr-3 profile-img" src="{{ member.image }}">
 					</a>
 				{% endif %}
  			 	<div class="media-body">
@@ -41,10 +60,56 @@ categories:
 			<div class="bigspacer"></div>
 			<div class="bigspacer"></div>
         </div>
-    {% cycle 'close rows': '', '', '</div>' %}
-    {% endif %}
+		{% if mod == 2 or forloop.last %}
+</div>
+		{% endif %}
+	{% endfor %}
+	{% endif %}
 {% endfor %}
-{% cycle 'close rows': '', '</div>', '</div>' %}
+
+{% assign remaining_members = "" | split: "" %}
+{% for member in current_members %}
+	{% unless processed_ids contains member.url %}
+		{% assign remaining_members = remaining_members | push: member %}
+	{% endunless %}
+{% endfor %}
+
+{% if remaining_members.size > 0 %}
+<div class="row">
+	<div class="col-lg-12">
+		<div class="title">
+			Other Members
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+{% assign remaining_members = remaining_members | sort: "date" %}
+{% for member in remaining_members %}
+	{% assign mod = forloop.index0 | modulo: 3 %}
+	{% if mod == 0 %}
+<div class="row">
+	{% endif %}
+	<div class="col-lg-4 memberbox">
+		<div class="media">
+			{% if member.image %}
+				<a class="float-left" href="{{ member.url }}">
+				</a>
+			{% endif %}
+ 		 	<div class="media-body">
+    			<div class="head mb-1"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+    			<p class="note">{{ member.position }}</p>
+  			</div>
+		</div>
+		<div class="bigspacer"></div>
+		<div class="bigspacer"></div>
+    </div>
+	{% if mod == 2 or forloop.last %}
+</div>
+	{% endif %}
+{% endfor %}
+{% endif %}
 
 <div class="row">
 	<div class="col-lg-12">
@@ -56,16 +121,14 @@ categories:
 
 <div class="bigspacer"></div>
 
-{% for member in site.categories.team reversed %}
-	{% if member.alumni == true %}
-    {% cycle 'add rows 2': '<div class="row">', '', '' %}
+{% assign alumni_members = site.categories.team | where: "alumni", true | sort: "date" %}
+{% for member in alumni_members %}
+    {% assign mod = forloop.index0 | modulo: 3 %}
+    {% if mod == 0 %}
+<div class="row">
+    {% endif %}
 		<div class="col-lg-4 memberbox">
 			<div class="media">
-  				<!--
-  				<a class="pull-left" href="{{ member.url }}">
-    				<img width=160 class="media-object" src="{{ member.image }}">
-  				</a>
-  				-->
  			 	<div class="media-body">
     				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
     				<p class="note">{{ member.position }}</p>
@@ -73,7 +136,7 @@ categories:
 			</div>
 			<div class="bigspacer"></div>
         </div>
-    {% cycle 'close rows 2': '', '', '</div>' %}
+    {% if mod == 2 or forloop.last %}
+</div>
     {% endif %}
 {% endfor %}
-{% cycle 'close rows 2': '', '</div>', '</div>' %}
