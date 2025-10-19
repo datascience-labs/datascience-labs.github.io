@@ -16,13 +16,29 @@ categories:
 	{% assign role_members = "" | split: "" %}
 	{% for member in current_members %}
 		{% assign normalized = member.position | downcase %}
-		{% if key == 'professor' and (normalized contains 'professor' or normalized contains 'co-principal investigator') %}
-			{% assign role_members = role_members | push: member %}
-		{% elsif key == 'phd' and normalized contains 'phd' %}
-			{% assign role_members = role_members | push: member %}
-		{% elsif key == 'master' and normalized contains 'master' %}
-			{% assign role_members = role_members | push: member %}
-		{% elsif key == 'undergrad' and (normalized contains 'undergraduate' or normalized contains 'intern') %}
+		{% assign include_member = false %}
+		{% if key == 'professor' %}
+			{% if normalized contains 'professor' %}
+				{% assign include_member = true %}
+			{% elsif normalized contains 'co-principal' %}
+				{% assign include_member = true %}
+			{% endif %}
+		{% elsif key == 'phd' %}
+			{% if normalized contains 'phd' %}
+				{% assign include_member = true %}
+			{% endif %}
+		{% elsif key == 'master' %}
+			{% if normalized contains 'master' %}
+				{% assign include_member = true %}
+			{% endif %}
+		{% elsif key == 'undergrad' %}
+			{% if normalized contains 'undergraduate' %}
+				{% assign include_member = true %}
+			{% elsif normalized contains 'intern' %}
+				{% assign include_member = true %}
+			{% endif %}
+		{% endif %}
+		{% if include_member %}
 			{% assign role_members = role_members | push: member %}
 		{% endif %}
 	{% endfor %}

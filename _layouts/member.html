@@ -131,7 +131,7 @@ layout: default
 		{% assign searchstring = lastname | append: ' ' | append: firstinitial %}
 		{% assign searchkname = member.kname %}
 
-		{% assign member_papers = site.categories.papers | where_exp: "paper", "paper.kauthors contains searchkname" %}
+		{% assign member_papers = site.categories.papers | where_exp: "paper", "paper.kauthors contains searchkname" %}␊
 		{% if member_papers and member_papers != empty %}
 		<div class="bigspacer"></div>
 		<div class="head">Papers</div>
@@ -173,7 +173,14 @@ layout: default
 			{% assign rendered_count = rendered_count | plus: 1 %}
 			{% endif %}
 		{% endfor %}
-		{% assign other_papers = member_papers | where_exp: "paper", "paper.ptype != 'intjour' and paper.ptype != 'intconf' and paper.ptype != 'domjour' and paper.ptype != 'domconf'" | sort: "year" | reverse %}
+		{% assign other_papers = "" | split: "" %}
+		{% for paper in member_papers %}
+			{% assign ptype = paper.ptype | default: "" %}
+			{% unless ptype == 'intjour' or ptype == 'intconf' or ptype == 'domjour' or ptype == 'domconf' %}
+				{% assign other_papers = other_papers | push: paper %}
+			{% endunless %}
+		{% endfor %}
+		{% assign other_papers = other_papers | sort: "year" | reverse %}
 		{% if other_papers and other_papers != empty %}
 			<div class="spacer"></div>
 			<div class="smallhead">Other Publications</div>
