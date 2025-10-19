@@ -57,8 +57,8 @@ categories:
 
 	<div class="card">
 		<div class="card-header text-white bg-primary">Award news</div>
-		<div class="card-img-top">
-			<img src="{{ post.thumb }}">
+		<div class="card-img-top card-img-top--fixed">
+			<img src="{{ post.thumb }}" alt="{{ post.title }} thumbnail">
 		</div>
 		<div class="card-body">
 			<a class="card-title" href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
@@ -128,7 +128,9 @@ categories:
 		</div>
 		<div class="card-body">
 			{% if paper.venue %}
-				<img class="card-img-top" src="{{ paper.venue }}"></img>
+			<div class="card-img-top card-img-top--auto">
+				<img src="{{ paper.venue }}" alt="{{ paper.title }} venue">
+			</div>
 			{% endif %}
 			<a class="card-title" href="{{ paper.url }}">{{ paper.title }}</a>
 			<p class="card-text">{{ paper.ref }}</p>
@@ -204,8 +206,8 @@ categories:
 		<a class="off" href="https://github.com/CarbonAra-CBA">
 		  <img src="/images/carbonara_logo.png" alt="CarbonAra" style="height: 60px;">
 		</a>
-		<a class="off">
-		  <img src="/images/dsl-text-vertical-logo.png" alt="DSL" style="height: 60px;">
+		<a class="off" href="https://github.com/datascience-labs" target="_blank">
+		  <img src="/images/dsl-text-vertical-logo.png" alt="DSL GitHub" style="height: 60px;">
 		</a>
 		<a class="off" href="https://www.donga.ac.kr/">
 		  <img src="/images/logos/logo_donga.jpg" alt="DongA University" style="height: 60px;">

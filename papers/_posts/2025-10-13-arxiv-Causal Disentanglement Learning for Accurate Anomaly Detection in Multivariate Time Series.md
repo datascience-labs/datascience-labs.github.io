@@ -11,6 +11,7 @@ ref: arXiv
 journal: "arXiv"
 venue: /images/papers/CDRL4AD_overview.png
 image: /images/papers/CDRL4AD_overview.png
+doi: https://arxiv.org/abs/2510.11084
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>

@@ -5,64 +5,339 @@ categories:
  - papers
 ---
 
-{% for paper in site.categories.papers %}
-{% capture prev_year %}{{ this_year }}{% endcapture %}
-{% capture this_year %}{{ paper.year }}{% endcapture %}
+{% assign sorted_papers = site.categories.papers | sort: "year" | reverse %}
+{% assign year_options = sorted_papers | map: "year" | uniq | sort | reverse %}
+{% assign selected_papers = sorted_papers | where: "selected", true | sort: "year" | reverse %}
+{% assign selection_options = selected_papers %}
+{% if selection_options.size == 0 %}
+	{% assign selection_options = sorted_papers %}
+{% endif %}
 
-{% if forloop.first %}
-    {% assign counter = 0 %}
-  <div class="row">
-    <div class="col-md-12">
-      <h1>{{ this_year }}</h1>
-<hr style="height:2px;border:none;color:#808088;background-color:#808088;" />    </div>
-  </div>
-  <div class="row">
-  {% elsif this_year != prev_year and this_year > "2020" %}
-    {% assign counter = 0 %}
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      {% if this_year != "2021" %}
-      <h1>{{ this_year }}</h1>
-      {% else %}
-      <h1>2021 and earlier</h1>
-      {% endif %}
-      <hr style="height:2px;border:none;color:#808088;background-color:#808088;" />
+<div class="row">
+	<div class="col-md-12">
+		<div class="paper-filter-bar" data-paper-filters>
+			<div class="paper-filter-group" role="group" aria-label="Publication types">
+				<span class="paper-filter-label">Publication types</span>
+				<button type="button" class="paper-filter-chip is-active" data-filter-type value="intconf" aria-pressed="true">
+					International Conferences
+				</button>
+				<button type="button" class="paper-filter-chip is-active" data-filter-type value="intjour" aria-pressed="true">
+					International Journals
+				</button>
+				<button type="button" class="paper-filter-chip is-active" data-filter-type value="domconf" aria-pressed="true">
+					Domestic Conferences
+				</button>
+				<button type="button" class="paper-filter-chip is-active" data-filter-type value="domjour" aria-pressed="true">
+					Domestic Journals
+				</button>
+			</div>
+			<div class="paper-filter-group" role="group" aria-label="Year">
+				<span class="paper-filter-label">Year</span>
+				<select class="paper-filter-select" data-filter-year>
+					<option value="" selected>All years</option>
+					{% for year in year_options %}
+						{% if year %}
+						<option value="{{ year }}">{{ year }}</option>
+						{% endif %}
+					{% endfor %}
+				</select>
+			</div>
+<!--
+			<div class="paper-filter-group paper-filter-group--stacked" role="group" aria-label="Selected publications">
+				<span class="paper-filter-label">Selected publications</span>
+				<div class="paper-multiselect" data-multiselect>
+					<button type="button" class="paper-multiselect__toggle" data-multiselect-toggle aria-haspopup="listbox" aria-expanded="false">
+						<span data-multiselect-label>
+							{% if selected_papers.size > 0 %}
+								All highlighted papers
+							{% else %}
+								All papers
+							{% endif %}
+						</span>
+						<span class="paper-multiselect__icon" aria-hidden="true">&#9662;</span>
+					</button>
+					<div class="paper-multiselect__menu" data-multiselect-menu hidden>
+						<div class="paper-filter-checkboxes" data-multiselect-options role="listbox" aria-multiselectable="true">
+							{% if selection_options.size > 0 %}
+								{% for paper in selection_options %}
+								<label class="paper-filter-checkbox">
+									<input type="checkbox" class="paper-filter-checkbox__input" value="{{ paper.url }}" data-multiselect-option data-label="{{ paper.title }} ({{ paper.year }})">
+									<span class="paper-filter-checkbox__label">{{ paper.title }} ({{ paper.year }})</span>
+								</label>
+								{% endfor %}
+							{% else %}
+								<div class="paper-filter-empty text-muted small">No papers available.</div>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+-->
+		</div>
+	</div>
+</div>
 
-    </div>
-  </div>
-  <div class="row">
-  {% else %}
-    {% assign counter = counter | plus: 1 %}
-    {% assign mod = counter | modulo: 3 %}
-    {% if mod == 0 %}
+<div class="row">
+	<div class="col-md-12">
+		<div class="paper-filter-empty text-muted" data-paper-empty hidden>No papers match the current filters.</div>
+	</div>
+</div>
 
-  </div>
-  <div class="row">
+{% assign recent_papers = sorted_papers | where_exp: "paper", "paper.year > 2021" %}
+{% assign older_papers = sorted_papers | where_exp: "paper", "paper.year <= 2021" %}
+{% assign recent_groups = recent_papers | group_by: "year" | sort: "name" | reverse %}
 
-    {% endif %}
-  {% endif %}
-  <div class="col-lg-4 paperbox">
-    <div class="media">
-      <div class="media-body">
-        <div class="smallhead mb-1"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-        <p class="note" style="margin-bottom: 0;"><strong>{{ paper.ref }}</strong></p>
-        {% if paper.feature %}
-            {% assign features = paper.feature | split: ';' %}
-            {% for feature in features %}
-                {% assign trimmed_feature = feature | strip %}
-                {% if trimmed_feature != "" %}
-                    <span class="badge badge-primary"><strong>{{ trimmed_feature }}</strong></span>
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-      </div>
-      <a href="{{ paper.url }}">
-        <img class="ml-3" width=100 class="media-object" src="{{ paper.image }}">
-      </a>
-    </div>
-    <div class="bigspacer"></div>
-    <div class="spacer"></div>
-      </div>
+{% for group in recent_groups %}
+	{% assign year_label = group.name %}
+	<div class="paper-year-section" data-year-section data-year-group="{{ year_label }}">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>{{ year_label }}</h1>
+				<hr style="height:2px;border:none;color:#808088;background-color:#808088;" />
+			</div>
+		</div>
+		<div class="row paper-grid">
+			{% for paper in group.items %}
+				{% assign ptype_value = paper.ptype | default: 'all' %}
+				{% assign ptype_value = ptype_value | downcase %}
+				{% if ptype_value != 'intconf' and ptype_value != 'domconf' and ptype_value != 'intjour' and ptype_value != 'domjour' %}
+					{% assign ptype_value = 'all' %}
+				{% endif %}
+				<div class="col-lg-4 col-md-6 paperbox" data-paper-card data-ptype="{{ ptype_value }}" data-selected="{% if paper.selected %}true{% else %}false{% endif %}" data-year-group="{{ year_label }}" data-year="{{ paper.year }}" data-url="{{ paper.url }}">
+					<div class="media">
+						<div class="media-body">
+							<div class="smallhead mb-1"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
+							<p class="note" style="margin-bottom: 0;"><strong>{{ paper.ref }}</strong></p>
+							{% if paper.feature %}
+								{% assign features = paper.feature | split: ';' %}
+								{% for feature in features %}
+									{% assign trimmed_feature = feature | strip %}
+									{% if trimmed_feature != "" %}
+										<span class="badge badge-primary"><strong>{{ trimmed_feature }}</strong></span>
+									{% endif %}
+								{% endfor %}
+							{% endif %}
+						</div>
+						{% if paper.image %}
+						<a href="{{ paper.url }}">
+							<img class="ml-3 media-object" width="100" src="{{ paper.image }}" alt="{{ paper.title }}" loading="lazy">
+						</a>
+						{% endif %}
+					</div>
+					<div class="bigspacer"></div>
+					<div class="spacer"></div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
 {% endfor %}
-  </div>
+
+{% if older_papers.size > 0 %}
+	<div class="paper-year-section" data-year-section data-year-group="2021-earlier">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>2021 and earlier</h1>
+				<hr style="height:2px;border:none;color:#808088;background-color:#808088;" />
+			</div>
+		</div>
+		<div class="row paper-grid">
+			{% for paper in older_papers %}
+				{% assign ptype_value = paper.ptype | default: 'all' %}
+				{% assign ptype_value = ptype_value | downcase %}
+				{% if ptype_value != 'intconf' and ptype_value != 'domconf' and ptype_value != 'intjour' and ptype_value != 'domjour' %}
+					{% assign ptype_value = 'all' %}
+				{% endif %}
+				<div class="col-lg-4 col-md-6 paperbox" data-paper-card data-ptype="{{ ptype_value }}" data-selected="{% if paper.selected %}true{% else %}false{% endif %}" data-year-group="2021-earlier" data-year="{{ paper.year }}" data-url="{{ paper.url }}">
+					<div class="media">
+						<div class="media-body">
+							<div class="smallhead mb-1"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
+							<p class="note" style="margin-bottom: 0;"><strong>{{ paper.ref }}</strong></p>
+							{% if paper.feature %}
+								{% assign features = paper.feature | split: ';' %}
+								{% for feature in features %}
+									{% assign trimmed_feature = feature | strip %}
+									{% if trimmed_feature != "" %}
+										<span class="badge badge-primary"><strong>{{ trimmed_feature }}</strong></span>
+									{% endif %}
+								{% endfor %}
+							{% endif %}
+						</div>
+						{% if paper.image %}
+						<a href="{{ paper.url }}">
+							<img class="ml-3 media-object" width="100" src="{{ paper.image }}" alt="{{ paper.title }}" loading="lazy">
+						</a>
+						{% endif %}
+					</div>
+					<div class="bigspacer"></div>
+					<div class="spacer"></div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+{% endif %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+	const filterContainer = document.querySelector('[data-paper-filters]');
+	if (!filterContainer) {
+		return;
+	}
+
+	const multiselect = filterContainer.querySelector('[data-multiselect]');
+	const multiselectToggle = filterContainer.querySelector('[data-multiselect-toggle]');
+	const multiselectMenu = filterContainer.querySelector('[data-multiselect-menu]');
+	const multiselectLabel = filterContainer.querySelector('[data-multiselect-label]');
+	const initialMultiselectLabel = multiselectLabel ? multiselectLabel.textContent.trim() : 'All papers';
+	const selectionCheckboxes = Array.from(filterContainer.querySelectorAll('[data-multiselect-option]'));
+	const yearSelect = filterContainer.querySelector('[data-filter-year]');
+	const typeButtons = Array.from(filterContainer.querySelectorAll('[data-filter-type]'));
+	const cards = Array.from(document.querySelectorAll('[data-paper-card]'));
+	const sections = Array.from(document.querySelectorAll('[data-year-section]'));
+	const emptyState = document.querySelector('[data-paper-empty]');
+
+	function getActiveTypes() {
+		return typeButtons
+			.filter(function(button) { return button.classList.contains('is-active'); })
+			.map(function(button) { return (button.dataset.filterType || button.value || '').toLowerCase(); })
+			.filter(function(value) { return value !== ''; });
+	}
+
+	function setButtonActive(button, isActive) {
+		if (!button) {
+			return;
+		}
+		button.classList.toggle('is-active', isActive);
+		button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+	}
+
+	function updateMultiselectLabel() {
+		if (!multiselectLabel) {
+			return;
+		}
+		if (selectionCheckboxes.length === 0) {
+			multiselectLabel.textContent = initialMultiselectLabel;
+			return;
+		}
+		const checked = selectionCheckboxes.filter(function(checkbox) { return checkbox.checked; });
+		if (checked.length === 0) {
+			multiselectLabel.textContent = initialMultiselectLabel;
+		} else if (checked.length === 1) {
+			multiselectLabel.textContent = checked[0].dataset.label || '1 selected';
+		} else {
+			multiselectLabel.textContent = checked.length + ' selected';
+		}
+	}
+
+	function openMultiselect() {
+		if (!multiselectMenu || !multiselectToggle || !multiselect) {
+			return;
+		}
+		multiselect.classList.add('is-open');
+		multiselectMenu.hidden = false;
+		multiselectToggle.setAttribute('aria-expanded', 'true');
+	}
+
+	function closeMultiselect() {
+		if (!multiselectMenu || !multiselectToggle || !multiselect) {
+			return;
+		}
+		multiselect.classList.remove('is-open');
+		multiselectMenu.hidden = true;
+		multiselectToggle.setAttribute('aria-expanded', 'false');
+	}
+
+	function applyFilters() {
+		const activeTypes = getActiveTypes();
+		const activeYear = yearSelect ? yearSelect.value : '';
+		const selectedTargets = selectionCheckboxes
+			.filter(function(checkbox) { return checkbox.checked; })
+			.map(function(checkbox) { return checkbox.value; });
+
+		cards.forEach(function(card) {
+			const cardType = (card.dataset.ptype || '').toLowerCase();
+			const matchesType = activeTypes.length === 0
+				? true
+				: activeTypes.includes(cardType) || cardType === 'all' || cardType === '';
+			const cardYear = card.dataset.year || '';
+			const matchesYear = !activeYear || cardYear === activeYear;
+			const cardUrl = card.dataset.url || '';
+			const matchesSelection = selectedTargets.length === 0 || selectedTargets.includes(cardUrl);
+			const shouldShow = matchesType && matchesYear && matchesSelection;
+			card.style.display = shouldShow ? '' : 'none';
+		});
+
+		sections.forEach(function(section) {
+			const group = section.dataset.yearGroup;
+			const hasVisibleCard = cards.some(function(card) {
+				if (card.dataset.yearGroup !== group) {
+					return false;
+				}
+				return card.style.display !== 'none';
+			});
+			section.style.display = hasVisibleCard ? '' : 'none';
+		});
+
+		if (emptyState) {
+			const hasAnyVisible = cards.some(function(card) { return card.style.display !== 'none'; });
+			emptyState.hidden = hasAnyVisible;
+		}
+	}
+
+	typeButtons.forEach(function(button) {
+		button.addEventListener('click', function() {
+			const currentlyActive = button.classList.contains('is-active');
+			const activeCount = getActiveTypes().length;
+			if (currentlyActive && activeCount <= 1) {
+				return;
+			}
+			setButtonActive(button, !currentlyActive);
+			applyFilters();
+			closeMultiselect();
+		});
+	});
+
+	if (selectionCheckboxes.length > 0) {
+		selectionCheckboxes.forEach(function(checkbox) {
+			checkbox.addEventListener('change', function() {
+				updateMultiselectLabel();
+				applyFilters();
+			});
+		});
+	}
+
+	if (yearSelect) {
+		yearSelect.addEventListener('change', function() {
+			applyFilters();
+			closeMultiselect();
+		});
+	}
+
+	if (multiselectToggle && multiselectMenu) {
+		multiselectToggle.addEventListener('click', function(event) {
+			event.preventDefault();
+			const isOpen = multiselect.classList.contains('is-open');
+			if (isOpen) {
+				closeMultiselect();
+			} else {
+				openMultiselect();
+			}
+		});
+
+		document.addEventListener('click', function(event) {
+			if (multiselect && !multiselect.contains(event.target)) {
+				closeMultiselect();
+			}
+		});
+
+		document.addEventListener('keydown', function(event) {
+			if (event.key === 'Escape' && multiselect && multiselect.classList.contains('is-open')) {
+				closeMultiselect();
+				multiselectToggle.focus();
+			}
+		});
+	}
+
+	updateMultiselectLabel();
+	applyFilters();
+});
+</script>

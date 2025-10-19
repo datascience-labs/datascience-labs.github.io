@@ -50,6 +50,7 @@ categories:
 			<div class="media">
 				{% if member.image %}
 					<a class="float-left" href="{{ member.url }}">
+						<img class="mr-3 profile-img" src="{{ member.image }}" alt="{{ member.title }}">
 					</a>
 				{% endif %}
  			 	<div class="media-body">
@@ -95,6 +96,7 @@ categories:
 		<div class="media">
 			{% if member.image %}
 				<a class="float-left" href="{{ member.url }}">
+					<img class="mr-3 profile-img" src="{{ member.image }}" alt="{{ member.title }}">
 				</a>
 			{% endif %}
  		 	<div class="media-body">
@@ -129,10 +131,15 @@ categories:
     {% endif %}
 		<div class="col-lg-4 memberbox">
 			<div class="media">
+				{% if member.image %}
+					<a class="float-left" href="{{ member.url }}">
+						<img class="mr-3 profile-img" src="{{ member.image }}" alt="{{ member.title }}">
+					</a>
+				{% endif %}
  			 	<div class="media-body">
     				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
     				<p class="note">{{ member.position }}</p>
-  				</div>
+ 				</div>
 			</div>
 			<div class="bigspacer"></div>
         </div>
