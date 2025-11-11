@@ -5,7 +5,7 @@ categories:
  - papers
 ---
 
-{% assign sorted_papers = site.categories.papers | sort: "year" | reverse %}
+{% assign sorted_papers = site.categories.papers | sort: "date" | reverse %}
 {% assign year_options = sorted_papers | map: "year" | uniq | sort | reverse %}
 {% assign selected_papers = sorted_papers | where: "selected", true | sort: "year" | reverse %}
 {% assign selection_options = selected_papers %}
@@ -18,18 +18,24 @@ categories:
 		<div class="paper-filter-bar" data-paper-filters>
 			<div class="paper-filter-group" role="group" aria-label="Publication types">
 				<span class="paper-filter-label">Publication types</span>
-				<button type="button" class="paper-filter-chip is-active" data-filter-type value="intconf" aria-pressed="true">
+				<button type="button" class="paper-filter-chip" data-filter-type value="intconf" aria-pressed="false">
 					International Conferences
 				</button>
-				<button type="button" class="paper-filter-chip is-active" data-filter-type value="intjour" aria-pressed="true">
+				<button type="button" class="paper-filter-chip" data-filter-type value="intjour" aria-pressed="false">
 					International Journals
 				</button>
-				<button type="button" class="paper-filter-chip is-active" data-filter-type value="domconf" aria-pressed="true">
+				<button type="button" class="paper-filter-chip" data-filter-type value="domconf" aria-pressed="false">
 					Domestic Conferences
 				</button>
-				<button type="button" class="paper-filter-chip is-active" data-filter-type value="domjour" aria-pressed="true">
+				<button type="button" class="paper-filter-chip" data-filter-type value="domjour" aria-pressed="false">
 					Domestic Journals
 				</button>
+				<button type="button" class="paper-filter-chip paper-filter-chip--utility" data-filter-toggle-all aria-pressed="false">
+					전체 선택
+				</button>
+				<div class="paper-filter-helper text-muted small">
+					유형 버튼을 눌러 필터링하거나 전체 선택/해제를 사용할 수 있습니다.
+				</div>
 			</div>
 			<div class="paper-filter-group" role="group" aria-label="Year">
 				<span class="paper-filter-label">Year</span>
@@ -191,6 +197,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	const selectionCheckboxes = Array.from(filterContainer.querySelectorAll('[data-multiselect-option]'));
 	const yearSelect = filterContainer.querySelector('[data-filter-year]');
 	const typeButtons = Array.from(filterContainer.querySelectorAll('[data-filter-type]'));
+	const toggleAllButton = filterContainer.querySelector('[data-filter-toggle-all]');
 	const cards = Array.from(document.querySelectorAll('[data-paper-card]'));
 	const sections = Array.from(document.querySelectorAll('[data-year-section]'));
 	const emptyState = document.querySelector('[data-paper-empty]');
@@ -226,6 +233,16 @@ document.addEventListener('DOMContentLoaded', function() {
 		} else {
 			multiselectLabel.textContent = checked.length + ' selected';
 		}
+	}
+
+	function updateToggleAllLabel() {
+		if (!toggleAllButton) {
+			return;
+		}
+		const activeTypes = getActiveTypes();
+		const allActive = activeTypes.length === typeButtons.length && typeButtons.length > 0;
+		toggleAllButton.textContent = allActive ? '전체 해제' : '전체 선택';
+		toggleAllButton.setAttribute('aria-pressed', allActive ? 'true' : 'false');
 	}
 
 	function openMultiselect() {
@@ -281,6 +298,8 @@ document.addEventListener('DOMContentLoaded', function() {
 			const hasAnyVisible = cards.some(function(card) { return card.style.display !== 'none'; });
 			emptyState.hidden = hasAnyVisible;
 		}
+
+		updateToggleAllLabel();
 	}
 
 	typeButtons.forEach(function(button) {
@@ -295,6 +314,18 @@ document.addEventListener('DOMContentLoaded', function() {
 			closeMultiselect();
 		});
 	});
+
+	if (toggleAllButton) {
+		toggleAllButton.addEventListener('click', function() {
+			const activeTypes = getActiveTypes();
+			const shouldActivateAll = activeTypes.length !== typeButtons.length;
+			typeButtons.forEach(function(button) {
+				setButtonActive(button, shouldActivateAll);
+			});
+			applyFilters();
+			closeMultiselect();
+		});
+	}
 
 	if (selectionCheckboxes.length > 0) {
 		selectionCheckboxes.forEach(function(checkbox) {
@@ -339,5 +370,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	updateMultiselectLabel();
 	applyFilters();
+	updateToggleAllLabel();
 });
 </script>

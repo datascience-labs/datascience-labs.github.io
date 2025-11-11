@@ -131,7 +131,7 @@ layout: default
 		{% assign searchstring = lastname | append: ' ' | append: firstinitial %}
 		{% assign searchkname = member.kname %}
 
-		{% assign member_papers = site.categories.papers | where_exp: "paper", "paper.kauthors contains searchkname" %}␊
+		{% assign member_papers = site.categories.papers | where_exp: "paper", "paper.kauthors contains searchkname" %}
 		{% if member_papers and member_papers != empty %}
 		<div class="bigspacer"></div>
 		<div class="head">Papers</div>
