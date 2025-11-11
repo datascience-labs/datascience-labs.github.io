@@ -9,7 +9,7 @@ keywords: Carbon-Aware, Geo-Distributed Cloud, Kubernetes, Carbon emissions, Dee
 year: 2025
 ref: NOLTA 2025
 journal: "NOLTA 2025"
-feature: Accepted;
+feature: Accepted; Student Paper Award
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>
