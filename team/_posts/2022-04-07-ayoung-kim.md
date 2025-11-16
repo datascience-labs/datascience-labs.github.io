@@ -9,8 +9,7 @@ cv: https://drive.google.com/file/d/1ZaYk7WyRH51XGh3cco7am7FO39IjgTZc/view?usp=s
 email: ayoung.kim@datasciencelabs.org
 ---
 
-I joined the Department of Computer Engineering at [Dong-A University](https://english.donga.ac.kr/sites/english/index.do) in March 2021.
-<!-- And in March 2025, [Data Science Research Lab](https://www.datasciencelabs.org/) is conducting big data analysis and semantic annotation research.  -->
+I transferred to the Department of Computer Engineering at [Dong-A University](https://english.donga.ac.kr/english/Main.do) in March 2021. In March 2025, I entered the master’s program and joined the [Data Science Research Lab](https://www.datasciencelabs.org/). I am currently focusing on research related to table structure recognition and document understanding automation for Korean documents. Previously, I conducted research on digital carbon footprint estimation based on webpage layout complexity.
 
-<!-- <div class="head">Research interests</div> -->
-<!-- <span class="badge badge-info">Semantic Table Interpretation</span><span class="badge badge-danger">Job-Skill Matching</span> -->
+<div class="head">Research interests</div>
+<span class="badge badge-info">Table Structure Recognition</span>
