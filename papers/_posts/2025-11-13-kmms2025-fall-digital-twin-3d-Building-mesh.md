@@ -2,18 +2,17 @@
 layout: paper
 ptype: domconf
 group: knowevo
-title: "3D GIS를 활용한 도시 인공조명 데이터 시각화"
-authors: Seongtaek Im, Wonseok Son, Jungkyu Han, Sejin Chun
-kauthors: ["임성택", "손원석", "한정규", "천세진"]
+title: "건물 메쉬 데이터에서의 효율적 외피 구조 인식 알고리즘"
+authors: Geonhan Kim, Daero Kim, Sejin Chun, Jungkyu Han
+kauthors: ["김건한", "김대로", "천세진", "한정규"]
 year: 2025
 ref: 한국멀티미디어학회 추계학술발표대회 2025.
 journal: "2025년 한국멀티미디어학회 추계학술발표대회"
-keywords: Digital Twin, 3D GIS, Artificial Lighting
+Key Words : 건물 외피 추출, 평면 피팅, 계산 복잡도
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>
-도시 인공조명은 야간 안전과 활동성을 높이지만, 과도한 조명은 에너지 낭비와 빛공해로 생태·건강·경관에 부정적 영향을 준다. 본 연구는 디지털 트윈 기반 3D GIS에서 10×10 m 격자로 조도 데이터를 집계하고, 히트맵과 3D 막대로 시각화하는 경량 웹 워크플로를 제시한다. 분석 범위는 도로 중심선 기준 반경 30 m로 한정하며, 전역 분포 파악과 확대 세부 확인을 하나의 UI에서 연속적으로 지원한다. 임계값(예: ≥ 2.0 lx)을 초과하는 격자를 3D 막대로 표시하여 과다조명 구간을 빠르게 식별하고, 에너지 효율 개선과 빛공해 저감을 위한 우선 개입 후보를 도출한다. 
-
+본 연구는 건물 메쉬 데이터로부터 외피(facade) 구조를 효율적으로 인식하기 위한 2단계 알고리즘을 제안한다. 1단계에서는 DFS 기반 인접 탐색을 통해 삼각형 면을 빠르게 그룹화하고, 2단계에서는 Convex Hull, RANSAC 기반 Plane Fitting, Normal 기반 Region Growing을 적용·비교하여 외피를 단일 평면 구조로 환원한다. 시간 복잡도 분석에 근거한 이론적 검토 결과, Convex Hull은 , RANSAC Plane Fitting은 , Normal 기반 Region Growing은 의 계산 복잡도를 갖는 것으로 분석된다. 이에 따라 Region Growing이 선형 복잡도로 가장 효율적일 가능성이 높으며, RANSAC은 이상치 보정에 유리하고, Convex Hull은 외곽 단순화에 적합함을 확인하였다. 제안된 접근법은 건물 외피 인식의 효율적 구조 분석과 시뮬레이션 응용에 이론적 근거를 제공한다.
 <div class="alert alert-warning" role="alert">
-   3D GIS-Based Visualization of Urban Artificial Lighting Data
+  Efficient Envelope Structure Recognition Algorithm for Building Mesh Data
 </div>
