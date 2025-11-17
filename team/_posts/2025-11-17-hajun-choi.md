@@ -4,7 +4,7 @@ title: Hajun Choi
 position: Undergraduate
 github: Hajun_Choi
 kname : 최하준
-cv: "URL Link", Hajun Choi CV
+cv: 
 email: iamthebluekey@gmail.com
 image: /images/team/최하준_프로필.png
 ---
