@@ -6,7 +6,7 @@ github: jhparkland
 kname : 박정현
 scholar: fhlWqOYAAAAJ
 linkedin: jeonghyeon-park
-cv: https://drive.google.com/file/d/14VI9OhzAJYLae7lU0BUt_Mf3jRk1QH12/view?usp=drive_link, JeonghyeonPark CV
+cv: https://drive.google.com/file/d/1b3c6YVdJs9ZmyngFyCv3fS0E1yGF1fuk/view?usp=sharing, JeonghyeonPark CV
 image: /images/team/jeonghyeon-park.jpg
 email: jeonghyeon.park@datasciencelabs.org
 ---
