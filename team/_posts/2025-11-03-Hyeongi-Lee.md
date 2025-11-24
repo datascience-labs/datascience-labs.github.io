@@ -4,7 +4,7 @@ title: Hyeon gi Lee
 position: Undergraduate
 github: Hyeon gi Lee
 kname : 이현기
-cv: https://drive.google.com/file/d/1S9FM61Lr9y7c3_y8YGsSQDP6SrWdEMK9/view?usp=sharing, Hyeon gi Lee CV
+cv: https://drive.google.com/file/d/1W_zVu84eRaafaLH6wGx431NGvPE5OXZQ/view?usp=sharing, Hyeon gi Lee CV
 email: studio0402@gmail.com
 image: /images/team/이현기_프로필.png
 ---
