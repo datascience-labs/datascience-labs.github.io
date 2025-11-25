@@ -5,7 +5,7 @@ position: Undergraduate
 kname : 김동현
 github: Kim-dingdong
 linkedin:
-cv: https://drive.google.com/file/d/1UN3F4xySXiG--3neqJlTsrzb-kIBd9F4/view?usp=sharing
+cv:https://drive.google.com/file/d/1EoKw_CRfe1wHHbNrbUFczVSGEQVSrMJo/view?usp=sharing, DonghyeonKim CV
 email: dkk0101@naver.com
 image: images/team/2238388김동현_프로필.png
 ---
