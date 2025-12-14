@@ -5,4 +5,4 @@ position: Undergraduate intern
 alumni: true
 ---
 
-She completed her graduate studies at [Yonsei](https://www.yonsei.ac.kr/sc/index.jsp) University. 
+She received her master’s degree from Yonsei University and is currently working at LG Electronics.
