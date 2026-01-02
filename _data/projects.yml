@@ -1,14 +1,74 @@
 ---
+- repo: datascience-labs/GreenAccounter
+  title: GreenAccounter
+  owner: datascience-labs
+  description:
+  url: "/projects/GreenAccounter/"
+  contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
+  - login: JaeKyeong-Kim
+    avatar: https://avatars.githubusercontent.com/u/106914954?v=4&s=50
+    url: https://github.com/JaeKyeong-Kim
+  - login: FarmingWon
+    avatar: https://avatars.githubusercontent.com/u/98411696?v=4&s=50
+    url: https://github.com/FarmingWon
+  - login: jhparkinglot
+    avatar: https://avatars.githubusercontent.com/u/126451260?v=4&s=50
+    url: https://github.com/jhparkinglot
+  commits:
+  - date: 2026-01-02 02:45:28.000000000 Z
+    message: Create index.md
+    url: https://github.com/datascience-labs/GreenAccounter/commit/fe0cd0a0dbdac46ce2c2be47db15d5dd0f4234fe
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2026-01-02 02:38:36.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/GreenAccounter/commit/a0daed758454afdbccb2c624b3ce216f684ce719
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2025-12-29 06:03:20.000000000 Z
+    message: demo updates
+    url: https://github.com/datascience-labs/GreenAccounter/commit/331b5302efdbf7af1e8fd57bbf63b57a702d50a1
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2025-12-29 05:56:40.000000000 Z
+    message: demo updates
+    url: https://github.com/datascience-labs/GreenAccounter/commit/72c39dc585006c4b54a033409bf64669e77a69d8
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2025-12-29 05:55:17.000000000 Z
+    message: demo update
+    url: https://github.com/datascience-labs/GreenAccounter/commit/aa9bea05e9ec867b68d6686ebf32cb7ddb949028
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
 - repo: datascience-labs/CDRL4AD
   title: CDRL4AD
   owner: datascience-labs
   description:
   url: "/projects/CDRL4AD/"
   contributors:
+  - login: jhparkland
+    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
+    url: https://github.com/jhparkland
   - login: Wona11
     avatar: https://avatars.githubusercontent.com/u/101161955?v=4&s=50
     url: https://github.com/Wona11
+  - login: jhparkinglot
+    avatar: https://avatars.githubusercontent.com/u/126451260?v=4&s=50
+    url: https://github.com/jhparkinglot
   commits:
+  - date: 2025-10-13 08:25:37.000000000 Z
+    message: Update index.md
+    url: https://github.com/datascience-labs/CDRL4AD/commit/ae139cec97839525be37e8d6888241088af76a41
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2025-10-13 05:09:06.000000000 Z
+    message: update
+    url: https://github.com/datascience-labs/CDRL4AD/commit/2f5a23bd36128e33b06bfd3dac6bea6ab1bbd2f2
+    author_login: jhparkinglot
+    author_url: https://github.com/jhparkinglot
   - date: 2025-10-13 04:55:24.000000000 Z
     message: Fix formatting issues in README.md
     url: https://github.com/datascience-labs/CDRL4AD/commit/8f253b732612d41906278d61541f0edb198ec746
@@ -39,7 +99,15 @@
   - login: izgnok
     avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
     url: https://github.com/izgnok
+  - login: jhparkinglot
+    avatar: https://avatars.githubusercontent.com/u/126451260?v=4&s=50
+    url: https://github.com/jhparkinglot
   commits:
+  - date: 2025-10-13 05:09:01.000000000 Z
+    message: update
+    url: https://github.com/datascience-labs/CAFTM/commit/24e85062429913ce0ad534a3f8a4af0941206296
+    author_login: jhparkinglot
+    author_url: https://github.com/jhparkinglot
   - date: 2025-10-13 04:55:07.000000000 Z
     message: Create README.md
     url: https://github.com/datascience-labs/CAFTM/commit/4b436142784bbd342ae0618da37c13d1447fbf9c
@@ -58,49 +126,6 @@
   - date: 2024-07-17 05:20:03.000000000 Z
     message: Update index.md
     url: https://github.com/datascience-labs/CAFTM/commit/a773ef4efb67a36f984efe146b57b2d6a8e4e6c7
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-07-17 05:19:52.000000000 Z
-    message: Delete GPU.png
-    url: https://github.com/datascience-labs/CAFTM/commit/a660764688383ed4788dc3f7dd392ffedcff3021
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-- repo: datascience-labs/GreenAccounter
-  title: GreenAccounter
-  owner: datascience-labs
-  description:
-  url: "/projects/GreenAccounter/"
-  contributors:
-  - login: jhparkland
-    avatar: https://avatars.githubusercontent.com/u/86312443?v=4&s=50
-    url: https://github.com/jhparkland
-  commits:
-  - date: 2025-10-13 04:54:29.000000000 Z
-    message: |-
-      Clean up README by removing layout and project info
-
-      Removed project metadata from README.
-    url: https://github.com/datascience-labs/GreenAccounter/commit/2f5e4efc709bb16b8c3831056e53b4959d0eecce
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2025-10-13 04:54:15.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/GreenAccounter/commit/6bf199c90bbea03c486cb621c83e326e902b86bc
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2025-09-30 08:22:30.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/GreenAccounter/commit/af17e6dbc638c92cbd2fe4794e632354df7924e2
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2025-09-30 08:22:16.000000000 Z
-    message: Update README.md
-    url: https://github.com/datascience-labs/GreenAccounter/commit/2754d91fee90fba969d00b03a55fc9b5ceb0a5a0
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2025-09-30 08:21:10.000000000 Z
-    message: Add files via upload
-    url: https://github.com/datascience-labs/GreenAccounter/commit/beb47541922067b4809b76e4389a78ac57e7996b
     author_login: jhparkland
     author_url: https://github.com/jhparkland
 - repo: datascience-labs/anomali-flow
@@ -210,9 +235,9 @@
   - login: FarmingWon
     avatar: https://avatars.githubusercontent.com/u/98411696?v=4&s=50
     url: https://github.com/FarmingWon
-  - login: Prcnsi
+  - login: Jiseon-Klm
     avatar: https://avatars.githubusercontent.com/u/86015194?v=4&s=50
-    url: https://github.com/Prcnsi
+    url: https://github.com/Jiseon-Klm
   - login: RYEONGRYEONG
     avatar: https://avatars.githubusercontent.com/u/126739223?v=4&s=50
     url: https://github.com/RYEONGRYEONG
