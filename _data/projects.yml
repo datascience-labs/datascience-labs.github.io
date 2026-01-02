@@ -18,6 +18,16 @@
     avatar: https://avatars.githubusercontent.com/u/126451260?v=4&s=50
     url: https://github.com/jhparkinglot
   commits:
+  - date: 2026-01-02 02:55:31.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/GreenAccounter/commit/a458abf57570507dcce97f87c6e634d27371ab67
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2026-01-02 02:48:22.000000000 Z
+    message: update
+    url: https://github.com/datascience-labs/GreenAccounter/commit/2650f3eb76df168bd8b2287243f1c50e6eecd2fa
+    author_login: jhparkinglot
+    author_url: https://github.com/jhparkinglot
   - date: 2026-01-02 02:45:28.000000000 Z
     message: Create index.md
     url: https://github.com/datascience-labs/GreenAccounter/commit/fe0cd0a0dbdac46ce2c2be47db15d5dd0f4234fe
@@ -31,16 +41,6 @@
   - date: 2025-12-29 06:03:20.000000000 Z
     message: demo updates
     url: https://github.com/datascience-labs/GreenAccounter/commit/331b5302efdbf7af1e8fd57bbf63b57a702d50a1
-    author_login: FarmingWon
-    author_url: https://github.com/FarmingWon
-  - date: 2025-12-29 05:56:40.000000000 Z
-    message: demo updates
-    url: https://github.com/datascience-labs/GreenAccounter/commit/72c39dc585006c4b54a033409bf64669e77a69d8
-    author_login: FarmingWon
-    author_url: https://github.com/FarmingWon
-  - date: 2025-12-29 05:55:17.000000000 Z
-    message: demo update
-    url: https://github.com/datascience-labs/GreenAccounter/commit/aa9bea05e9ec867b68d6686ebf32cb7ddb949028
     author_login: FarmingWon
     author_url: https://github.com/FarmingWon
 - repo: datascience-labs/CDRL4AD
@@ -59,6 +59,11 @@
     avatar: https://avatars.githubusercontent.com/u/126451260?v=4&s=50
     url: https://github.com/jhparkinglot
   commits:
+  - date: 2026-01-02 02:48:18.000000000 Z
+    message: update
+    url: https://github.com/datascience-labs/CDRL4AD/commit/d81455cc12e2395408b11cdb10fe22dcd0910cbc
+    author_login: jhparkinglot
+    author_url: https://github.com/jhparkinglot
   - date: 2025-10-13 08:25:37.000000000 Z
     message: Update index.md
     url: https://github.com/datascience-labs/CDRL4AD/commit/ae139cec97839525be37e8d6888241088af76a41
@@ -79,11 +84,6 @@
     url: https://github.com/datascience-labs/CDRL4AD/commit/4cefc8f0bd6093e39f603d03d22bd5bc4b67f7f5
     author_login: Wona11
     author_url: https://github.com/Wona11
-  - date: 2025-10-11 13:03:04.000000000 Z
-    message: Initial commit
-    url: https://github.com/datascience-labs/CDRL4AD/commit/5650c182c37be5f1770b37dccc1cc987ad9643c4
-    author_login: Wona11
-    author_url: https://github.com/Wona11
 - repo: datascience-labs/CAFTM
   title: CAFTM
   owner: datascience-labs
@@ -96,13 +96,18 @@
   - login: dhfgoeofh
     avatar: https://avatars.githubusercontent.com/u/80153046?v=4&s=50
     url: https://github.com/dhfgoeofh
-  - login: izgnok
-    avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
-    url: https://github.com/izgnok
   - login: jhparkinglot
     avatar: https://avatars.githubusercontent.com/u/126451260?v=4&s=50
     url: https://github.com/jhparkinglot
+  - login: izgnok
+    avatar: https://avatars.githubusercontent.com/u/101163901?v=4&s=50
+    url: https://github.com/izgnok
   commits:
+  - date: 2026-01-02 02:48:09.000000000 Z
+    message: update
+    url: https://github.com/datascience-labs/CAFTM/commit/0fd57a79dde88a4a55139baf3968bbff2d30904f
+    author_login: jhparkinglot
+    author_url: https://github.com/jhparkinglot
   - date: 2025-10-13 05:09:01.000000000 Z
     message: update
     url: https://github.com/datascience-labs/CAFTM/commit/24e85062429913ce0ad534a3f8a4af0941206296
@@ -121,11 +126,6 @@
   - date: 2025-03-23 11:15:21.000000000 Z
     message: Update index.md
     url: https://github.com/datascience-labs/CAFTM/commit/f6987bd95121ea767dd70c41b67c6a52996dda19
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2024-07-17 05:20:03.000000000 Z
-    message: Update index.md
-    url: https://github.com/datascience-labs/CAFTM/commit/a773ef4efb67a36f984efe146b57b2d6a8e4e6c7
     author_login: jhparkland
     author_url: https://github.com/jhparkland
 - repo: datascience-labs/anomali-flow
