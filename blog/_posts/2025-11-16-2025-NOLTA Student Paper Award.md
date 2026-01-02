@@ -1,7 +1,7 @@
 ﻿---
 layout: post
-title: 2025 NOLTA 우수논문상 수상
-description: NOLTA 2025 우수논문상 수상
+title: 2025 NOLTA 국제학술대회 우수논문상 수상
+description: 2025 NOLTA 국제학술대회 우수논문상 수상
 thumb: /images/blog/NOLTA-Award.jpg
 author: DSL-Media
 ---
