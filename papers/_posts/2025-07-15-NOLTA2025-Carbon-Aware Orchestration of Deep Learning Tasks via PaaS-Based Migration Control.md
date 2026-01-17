@@ -14,3 +14,8 @@ feature: Accepted; Student Paper Award
 
 <h4><span class="badge badge-info">Abstract</span></h4>
 Deep learning workloads on the cloud contribute significantly to carbon emissions due to their high power consumption. There remain limited practical implementations of real-time carbon-aware platforms in geo-distributed cloud environments, despite prior studies proposing workload migration algorithms that account for carbon intensity. This study presents a novel workload migration technique that is integrated into a Kubernetes-based Platform-as-a-Service architecture to enable carbon-aware workload scheduling. Experimental results using real-world data show that the proposed algorithm reduces carbon emissions by an average of 20.22% and power consumption by up to 22.68%, compared to state-of-the-art methods. Furthermore, the proposed carbon-aware migration techniques demonstrate practical feasibility for implementation in real-world cloud platforms. 
+
+
+<div class="alert alert-primary" role="alert">
+    본 논문은 NOLTA 2025에서 발표된 논문으로, 학생 논문상을 수상하였습니다.
+</div>

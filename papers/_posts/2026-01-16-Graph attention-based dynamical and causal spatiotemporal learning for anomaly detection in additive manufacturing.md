@@ -22,3 +22,9 @@ In additive manufacturing (AM) processes, in-situ monitoring combined with machi
     <img class="pull-left pad-right media-object d-none d-sm-block" src="{{ page.image }}">
     <figcaption>An Overall Framework for Graph Attention-Based Anomaly Detection in AM Process Monitoring via Spatial-Temporal and Granger Causal Learning. Starting from the AM process phenomena (schematic adapted from [Citation9]), the proposed framework processes in-situ monitoring data, constructs graphs, and applies graph attention-based modelling with spatial-temporal dependency learning and Granger causal learning to detect anomalies in AM. Beyond anomaly detection, the framework provides interpretable insights through multiple analysis approaches: spatial-temporal dependencies interpretation via feature clustering analysis, causal disentanglement analysis via disentangled causal factor clustering analysis, and causal attribution analysis via causal pathway analysis and temporal attention distribution analysis. These capabilities enable a deeper understanding of dynamics in AM processes.</figcaption>
 </figure>
+
+
+
+<div class="alert alert-primary" role="alert">
+    본 논문은 미국 NIST 및 Arizona State University와의 국제 공동연구를 통해 수행된 연구임.
+</div>
