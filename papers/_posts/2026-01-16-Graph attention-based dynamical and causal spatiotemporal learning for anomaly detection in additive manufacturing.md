@@ -5,7 +5,7 @@ group: knowevo
 title: "Graph attention-based dynamical and causal spatiotemporal learning for anomaly detection in additive manufacturing"
 authors: Suk Ki Lee, Wonah Kim, Sungbeom Lee, Jeonghyeon Park, Sejin Chun, Ho Yeung & Hyunwoong Ko
 kauthors: ["이석기", "김원아", "이성범", "박정현", "천세진", "Ho Yeung", "고현웅"]
-year: 2025
+year: 2026
 venue: /images/papers/nvpp.png
 image: /images/papers/nvpp.png
 ref: Virtual and Physical Prototyping
