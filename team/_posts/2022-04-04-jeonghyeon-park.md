@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jeonghyeon Park
-position: Master student
+position: PhD Student
 github: jhparkland
 kname : 박정현
 scholar: fhlWqOYAAAAJ
