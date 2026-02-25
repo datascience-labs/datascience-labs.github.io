@@ -5,7 +5,7 @@ position: Undergraduate
 github: S-yujn
 kname : 송유진
 image: /images/team/송유진_프로필.png
-cv: https://drive.google.com/file/d/1ZaYk7WyRH51XGh3cco7am7FO39IjgTZc/view?usp=sharing, ](https://drive.google.com/file/d/1H1FnFBtrePUBU_S4o0MBc64rYl9k0F__/view?usp=drive_link), Yujin Song CV
+cv: https://drive.google.com/file/d/1H1FnFBtrePUBU_S4o0MBc64rYl9k0F__/view?usp=drive_link, ,Yujin Song CV
 email: syuj2412@gmail.com
 ---
 
