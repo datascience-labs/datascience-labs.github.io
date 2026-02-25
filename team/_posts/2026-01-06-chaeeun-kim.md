@@ -4,7 +4,7 @@ title: Chaeeun Kim
 position: Undergraduate
 kname : 김채은
 github: chaeni-dev
-cv: https://drive.google.com/file/d/1t7C3kkkgzchE1mLAcG0jap3BuoF-hGnY/view?usp=sharing, Chaeun Kim CV
+cv: https://drive.google.com/file/d/13VVh3owXzzL_kYbPWBtkdDsbWD7909ST/view?usp=sharing, Chaeun Kim CV
 email: chae.euniverse@gmail.com
 image: /images/team/김채은_프로필.png
 ---
