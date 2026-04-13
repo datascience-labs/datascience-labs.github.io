@@ -69,10 +69,10 @@ layout: default
 			{% endif %}
 			{% if page.doi %}
 			<div class="doi-row">
-				<a class="badge badge-primary" href="https://doi.org/{{ page.doi }}" target="_blank" rel="noopener">
+				<a class="badge badge-primary" href="{{ page.doi }}" target="_blank" rel="noopener">
 					DOI
 				</a>
-				<a class="off" href="https://doi.org/{{ page.doi }}" target="_blank" rel="noopener">{{ page.doi }}</a>
+				<a class="off" href="{{ page.doi }}" target="_blank" rel="noopener">{{ page.doi }}</a>
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
