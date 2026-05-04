@@ -11,6 +11,8 @@ conference: "2026년 한국ITS학회 춘계학술대회"
 keywords: On-device RAG, MRL(Matryoshka Representation Learning), SLM, Civil Complaint System, Adaptive Retrieval
 ---
 
+
+
 <h4><span class="badge badge-info">Abstract</span></h4>
 
 공공분야의 민원 행정 수요가 급증함에 따라 AI 도입의 필요성이 커지고 있으나, 엄격한 보안 규제로 인한 외부 클라우드 사용 제한과 하드웨어 자원의 한계는 대규모 언어 모델(LLM) 활용의 주요 장애물이다. 특히 법적 근거가 중요한 민원 처리 업무에서 AI의 환각(Hallucination) 현상은 시스템의 신뢰성을 저해하는 핵심 요소로 작용한다.
