@@ -1,6 +1,6 @@
 ---
 layout: paper
-ptype: conf
+ptype: domconf
 group: knowevo
 title: "MCP 기반 LLM Agent를 활용한 해양 레저 추천 프레임워크"
 authors: Beopgi Kim, Jeonghyeon Park, Sejin Chun

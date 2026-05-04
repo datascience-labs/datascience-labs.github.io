@@ -1,6 +1,6 @@
 ---
 layout: paper
-ptype: conf
+ptype: domconf
 group: knowevo
 title: "온디바이스 RAG를 위한 질의 복잡도 기반 적응형 검색 및 근거 보정 파이프라인"
 authors: Hyeongi Lee, Ayoung Kim, Sejin Chun
