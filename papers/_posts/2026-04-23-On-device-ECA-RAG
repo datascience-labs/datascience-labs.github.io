@@ -1,0 +1,20 @@
+---
+layout: paper
+ptype: conf
+group: knowevo
+title: "온디바이스 RAG를 위한 질의 복잡도 기반 적응형 검색 및 근거 보정 파이프라인"
+authors: Hyeongi Lee, Ayoung Kim, Sejin Chun
+kauthors: ["이현기", "김아영", "천세진"]
+year: 2026
+ref: 2026년 한국ITS학회 춘계학술대회
+conference: "2026년 한국ITS학회 춘계학술대회"
+keywords: On-device RAG, MRL(Matryoshka Representation Learning), SLM, Civil Complaint System, Adaptive Retrieval
+---
+
+<h4><span class="badge badge-info">Abstract</span></h4>
+
+공공분야의 민원 행정 수요가 급증함에 따라 AI 도입의 필요성이 커지고 있으나, 엄격한 보안 규제로 인한 외부 클라우드 사용 제한과 하드웨어 자원의 한계는 대규모 언어 모델(LLM) 활용의 주요 장애물이다. 특히 법적 근거가 중요한 민원 처리 업무에서 AI의 환각(Hallucination) 현상은 시스템의 신뢰성을 저해하는 핵심 요소로 작용한다.
+
+본 연구에서는 이러한 문제를 해결하기 위해 제한된 연산 자원 내에서 동적으로 동작하며 신뢰도를 스스로 통제할 수 있는 '질의 복잡도 기반 적응형 검색 및 근거 보정 파이프라인'을 제안한다. 제안된 시스템은 MRL(Matryoshka Representation Learning) 인코더와 Sequential OLS 최적화 기술을 적용하여 정보 손실을 최소화하면서도 검색 지연 시간을 단축한다. 검색 단계에서는 128차원의 고속 검색(Fast)과 2048차원의 심층 재순위(Deep) 과정을 결합한 적응형 구조를 채택하였으며, 최종적으로 소형 언어 모델(SLM)을 통한 2단계 근거 부합성 검증을 거쳐 답변의 정확성을 보장한다.
+
+이를 통해 본 연구는 온디바이스 환경에서 연산 비용을 획기적으로 절감하는 동시에 환각 현상을 효과적으로 억제하는 실무형 RAG 아키텍처를 제시하였다. 본 프레임워크는 보안이 필수적인 공공 AI 도입의 정체 문제를 해결할 수 있는 대안이 될 것이며, 향후 다국어 확장 및 맞춤형 차원 자동 선택 연구로의 발전 가능성을 시사한다.
