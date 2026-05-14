@@ -1,6 +1,6 @@
 ---
 layout: paper
-ptype: conf
+ptype: domconf
 group: knowevo
 title: "강의 비디오로부터 지식 품질을 평가하기 위한 LLM 기반 프레임워크"
 authors: Chaeeun Kim, Taehee Kim, Sejin Chun
