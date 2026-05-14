@@ -1,8 +1,8 @@
 ---
 layout: paper
-ptype: conf
+ptype: domconf
 group: knowevo
-title: "A Method for Multi-hop Question Answering via Summary-based Context Structuring"
+title: "요약 기반 문맥 구조화를 통한 Multi-hop 질의응답 방법 제안"
 authors: Taei Yoon, Taehee Kim, Sejin Chun
 kauthors: ["윤태이", "김태희", "천세진"]
 year: 2026
