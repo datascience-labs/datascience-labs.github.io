@@ -9,7 +9,7 @@ year: 2026
 feature: KCI;
 ref: Smart Media Journal
 journal: "Smart Media Journal"
-doi: https://dx.doi.org/10.30693/SMJ.2026.15.6.82
+doi: https://doi.org/10.30693/SMJ.2026.15.6.82
 keywords: recommender system, cold-start, inference, flow matching, side information
 categories: papers
 ---
