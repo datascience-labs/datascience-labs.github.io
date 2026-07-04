@@ -9,8 +9,8 @@ keywords: TableVQA, Multimodal Large Language Models, Table Understanding, Bench
 year: 2026
 ref: 한국정보과학회 한국컴퓨터종합학술대회 2026
 journal: "2026 한국컴퓨터종합학술대회"
-venue: /images/papers/KCC2026-MLLM-Table-Understanding.png
-image: /images/papers/KCC2026-MLLM-Table-Understanding.png
+venue: /images/papers/KCC2026.png
+image: /images/papers/KCC2026.png
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>
