@@ -4,8 +4,6 @@ title: Jaekyeong Kim
 position: Undergraduate
 github: JaeKyeong-Kim
 kname : 김재경
-cv: https://drive.google.com/file/d/1S9FM61Lr9y7c3_y8YGsSQDP6SrWdEMK9/view?usp=sharing, Jaekyeong Kim CV
-email: jkkimds64@gmail.com
 alumni: true
 ---
 
