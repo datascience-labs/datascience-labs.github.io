@@ -11,7 +11,14 @@ image: /images/team/jeonghyeon-park.jpg
 email: jeonghyeon.park@datasciencelabs.org
 ---
 
-I entered the Department of Computer Engineering at  [Dong-A University](https://english.donga.ac.kr/sites/english/index.do)  in March 2018. I joined the Data Science Research Lab in September 2021 and advanced to the master's course in March 2024.  Currently, I focus on carbon-aware cloud computing.  This includes my work as the first author of a paper published in IEEE CLOUD 2024, which proposes a carbon-aware migration methodology to reduce emissions from deep learning workloads. Previously, my research also included site selection methodologies using data mining and graph networks.
+I am a Ph.D. student in Computer Engineering at  [Dong-A University](https://english.donga.ac.kr/sites/english/index.do) and a member of the Data Science Research Lab. My research focuses on carbon-aware cloud computing, particularly the orchestration and migration of deep learning workloads in geo-distributed clouds.
 
 <div class="head">Research interests</div>
 <span class="badge badge-info">Carbon-Aware Cloud Computing</span>
+
+<div style="border: 1px solid #007bff; border-radius: 10px; padding: 16px; background-color: #f8f9fa; max-width: 800px;">
+  <span class="badge badge-pill badge-primary" style="font-size: 1rem;">석사 학위논문</span>
+  <h4 style="margin-top: 12px; font-weight: 600; color: #212529;">
+    Carbon-Aware and Fault-Tolerant Orchestration of Deep Learning in Geo-Distributed Clouds
+  </h4>
+</div>
