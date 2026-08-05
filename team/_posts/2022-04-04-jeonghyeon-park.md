@@ -17,7 +17,7 @@ I am a Ph.D. student in Computer Engineering at  [Dong-A University](https://eng
 <span class="badge badge-info">Carbon-Aware Cloud Computing</span>
 
 <div style="border: 1px solid #007bff; border-radius: 10px; padding: 16px; background-color: #f8f9fa; max-width: 800px;">
-  <span class="badge badge-pill badge-primary" style="font-size: 1rem;">석사 학위논문</span>
+  <span class="badge badge-pill badge-primary" style="font-size: 1rem;">Master's thesis</span>
   <h4 style="margin-top: 12px; font-weight: 600; color: #212529;">
     Carbon-Aware and Fault-Tolerant Orchestration of Deep Learning in Geo-Distributed Clouds
   </h4>
