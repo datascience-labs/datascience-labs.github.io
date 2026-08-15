@@ -27,5 +27,5 @@ We propose a novel CTA framework that combines diffusion-based iterative denoisi
 </figure>
 
 <div class="alert alert-primary" role="alert">
-    Acceptance Rate: 27%
+    Acceptance Rate: 27% (597/2,216 papers accepted)
 </div>
