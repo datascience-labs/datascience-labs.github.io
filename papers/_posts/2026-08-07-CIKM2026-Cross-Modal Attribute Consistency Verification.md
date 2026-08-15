@@ -25,5 +25,5 @@ Product attributes on e-commerce pages are often distributed across two modaliti
 </figure>
 
 <div class="alert alert-primary" role="alert">
-    Acceptance Rate: 30.9%
+    Acceptance Rate: 30.9% (234/764 papers accepted)
 </div>
