@@ -5,7 +5,7 @@ group: knowevo
 title: "Table-Guided Hyperspherical Diffusion for Preserving Semantic Dependencies in Column Type Annotation"
 authors: Wonseok Son, Jeonghyeon Park, Sejin Chun  
 kauthors: ["손원석", "박정현", "천세진"]
-year: 2024
+year: 2026
 image: /images/papers/cikm2026_full.png
 ref: ACM CIKM 2026
 journal: "ACM International Conference on Information and Knowledge Management (CIKM)"
