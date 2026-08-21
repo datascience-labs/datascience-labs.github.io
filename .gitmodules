@@ -41,6 +41,8 @@
 [submodule "projects/SphereTab"]
 	path = projects/SphereTab
 	url = https://github.com/datascience-labs/SphereTab.git
+	branch = main
 [submodule "projects/TaxoCal"]
 	path = projects/TaxoCal
 	url = https://github.com/datascience-labs/TaxoCal.git
+	branch = main
