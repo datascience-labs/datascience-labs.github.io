@@ -10,7 +10,7 @@ image: /images/papers/cikm2026_full.png
 ref: ACM CIKM 2026
 journal: "ACM International Conference on Information and Knowledge Management (CIKM)"
 keywords: Semantic Table Interpretation, Column Type Annotation, Hyperspherical Diffusion
-feature: Top-Tier;Accepted;
+feature: Top-Tier;Oral;Accepted;
 venue: /images/papers/cikm2026_full.png
 # doi: https://ieeexplore.ieee.org/document/10643899
 ---
@@ -27,5 +27,7 @@ We propose a novel CTA framework that combines diffusion-based iterative denoisi
 </figure>
 
 <div class="alert alert-primary" role="alert">
-    Acceptance Rate: 27% (597/2,216 papers accepted)
+    <!-- Acceptance Rate: 27% (597/2,216 papers accepted)
+    <br> -->
+    Oral Presentation Rate: 15.2% (336/2,216 papers selected)
 </div>
