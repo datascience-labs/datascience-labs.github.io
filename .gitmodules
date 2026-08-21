@@ -38,3 +38,9 @@
 	path = projects/GreenAccounter
 	url = https://github.com/datascience-labs/GreenAccounter.git
 	branch = main
+[submodule "projects/SphereTab"]
+	path = projects/SphereTab
+	url = https://github.com/datascience-labs/SphereTab.git
+[submodule "projects/TaxoCal"]
+	path = projects/TaxoCal
+	url = https://github.com/datascience-labs/TaxoCal.git

@@ -1,4 +1,75 @@
 ---
+- repo: datascience-labs/TaxoCal
+  title: TaxoCal
+  owner: datascience-labs
+  description:
+  url: "/projects/TaxoCal/"
+  contributors:
+  - login: FarmingWon
+    avatar: https://avatars.githubusercontent.com/u/98411696?v=4&s=50
+    url: https://github.com/FarmingWon
+  - login: sunyoonk
+    avatar: https://avatars.githubusercontent.com/u/100738522?v=4&s=50
+    url: https://github.com/sunyoonk
+  commits:
+  - date: 2026-08-19 08:43:57.000000000 Z
+    message: |-
+      Merge pull request #1 from sunyoonk/patch-1
+
+      Update README.md
+    url: https://github.com/datascience-labs/TaxoCal/commit/54e8ff9894c5f94b4892bb69e0714e404989d063
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2026-08-19 08:43:25.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/TaxoCal/commit/31cb8d637fc8d1c01979c8eaea9f3b6454353ced
+    author_login: sunyoonk
+    author_url: https://github.com/sunyoonk
+  - date: 2026-08-18 07:35:25.000000000 Z
+    message: Add files via upload
+    url: https://github.com/datascience-labs/TaxoCal/commit/db66839f84f39c03e17047a7ad4e6250152766c0
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2026-08-18 05:28:07.000000000 Z
+    message: Initial commit
+    url: https://github.com/datascience-labs/TaxoCal/commit/b5ada7ed9008479068cda601f6aabe6dcc7f0590
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+- repo: datascience-labs/SphereTab
+  title: SphereTab
+  owner: datascience-labs
+  description:
+  url: "/projects/SphereTab/"
+  contributors:
+  - login: FarmingWon
+    avatar: https://avatars.githubusercontent.com/u/98411696?v=4&s=50
+    url: https://github.com/FarmingWon
+  commits:
+  - date: 2026-08-18 06:27:39.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/SphereTab/commit/0aed0a6fa4685f871dd16c2731716ed9ee680c02
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2026-08-18 06:25:43.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/SphereTab/commit/7636b1b52934350cf6b08251615f249c79b7fd01
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2026-05-31 04:23:33.000000000 Z
+    message: Update model.py
+    url: https://github.com/datascience-labs/SphereTab/commit/bc709247aac1d8f2630d9df7602f8c8c388b4425
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2026-05-27 09:14:08.000000000 Z
+    message: Add files via upload
+    url: https://github.com/datascience-labs/SphereTab/commit/3a7abe30625372967d4fcccb88015b10e60c896f
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
+  - date: 2026-05-15 04:17:17.000000000 Z
+    message: Initial commit
+    url: https://github.com/datascience-labs/SphereTab/commit/13f0fc306fdfd76e9fff366a65b38a6ec500ccf5
+    author_login: FarmingWon
+    author_url: https://github.com/FarmingWon
 - repo: datascience-labs/GreenAccounter
   title: GreenAccounter
   owner: datascience-labs
@@ -15,29 +86,29 @@
     avatar: https://avatars.githubusercontent.com/u/98411696?v=4&s=50
     url: https://github.com/FarmingWon
   commits:
-  - date: 2026-01-02 04:17:58.000000000 Z
-    message: update index.md
-    url: https://github.com/datascience-labs/GreenAccounter/commit/009ae5afcdaa6bf894de033edfccb420e56b3402
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2026-01-02 04:00:23.000000000 Z
-    message: create index.md
-    url: https://github.com/datascience-labs/GreenAccounter/commit/4ba33b88aa8435b4cf55743578f0dca9793353a8
-    author_login: jhparkland
-    author_url: https://github.com/jhparkland
-  - date: 2026-01-02 02:55:31.000000000 Z
+  - date: 2026-02-12 06:51:26.000000000 Z
     message: Update README.md
-    url: https://github.com/datascience-labs/GreenAccounter/commit/a458abf57570507dcce97f87c6e634d27371ab67
+    url: https://github.com/datascience-labs/GreenAccounter/commit/e88bb8fa2e42bfc1e4cf532d99d724c08fd03ac9
     author_login: jhparkland
     author_url: https://github.com/jhparkland
-  - date: 2026-01-02 02:48:22.000000000 Z
-    message: update
-    url: https://github.com/datascience-labs/GreenAccounter/commit/2650f3eb76df168bd8b2287243f1c50e6eecd2fa
+  - date: 2026-02-12 06:50:14.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/GreenAccounter/commit/92b072506ea5f7d9fba73982116b588557d9703e
     author_login: jhparkland
     author_url: https://github.com/jhparkland
-  - date: 2026-01-02 02:45:28.000000000 Z
-    message: Create index.md
-    url: https://github.com/datascience-labs/GreenAccounter/commit/fe0cd0a0dbdac46ce2c2be47db15d5dd0f4234fe
+  - date: 2026-02-12 06:46:35.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/GreenAccounter/commit/3dfb7543d0c91dee9b35c23064ee8eef5f4ba7bd
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2026-02-12 06:46:07.000000000 Z
+    message: Update README.md
+    url: https://github.com/datascience-labs/GreenAccounter/commit/def69acddaa854a4a91b9ac1d73058713cd8a2d4
+    author_login: jhparkland
+    author_url: https://github.com/jhparkland
+  - date: 2026-01-02 04:56:34.000000000 Z
+    message: Merge branch 'main' of https://github.com/datascience-labs/GreenAccounter
+    url: https://github.com/datascience-labs/GreenAccounter/commit/4ee46b239d186fe64f304fadd1cdf118e07847d0
     author_login: jhparkland
     author_url: https://github.com/jhparkland
 - repo: datascience-labs/CDRL4AD
@@ -364,9 +435,9 @@
   - login: dainnnnn
     avatar: https://avatars.githubusercontent.com/u/67351617?v=4&s=50
     url: https://github.com/dainnnnn
-  - login: TayJeong
+  - login: look-Soyoung-Jeong
     avatar: https://avatars.githubusercontent.com/u/100740917?v=4&s=50
-    url: https://github.com/TayJeong
+    url: https://github.com/look-Soyoung-Jeong
   - login: kjjyyy
     avatar: https://avatars.githubusercontent.com/u/97427304?v=4&s=50
     url: https://github.com/kjjyyy

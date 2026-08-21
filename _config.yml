@@ -55,3 +55,5 @@ projects:
   - "datascience-labs/anomali-flow"
   - "datascience-labs/GreenAccounter"
   - "datascience-labs/CDRL4AD"
+  - "datascience-labs/SphereTab"
+  - "datascience-labs/TaxoCal"
