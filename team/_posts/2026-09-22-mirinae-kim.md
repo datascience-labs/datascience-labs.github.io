@@ -5,7 +5,7 @@ kname: 김미리내
 position: Undergraduate 
 github: tangtangcucu
 cv: https://drive.google.com/file/d/1yObqjH9nuFhjX93aWV_fWNGkNdK9_A2p/view?usp=sharing/view
-email: mirimiri060ㄴ312@gmail.com
+email: mirimiri060312@gmail.com
 image: /images/team/김미리내_프로필.png
 ---
 
