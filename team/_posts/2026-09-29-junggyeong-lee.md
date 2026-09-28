@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Jung Gyeong Lee
+title: JungGyeong Lee
 position: Undergraduate
 kname: 이정경
 github: LEEJungGyeong
