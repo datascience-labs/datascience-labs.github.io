@@ -1,10 +1,10 @@
 ---
 layout: member
-title: JungGyeong Lee
+title: Junggyeong Lee
 position: Undergraduate
 kname: 이정경
 github: LEEJungGyeong
-cv: https://drive.google.com/file/d/1BTtFYypgmRDOz-31NrIhrLP2XZkg8O72/view?usp=drive_link, JungGyeong Lee CV
+cv: https://drive.google.com/file/d/1BTtFYypgmRDOz-31NrIhrLP2XZkg8O72/view?usp=drive_link, Junggyeong Lee CV
 email: 2544552@donga.ac.kr
 image: /images/team/이정경_프로필.jpg
 ---
