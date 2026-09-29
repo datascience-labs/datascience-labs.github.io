@@ -5,7 +5,7 @@ kname: 싱리차
 position: Master Student
 cv: /pdfs/team/richa-singh-cv.pdf
 github: Ririco00
-image: /images/team/singh-richa.png
+image: /images/team/싱리차_프로필.png
 email: richasingh2900@gmail.com
 ---
 
