@@ -4,7 +4,7 @@ title: Yeonsu Jang
 position: Undergraduate
 kname : 장연수
 github: jangy3079-oss
-cv: https://drive.google.com/file/d/1R0uwtuWK-rcBWTE5binN5ID0O9nieV1g/view?usp=sharing, Yeonsu Jang CV
+cv: https://drive.google.com/file/d/1_GhSywQ6vz-rcsFEmkWYSzKFYrYHxRNu/view?usp=sharing, Yeonsu Jang CV
 email: jangy3079@gmail.com
 image: /images/team/장연수_프로필.png
 ---
