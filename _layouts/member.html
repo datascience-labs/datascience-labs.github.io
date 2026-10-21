@@ -112,10 +112,12 @@ layout: default
 		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-inbox fa-fw"></i>
-			<a class="off" href="mailto:{{ member.email }}">
-				<img class="email-image" src="{{ site.data.email_images[member.email] | relative_url }}" alt="{{ member.email | escape }}">
-			</a>
+			<div class="email-row">
+				<i class="fa fa-inbox fa-fw" aria-hidden="true"></i>
+				<a class="off email-link" href="mailto:{{ member.email }}">
+					<img class="email-image" src="{{ site.data.email_images[member.email] | relative_url }}" alt="{{ member.email | escape }}">
+				</a>
+			</div>
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}

@@ -562,16 +562,33 @@ img.avatar {
   margin-bottom: 10px;
 }
 
+.email-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.email-row > i {
+  flex: 0 0 auto;
+}
+
+.email-link {
+  display: inline-block;
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
+  vertical-align: middle;
+}
+
 img.email-image,
 .post img.email-image {
   display: inline-block;
   width: auto;
-  height: 1.25em;
-  max-width: 100%;
+  // Every PNG uses 48px type on a 60px canvas: render the type at 15px.
+  height: 18.75px;
+  max-width: none;
   margin: 0;
   vertical-align: middle;
-  object-fit: contain;
-  object-position: left center;
   background: #fff;
 }
 
