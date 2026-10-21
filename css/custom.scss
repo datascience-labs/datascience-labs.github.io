@@ -562,6 +562,19 @@ img.avatar {
   margin-bottom: 10px;
 }
 
+img.email-image,
+.post img.email-image {
+  display: inline-block;
+  width: auto;
+  height: 1.25em;
+  max-width: 100%;
+  margin: 0;
+  vertical-align: middle;
+  object-fit: contain;
+  object-position: left center;
+  background: #fff;
+}
+
 .post iframe {
   padding-top: 10px;
   padding-bottom: 20px;

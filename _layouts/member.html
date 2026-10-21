@@ -107,15 +107,14 @@ layout: default
 		<div class="bigspacer"></div>
 		{% endif %}
 		{% if member.email %}
-		{% assign emailarray = member.email | split: '@' %}
 		<div class="smallhead">
 			Email
 		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-inbox fa-fw"></i>
-			<a class="off breakable" href="mailto:{{ emailarray.first }}@{{ emailarray.last }}">
-				{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
+			<a class="off" href="mailto:{{ member.email }}">
+				<img class="email-image" src="{{ site.data.email_images[member.email] | relative_url }}" alt="{{ member.email | escape }}">
 			</a>
 		</div>
 		<div class="bigspacer"></div>
