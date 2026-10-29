@@ -5,11 +5,35 @@ categories:
  - home
 ---
 
+<style>
+	.birthday-easter-egg {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 0.8em;
+		height: 0.8em;
+		margin-left: 0.12em;
+		border-radius: 50%;
+		color: #8878e6;
+		font-size: 0.52em;
+		text-decoration: none;
+		vertical-align: top;
+		transition: color 180ms ease, background-color 180ms ease, transform 180ms ease;
+	}
+	.birthday-easter-egg:hover,
+	.birthday-easter-egg:focus-visible {
+		background: #f0edff;
+		color: #5b4ae2;
+		text-decoration: none;
+		transform: rotate(25deg) scale(1.15);
+	}
+</style>
+
 <div class="row">
 	<div class="col-lg-12">
 		<object class="pull-left biglogo" data="/images/logo.svg" type="image/svg+xml"></object>
 		<div class="bigtitle logobox">
-			Data science lab research
+			Data science lab research<a class="birthday-easter-egg" href="/birthday/" aria-label="교수님 생신 축하 페이지 열기" title="A little surprise">✦</a>
 		</div>
 	</div>
 </div>
