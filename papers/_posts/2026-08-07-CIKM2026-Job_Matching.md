@@ -12,7 +12,7 @@ journal: "ACM International Conference on Information and Knowledge Management (
 keywords: Job Matching, Graph Contrastive Learning, Hierarchical Taxonomy
 feature: Top-Tier;Accepted;
 venue: /images/papers/cikm2026_job.png
-# doi: https://ieeexplore.ieee.org/document/10643899
+doi: https://doi.org/10.1145/3799682.3839994
 ---
 
 <h4><span class="badge badge-info">Abstract</span></h4>
